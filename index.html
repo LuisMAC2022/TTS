@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Text to Speech simple</title>
+
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --danger: #dc2626;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 760px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.8rem;
+    }
+
+    .description {
+      margin: 0 0 24px;
+      color: var(--muted);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    textarea,
+    select {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      font: inherit;
+      background: white;
+    }
+
+    textarea {
+      min-height: 180px;
+      resize: vertical;
+      line-height: 1.5;
+    }
+
+    .field {
+      margin-bottom: 20px;
+    }
+
+    .sliders {
+      display: grid;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .range-row {
+      display: grid;
+      grid-template-columns: 90px 1fr 48px;
+      align-items: center;
+      gap: 12px;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    .value {
+      text-align: right;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .controls {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    button {
+      border: 0;
+      border-radius: 10px;
+      padding: 11px 16px;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      color: white;
+      background: var(--primary);
+    }
+
+    button:hover:not(:disabled) {
+      background: var(--primary-dark);
+    }
+
+    button.secondary {
+      background: #4b5563;
+    }
+
+    button.secondary:hover:not(:disabled) {
+      background: #374151;
+    }
+
+    button.danger {
+      background: var(--danger);
+    }
+
+    button.danger:hover:not(:disabled) {
+      background: #b91c1c;
+    }
+
+    button:disabled,
+    textarea:disabled,
+    select:disabled,
+    input:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    .status {
+      padding: 12px;
+      border-radius: 10px;
+      background: #eef2ff;
+      color: #3730a3;
+      margin-bottom: 16px;
+    }
+
+    .note {
+      margin: 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Text to Speech</h1>
+    <p class="description">
+      Escribe un texto, elige una voz y conviértelo en diálogo usando la Web Speech API.
+    </p>
+
+    <div id="status" class="status">Cargando voces…</div>
+
+    <div class="field">
+      <label for="text">Texto</label>
+      <textarea id="text" placeholder="Escribe aquí el texto que quieres escuchar..."></textarea>
+    </div>
+
+    <div class="field">
+      <label for="voice">Voz</label>
+      <select id="voice"></select>
+    </div>
+
+    <div class="sliders">
+      <div class="range-row">
+        <label for="rate">Velocidad</label>
+        <input id="rate" type="range" min="0.5" max="2" step="0.1" value="1">
+        <span id="rateValue" class="value">1.0</span>
+      </div>
+
+      <div class="range-row">
+        <label for="pitch">Tono</label>
+        <input id="pitch" type="range" min="0" max="2" step="0.1" value="1">
+        <span id="pitchValue" class="value">1.0</span>
+      </div>
+
+      <div class="range-row">
+        <label for="volume">Volumen</label>
+        <input id="volume" type="range" min="0" max="1" step="0.1" value="1">
+        <span id="volumeValue" class="value">1.0</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="speak">Hablar</button>
+      <button id="pauseResume" class="secondary">Pausar</button>
+      <button id="stop" class="danger">Detener</button>
+    </div>
+
+    <p class="note">
+      Limitación: algunas voces del sistema operativo pueden ignorar el parámetro de tono
+      <code>pitch</code>. El comportamiento exacto depende del navegador y de las voces instaladas.
+    </p>
+  </main>
+
+  <script>
+    const synth = window.speechSynthesis;
+
+    const textInput = document.getElementById("text");
+    const voiceSelect = document.getElementById("voice");
+
+    const rateInput = document.getElementById("rate");
+    const pitchInput = document.getElementById("pitch");
+    const volumeInput = document.getElementById("volume");
+
+    const rateValue = document.getElementById("rateValue");
+    const pitchValue = document.getElementById("pitchValue");
+    const volumeValue = document.getElementById("volumeValue");
+
+    const speakButton = document.getElementById("speak");
+    const pauseResumeButton = document.getElementById("pauseResume");
+    const stopButton = document.getElementById("stop");
+    const statusBox = document.getElementById("status");
+
+    let voices = [];
+    let currentUtterance = null;
+
+    function setStatus(message) {
+      statusBox.textContent = message;
+    }
+
+    function updateRangeLabels() {
+      rateValue.textContent = Number(rateInput.value).toFixed(1);
+      pitchValue.textContent = Number(pitchInput.value).toFixed(1);
+      volumeValue.textContent = Number(volumeInput.value).toFixed(1);
+    }
+
+    function updateButtons() {
+      const isSpeaking = synth && synth.speaking;
+      const isPaused = synth && synth.paused;
+
+      speakButton.disabled = Boolean(isSpeaking);
+      pauseResumeButton.disabled = !isSpeaking;
+      stopButton.disabled = !isSpeaking;
+
+      pauseResumeButton.textContent = isPaused ? "Reanudar" : "Pausar";
+    }
+
+    function disableInterface(message) {
+      setStatus(message);
+
+      textInput.disabled = true;
+      voiceSelect.disabled = true;
+      rateInput.disabled = true;
+      pitchInput.disabled = true;
+      volumeInput.disabled = true;
+      speakButton.disabled = true;
+      pauseResumeButton.disabled = true;
+      stopButton.disabled = true;
+    }
+
+    function populateVoices() {
+      voices = synth.getVoices();
+
+      const previousValue = voiceSelect.value;
+      voiceSelect.innerHTML = "";
+
+      voices.forEach((voice, index) => {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = `${voice.name} — ${voice.lang}${voice.default ? " — predeterminada" : ""}`;
+        voiceSelect.appendChild(option);
+      });
+
+      if (voices.length === 0) {
+        setStatus("No se encontraron voces disponibles todavía.");
+        updateButtons();
+        return;
+      }
+
+      const previousIndex = Number(previousValue);
+
+      if (Number.isInteger(previousIndex) && voices[previousIndex]) {
+        voiceSelect.value = String(previousIndex);
+      } else {
+        const spanishIndex = voices.findIndex(voice =>
+          voice.lang && voice.lang.toLowerCase().startsWith("es")
+        );
+
+        voiceSelect.value = String(spanishIndex >= 0 ? spanishIndex : 0);
+      }
+
+      setStatus("Listo");
+      updateButtons();
+    }
+
+    function speakText() {
+      const text = textInput.value.trim();
+
+      if (!text) {
+        setStatus("Escribe un texto antes de hablar.");
+        return;
+      }
+
+      /*
+        En algunos navegadores, cancelar justo después de pausar puede dejar
+        la cola de speechSynthesis en un estado extraño. Por eso reanudamos
+        antes de cancelar si estaba pausado.
+      */
+      if (synth.paused) {
+        synth.resume();
+      }
+
+      synth.cancel();
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      const selectedVoice = voices[Number(voiceSelect.value)];
+
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        utterance.lang = selectedVoice.lang;
+      }
+
+      utterance.rate = Number(rateInput.value);
+      utterance.pitch = Number(pitchInput.value);
+      utterance.volume = Number(volumeInput.value);
+
+      utterance.onstart = () => {
+        currentUtterance = utterance;
+        setStatus("Leyendo…");
+        updateButtons();
+      };
+
+      utterance.onend = () => {
+        currentUtterance = null;
+        setStatus("Listo");
+        updateButtons();
+      };
+
+      utterance.onerror = event => {
+        currentUtterance = null;
+        setStatus(`Error: ${event.error || "no se pudo reproducir el texto"}`);
+        updateButtons();
+      };
+
+      synth.speak(utterance);
+
+      /*
+        Algunos navegadores actualizan speechSynthesis.speaking con un pequeño
+        retraso después de speak().
+      */
+      setTimeout(updateButtons, 0);
+    }
+
+    function togglePauseResume() {
+      if (!synth.speaking) return;
+
+      if (synth.paused) {
+        synth.resume();
+        setStatus("Leyendo…");
+      } else {
+        synth.pause();
+        setStatus("Pausado");
+      }
+
+      updateButtons();
+    }
+
+    function stopSpeaking() {
+      if (synth.paused) {
+        synth.resume();
+      }
+
+      synth.cancel();
+      currentUtterance = null;
+      setStatus("Listo");
+      updateButtons();
+    }
+
+    if (!("speechSynthesis" in window)) {
+      disableInterface("Tu navegador no soporta la Web Speech API.");
+    } else {
+      updateRangeLabels();
+      updateButtons();
+
+      populateVoices();
+
+      /*
+        Chrome y algunos navegadores cargan las voces de forma asíncrona.
+        Por eso se repuebla el selector cuando el motor avisa que cambiaron.
+      */
+      synth.onvoiceschanged = populateVoices;
+
+      rateInput.addEventListener("input", updateRangeLabels);
+      pitchInput.addEventListener("input", updateRangeLabels);
+      volumeInput.addEventListener("input", updateRangeLabels);
+
+      speakButton.addEventListener("click", speakText);
+      pauseResumeButton.addEventListener("click", togglePauseResume);
+      stopButton.addEventListener("click", stopSpeaking);
+
+      window.addEventListener("beforeunload", () => {
+        if (synth.speaking || synth.paused) {
+          synth.cancel();
+        }
+      });
+    }
+  </script>
+</body>
+</html>
