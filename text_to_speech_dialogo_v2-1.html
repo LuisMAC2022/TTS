@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Texto a voz robusto</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel2: #1f2937;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --accent2: #facc15;
+      --danger: #f87171;
+      --ok: #34d399;
+      --border: rgba(255,255,255,.13);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1e3a8a 0, var(--bg) 46%);
+      color: var(--text);
+      padding: 22px;
+    }
+    main {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      background: rgba(17, 24, 39, .94);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: 0 22px 70px rgba(0,0,0,.32);
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(1.9rem, 5vw, 3.2rem); line-height: 1; }
+    p { line-height: 1.5; }
+    .subtitle { color: var(--muted); margin-top: 0; max-width: 850px; }
+    .grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    section {
+      background: rgba(31, 41, 55, .74);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    label { display: block; margin-bottom: 8px; font-weight: 750; }
+    textarea, select, input[type="range"] { width: 100%; }
+    textarea {
+      min-height: 420px;
+      resize: vertical;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      background: #020617;
+      color: var(--text);
+      font: 1rem/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      outline: none;
+    }
+    textarea:disabled { opacity: .78; }
+    textarea:focus, select:focus, input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, .18);
+    }
+    select {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: #020617;
+      color: var(--text);
+      outline: none;
+    }
+    .controls { display: grid; gap: 14px; }
+    .control-row { display: grid; gap: 8px; }
+    .range-label { display: flex; justify-content: space-between; color: var(--muted); font-size: .92rem; }
+    .buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 4px; }
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-weight: 800;
+      cursor: pointer;
+      color: #020617;
+      background: var(--accent);
+    }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    .secondary { background: var(--accent2); }
+    .danger { background: var(--danger); }
+    .ghost { background: #334155; color: var(--text); }
+    .ok { background: var(--ok); }
+    .hint, .small, .status { color: var(--muted); font-size: .92rem; }
+    .status { margin-top: 12px; min-height: 1.5em; }
+    .preview {
+      margin-top: 14px;
+      max-height: 300px;
+      overflow: auto;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #020617;
+      padding: 12px;
+    }
+    .line {
+      padding: 9px 11px;
+      border-radius: 11px;
+      margin-bottom: 7px;
+      background: rgba(255,255,255,.055);
+      border: 1px solid transparent;
+    }
+    .line.active { border-color: var(--ok); background: rgba(52, 211, 153, .13); }
+    .speaker { display: inline-block; color: var(--accent2); font-weight: 800; margin-right: 6px; }
+    code { color: #bae6fd; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Texto a voz robusto</h1>
+      <p class="subtitle">
+        Escribe texto normal o guion. Si usas <code>Nombre: texto</code>, el nombre aparece en la vista previa, pero no se lee en voz alta. El texto se divide en fragmentos cortos para reducir errores como <code>synthesis-failed</code>.
+      </p>
+    </header>
+
+    <div class="grid">
+      <section>
+        <label for="scriptInput">Texto</label>
+        <textarea id="scriptInput" spellcheck="true">La secuenciación de ADN es una técnica que permite leer la información genética de un ser vivo.
+
+El ADN funciona como un manual de instrucciones para las células.
+
+Ese manual está escrito con cuatro letras químicas: A, T, C y G.
+
+La máquina no conoce por sí sola el orden completo del ADN.
+
+Primero lee muchos fragmentos pequeños.
+
+Después, una computadora busca coincidencias entre esos fragmentos.
+
+Cuando dos fragmentos comparten una parte igual, probablemente estaban juntos en la molécula original.
+
+Así se reconstruye la secuencia más probable.</textarea>
+        <p class="hint">
+          Recomendación: usa líneas cortas. Evita pegar capítulos completos en una sola línea. Para narración normal, no escribas <code>Narrador:</code>.
+        </p>
+      </section>
+
+      <section>
+        <div class="controls">
+          <div class="control-row">
+            <label for="voiceSelect">Voz</label>
+            <select id="voiceSelect"></select>
+            <div class="small">Si una voz falla, el reproductor intenta repetir con la voz predeterminada.</div>
+          </div>
+
+          <div class="control-row">
+            <div class="range-label"><label for="rate">Velocidad</label><span id="rateValue">1.00</span></div>
+            <input id="rate" type="range" min="0.6" max="1.5" step="0.05" value="1" />
+          </div>
+
+          <div class="control-row">
+            <div class="range-label"><label for="pitch">Tono</label><span id="pitchValue">1.00</span></div>
+            <input id="pitch" type="range" min="0.7" max="1.4" step="0.05" value="1" />
+          </div>
+
+          <div class="control-row">
+            <div class="range-label"><label for="volume">Volumen</label><span id="volumeValue">1.00</span></div>
+            <input id="volume" type="range" min="0" max="1" step="0.05" value="1" />
+          </div>
+
+          <div class="buttons">
+            <button id="previewBtn" class="ghost" type="button">Previsualizar</button>
+            <button id="testBtn" class="ok" type="button">Probar voz</button>
+            <button id="speakBtn" type="button">Reproducir</button>
+            <button id="pauseBtn" class="secondary" type="button">Pausar</button>
+            <button id="resumeBtn" class="secondary" type="button">Reanudar</button>
+            <button id="stopBtn" class="danger" type="button">Detener</button>
+          </div>
+        </div>
+
+        <div class="status" id="status">Listo.</div>
+        <div class="preview" id="preview" aria-live="polite"></div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const scriptInput = document.getElementById("scriptInput");
+    const voiceSelect = document.getElementById("voiceSelect");
+    const rate = document.getElementById("rate");
+    const pitch = document.getElementById("pitch");
+    const volume = document.getElementById("volume");
+    const rateValue = document.getElementById("rateValue");
+    const pitchValue = document.getElementById("pitchValue");
+    const volumeValue = document.getElementById("volumeValue");
+    const preview = document.getElementById("preview");
+    const statusText = document.getElementById("status");
+    const previewBtn = document.getElementById("previewBtn");
+    const testBtn = document.getElementById("testBtn");
+    const speakBtn = document.getElementById("speakBtn");
+    const pauseBtn = document.getElementById("pauseBtn");
+    const resumeBtn = document.getElementById("resumeBtn");
+    const stopBtn = document.getElementById("stopBtn");
+
+    let voices = [];
+    let parsedLines = [];
+    let currentIndex = 0;
+    let isSpeakingScript = false;
+    let retryingCurrentLine = false;
+
+    function setStatus(message) {
+      statusText.textContent = message;
+    }
+
+    function updateRangeLabels() {
+      rateValue.textContent = Number(rate.value).toFixed(2);
+      pitchValue.textContent = Number(pitch.value).toFixed(2);
+      volumeValue.textContent = Number(volume.value).toFixed(2);
+    }
+
+    function normalizeText(text) {
+      return text
+        .replace(/[“”]/g, '"')
+        .replace(/[‘’]/g, "'")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function splitLongText(text, maxLength = 180) {
+      const clean = normalizeText(text);
+      if (!clean) return [];
+      if (clean.length <= maxLength) return [clean];
+
+      const sentences = clean.match(/[^.!?¿¡;:]+[.!?;:]?|[¿¡][^.!?]+[.!?]?/g) || [clean];
+      const chunks = [];
+      let buffer = "";
+
+      for (const sentence of sentences) {
+        const part = sentence.trim();
+        if (!part) continue;
+
+        if ((buffer + " " + part).trim().length <= maxLength) {
+          buffer = (buffer + " " + part).trim();
+        } else {
+          if (buffer) chunks.push(buffer);
+          if (part.length <= maxLength) {
+            buffer = part;
+          } else {
+            const words = part.split(/\s+/);
+            let wordBuffer = "";
+            for (const word of words) {
+              if ((wordBuffer + " " + word).trim().length <= maxLength) {
+                wordBuffer = (wordBuffer + " " + word).trim();
+              } else {
+                if (wordBuffer) chunks.push(wordBuffer);
+                wordBuffer = word;
+              }
+            }
+            buffer = wordBuffer;
+          }
+        }
+      }
+      if (buffer) chunks.push(buffer);
+      return chunks;
+    }
+
+    function parseScript(text) {
+      const rawLines = text
+        .split(/\n+/)
+        .map(line => line.trim())
+        .filter(Boolean);
+
+      const result = [];
+
+      for (const rawLine of rawLines) {
+        const match = rawLine.match(/^([^:]{1,40}):\s*(.+)$/);
+        const speaker = match ? match[1].trim() : "Texto";
+        const textToRead = match ? match[2].trim() : rawLine;
+        const chunks = splitLongText(textToRead);
+        for (const chunk of chunks) {
+          result.push({ speaker, text: chunk });
+        }
+      }
+      return result;
+    }
+
+    function renderPreview(activeIndex = -1) {
+      parsedLines = parseScript(scriptInput.value);
+      preview.innerHTML = "";
+
+      if (!parsedLines.length) {
+        preview.innerHTML = '<p class="small">No hay texto para leer.</p>';
+        return;
+      }
+
+      parsedLines.forEach((line, index) => {
+        const div = document.createElement("div");
+        div.className = index === activeIndex ? "line active" : "line";
+        div.innerHTML = '<span class="speaker"></span><span class="text"></span>';
+        div.querySelector(".speaker").textContent = line.speaker === "Texto" ? "" : `${line.speaker}:`;
+        div.querySelector(".text").textContent = ` ${line.text}`;
+        preview.appendChild(div);
+      });
+    }
+
+    function selectedVoice() {
+      const selectedIndex = Number(voiceSelect.value);
+      return Number.isInteger(selectedIndex) && selectedIndex >= 0 ? voices[selectedIndex] : null;
+    }
+
+    function sortVoices(list) {
+      return list
+        .map((voice, index) => ({ voice, index }))
+        .sort((a, b) => {
+          const aEs = a.voice.lang.toLowerCase().startsWith("es") ? 0 : 1;
+          const bEs = b.voice.lang.toLowerCase().startsWith("es") ? 0 : 1;
+          return aEs - bEs || a.voice.name.localeCompare(b.voice.name);
+        });
+    }
+
+    function loadVoices() {
+      if (!("speechSynthesis" in window)) return;
+      voices = speechSynthesis.getVoices();
+      voiceSelect.innerHTML = "";
+
+      const defaultOption = document.createElement("option");
+      defaultOption.value = "-1";
+      defaultOption.textContent = "Voz predeterminada del navegador";
+      voiceSelect.appendChild(defaultOption);
+
+      for (const { voice, index } of sortVoices(voices)) {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = `${voice.name} (${voice.lang})${voice.default ? " — predeterminada" : ""}`;
+        voiceSelect.appendChild(option);
+      }
+
+      const spanishIndex = voices.findIndex(voice => voice.lang.toLowerCase().startsWith("es"));
+      voiceSelect.value = spanishIndex >= 0 ? String(spanishIndex) : "-1";
+
+      setStatus(voices.length ? `Voces cargadas: ${voices.length}.` : "No se detectaron voces. Prueba con Chrome o Edge, o recarga la página.");
+    }
+
+    function setPlaybackUi(active) {
+      scriptInput.disabled = active;
+      speakBtn.disabled = active;
+      testBtn.disabled = active;
+      previewBtn.disabled = active;
+    }
+
+    function makeUtterance(text, useSelectedVoice = true) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      const voice = useSelectedVoice ? selectedVoice() : null;
+      if (voice) utterance.voice = voice;
+      utterance.lang = voice?.lang || "es-MX";
+      utterance.rate = Number(rate.value);
+      utterance.pitch = Number(pitch.value);
+      utterance.volume = Number(volume.value);
+      return utterance;
+    }
+
+    function speakSingleText(text, onDone, onError, useSelectedVoice = true) {
+      const utterance = makeUtterance(text, useSelectedVoice);
+      utterance.onend = () => onDone?.();
+      utterance.onerror = (event) => onError?.(event);
+      speechSynthesis.speak(utterance);
+    }
+
+    function speakLine(index) {
+      if (!isSpeakingScript || index >= parsedLines.length) {
+        isSpeakingScript = false;
+        retryingCurrentLine = false;
+        currentIndex = 0;
+        setPlaybackUi(false);
+        renderPreview(-1);
+        setStatus("Lectura terminada.");
+        return;
+      }
+
+      currentIndex = index;
+      renderPreview(index);
+      const line = parsedLines[index];
+      setStatus(`Leyendo fragmento ${index + 1} de ${parsedLines.length}.`);
+
+      speakSingleText(
+        line.text,
+        () => {
+          retryingCurrentLine = false;
+          setTimeout(() => speakLine(index + 1), 120);
+        },
+        (event) => {
+          const errorName = event.error || "error desconocido";
+          if (!retryingCurrentLine && selectedVoice()) {
+            retryingCurrentLine = true;
+            speechSynthesis.cancel();
+            setStatus(`La voz seleccionada falló: ${errorName}. Reintentando con voz predeterminada.`);
+            setTimeout(() => {
+              speakSingleText(
+                line.text,
+                () => {
+                  retryingCurrentLine = false;
+                  setTimeout(() => speakLine(index + 1), 120);
+                },
+                (secondEvent) => {
+                  const secondError = secondEvent.error || "error desconocido";
+                  isSpeakingScript = false;
+                  retryingCurrentLine = false;
+                  setPlaybackUi(false);
+                  setStatus(`No se pudo reproducir. Error: ${secondError}. Prueba otra voz o reduce el texto.`);
+                },
+                false
+              );
+            }, 180);
+            return;
+          }
+
+          isSpeakingScript = false;
+          retryingCurrentLine = false;
+          setPlaybackUi(false);
+          setStatus(`No se pudo reproducir. Error: ${errorName}. Prueba otra voz o reduce el texto.`);
+        },
+        true
+      );
+    }
+
+    function startSpeaking() {
+      speechSynthesis.cancel();
+      renderPreview();
+
+      if (!parsedLines.length) {
+        setStatus("Escribe texto antes de reproducir.");
+        return;
+      }
+
+      isSpeakingScript = true;
+      retryingCurrentLine = false;
+      currentIndex = 0;
+      setPlaybackUi(true);
+      setTimeout(() => speakLine(0), 120);
+    }
+
+    function testVoice() {
+      speechSynthesis.cancel();
+      setStatus("Probando voz.");
+      const testText = "Esta es una prueba corta de texto a voz.";
+      speakSingleText(
+        testText,
+        () => setStatus("La prueba de voz terminó correctamente."),
+        (event) => setStatus(`La prueba falló. Error: ${event.error || "error desconocido"}. Prueba otra voz.`),
+        true
+      );
+    }
+
+    previewBtn.addEventListener("click", () => {
+      renderPreview();
+      setStatus(`Vista previa actualizada. Fragmentos: ${parsedLines.length}.`);
+    });
+
+    testBtn.addEventListener("click", testVoice);
+    speakBtn.addEventListener("click", startSpeaking);
+
+    pauseBtn.addEventListener("click", () => {
+      if (speechSynthesis.speaking && !speechSynthesis.paused) {
+        speechSynthesis.pause();
+        setStatus("Reproducción pausada.");
+      }
+    });
+
+    resumeBtn.addEventListener("click", () => {
+      if (speechSynthesis.paused) {
+        speechSynthesis.resume();
+        setStatus("Reproducción reanudada.");
+      }
+    });
+
+    stopBtn.addEventListener("click", () => {
+      isSpeakingScript = false;
+      retryingCurrentLine = false;
+      speechSynthesis.cancel();
+      setPlaybackUi(false);
+      renderPreview(-1);
+      setStatus("Reproducción detenida.");
+    });
+
+    [rate, pitch, volume].forEach(input => input.addEventListener("input", updateRangeLabels));
+    scriptInput.addEventListener("input", () => renderPreview());
+
+    if ("speechSynthesis" in window) {
+      updateRangeLabels();
+      renderPreview();
+      loadVoices();
+      speechSynthesis.onvoiceschanged = loadVoices;
+      setTimeout(loadVoices, 300);
+      setTimeout(loadVoices, 1200);
+    } else {
+      setStatus("Este navegador no soporta Text to Speech con speechSynthesis.");
+      speakBtn.disabled = true;
+      pauseBtn.disabled = true;
+      resumeBtn.disabled = true;
+      stopBtn.disabled = true;
+      testBtn.disabled = true;
+    }
+  </script>
+</body>
+</html>
