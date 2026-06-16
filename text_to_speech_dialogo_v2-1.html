@@ -88,6 +88,7 @@
       color: var(--text);
       outline: none;
     }
+    select[size] { min-height: 150px; }
     .controls { display: grid; gap: 14px; }
     .control-row { display: grid; gap: 8px; }
     .range-label { display: flex; justify-content: space-between; color: var(--muted); font-size: .92rem; }
@@ -182,6 +183,12 @@ Así se reconstruye la secuencia más probable.</textarea>
             <div class="small" id="repositoryFileHelp">Carga un archivo <code>.txt</code> incluido en este repositorio y reemplaza el texto del editor.</div>
           </div>
 
+          <div class="control-row" aria-describedby="chunkSelectHelp">
+            <label for="chunkSelect">Capítulo o fragmento inicial</label>
+            <select id="chunkSelect" size="6"></select>
+            <div class="small" id="chunkSelectHelp">Elige desde qué fragmento comenzar. Al detener, la selección queda en el fragmento actual para continuar desde ahí.</div>
+          </div>
+
           <div class="control-row">
             <label for="voiceSelect">Voz</label>
             <select id="voiceSelect"></select>
@@ -222,6 +229,7 @@ Así se reconstruye la secuencia más probable.</textarea>
   <script>
     const scriptInput = document.getElementById("scriptInput");
     const voiceSelect = document.getElementById("voiceSelect");
+    const chunkSelect = document.getElementById("chunkSelect");
     const repositoryFile = document.getElementById("repositoryFile");
     const rate = document.getElementById("rate");
     const pitch = document.getElementById("pitch");
@@ -242,6 +250,7 @@ Así se reconstruye la secuencia más probable.</textarea>
     let voices = [];
     let parsedLines = [];
     let currentIndex = 0;
+    let selectedStartIndex = 0;
     let isSpeakingScript = false;
     let retryingCurrentLine = false;
 
@@ -301,6 +310,13 @@ Así se reconstruye la secuencia más probable.</textarea>
       return chunks;
     }
 
+    function chapterTitle(rawLine, fallbackNumber) {
+      const clean = rawLine.replace(/^#+\s*/, "").trim();
+      const match = clean.match(/^(cap[ií]tulo|chapter)\s+([\w\dIVXLCDM.-]+)(?:\s*[-:–—]\s*(.+))?$/i);
+      if (match) return match[3] ? `Capítulo ${match[2]} — ${match[3]}` : `Capítulo ${match[2]}`;
+      return clean.length <= 80 ? clean : `Capítulo ${fallbackNumber}`;
+    }
+
     function parseScript(text) {
       const rawLines = text
         .split(/\n+/)
@@ -308,22 +324,59 @@ Así se reconstruye la secuencia más probable.</textarea>
         .filter(Boolean);
 
       const result = [];
+      let currentChapter = "Inicio";
+      let chapterNumber = 0;
 
       for (const rawLine of rawLines) {
+        if (/^(#+\s*)?(cap[ií]tulo|chapter)\b/i.test(rawLine)) {
+          chapterNumber += 1;
+          currentChapter = chapterTitle(rawLine, chapterNumber);
+          continue;
+        }
+
         const match = rawLine.match(/^([^:]{1,40}):\s*(.+)$/);
         const speaker = match ? match[1].trim() : "Texto";
         const textToRead = match ? match[2].trim() : rawLine;
         const chunks = splitLongText(textToRead);
         for (const chunk of chunks) {
-          result.push({ speaker, text: chunk });
+          result.push({ chapter: currentChapter, speaker, text: chunk });
         }
       }
       return result;
     }
 
+    function renderChunkSelect(activeIndex = selectedStartIndex) {
+      const previousValue = Number(chunkSelect.value);
+      const targetIndex = Number.isInteger(activeIndex) && activeIndex >= 0 ? activeIndex : previousValue;
+      chunkSelect.innerHTML = "";
+
+      if (!parsedLines.length) {
+        const option = document.createElement("option");
+        option.textContent = "No hay fragmentos disponibles";
+        option.value = "0";
+        chunkSelect.appendChild(option);
+        chunkSelect.disabled = true;
+        selectedStartIndex = 0;
+        return;
+      }
+
+      chunkSelect.disabled = false;
+      parsedLines.forEach((line, index) => {
+        const option = document.createElement("option");
+        option.value = String(index);
+        const previewText = line.text.length > 72 ? `${line.text.slice(0, 72)}…` : line.text;
+        option.textContent = `${line.chapter} · Fragmento ${index + 1}: ${previewText}`;
+        chunkSelect.appendChild(option);
+      });
+
+      selectedStartIndex = Math.min(Math.max(targetIndex || 0, 0), parsedLines.length - 1);
+      chunkSelect.value = String(selectedStartIndex);
+    }
+
     function renderPreview(activeIndex = -1) {
       parsedLines = parseScript(scriptInput.value);
       preview.innerHTML = "";
+      renderChunkSelect(activeIndex >= 0 ? activeIndex : selectedStartIndex);
 
       if (!parsedLines.length) {
         preview.innerHTML = '<p class="small">No hay texto para leer.</p>';
@@ -333,8 +386,9 @@ Así se reconstruye la secuencia más probable.</textarea>
       parsedLines.forEach((line, index) => {
         const div = document.createElement("div");
         div.className = index === activeIndex ? "line active" : "line";
+        div.dataset.index = String(index);
         div.innerHTML = '<span class="speaker"></span><span class="text"></span>';
-        div.querySelector(".speaker").textContent = line.speaker === "Texto" ? "" : `${line.speaker}:`;
+        div.querySelector(".speaker").textContent = line.speaker === "Texto" ? `${line.chapter}:` : `${line.chapter} · ${line.speaker}:`;
         div.querySelector(".text").textContent = ` ${line.text}`;
         preview.appendChild(div);
       });
@@ -380,6 +434,7 @@ Así se reconstruye la secuencia más probable.</textarea>
 
     function setPlaybackUi(active) {
       scriptInput.disabled = active;
+      chunkSelect.disabled = active || !parsedLines.length;
       repositoryFile.disabled = active;
       loadRepositoryFileBtn.disabled = active;
       speakBtn.disabled = active;
@@ -410,6 +465,7 @@ Así se reconstruye la secuencia más probable.</textarea>
         isSpeakingScript = false;
         retryingCurrentLine = false;
         currentIndex = 0;
+        selectedStartIndex = 0;
         setPlaybackUi(false);
         renderPreview(-1);
         setStatus("Lectura terminada.");
@@ -417,6 +473,7 @@ Así se reconstruye la secuencia más probable.</textarea>
       }
 
       currentIndex = index;
+      selectedStartIndex = index;
       renderPreview(index);
       const line = parsedLines[index];
       setStatus(`Leyendo fragmento ${index + 1} de ${parsedLines.length}.`);
@@ -491,11 +548,12 @@ Así se reconstruye la secuencia más probable.</textarea>
         return;
       }
 
+      selectedStartIndex = Math.min(Math.max(Number(chunkSelect.value) || 0, 0), parsedLines.length - 1);
       isSpeakingScript = true;
       retryingCurrentLine = false;
-      currentIndex = 0;
+      currentIndex = selectedStartIndex;
       setPlaybackUi(true);
-      setTimeout(() => speakLine(0), 120);
+      setTimeout(() => speakLine(selectedStartIndex), 120);
     }
 
     function testVoice() {
@@ -513,6 +571,12 @@ Así se reconstruye la secuencia más probable.</textarea>
     previewBtn.addEventListener("click", () => {
       renderPreview();
       setStatus(`Vista previa actualizada. Fragmentos: ${parsedLines.length}.`);
+    });
+
+    chunkSelect.addEventListener("change", () => {
+      selectedStartIndex = Number(chunkSelect.value) || 0;
+      renderPreview(selectedStartIndex);
+      setStatus(`Fragmento inicial seleccionado: ${selectedStartIndex + 1} de ${parsedLines.length}.`);
     });
 
     loadRepositoryFileBtn.addEventListener("click", loadRepositoryFile);
@@ -538,8 +602,9 @@ Así se reconstruye la secuencia más probable.</textarea>
       retryingCurrentLine = false;
       speechSynthesis.cancel();
       setPlaybackUi(false);
-      renderPreview(-1);
-      setStatus("Reproducción detenida.");
+      selectedStartIndex = Math.min(currentIndex, Math.max(parsedLines.length - 1, 0));
+      renderPreview(selectedStartIndex);
+      setStatus(`Reproducción detenida. Puedes continuar desde el fragmento ${selectedStartIndex + 1}.`);
     });
 
     [rate, pitch, volume].forEach(input => input.addEventListener("input", updateRangeLabels));
