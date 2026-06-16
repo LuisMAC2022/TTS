@@ -1,421 +1,564 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Text to Speech simple</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Texto a voz robusto</title>
   <style>
     :root {
-      --bg: #f6f7f9;
-      --card: #ffffff;
-      --text: #1f2937;
-      --muted: #6b7280;
-      --border: #d1d5db;
-      --primary: #2563eb;
-      --primary-dark: #1d4ed8;
-      --danger: #dc2626;
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel2: #1f2937;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --accent2: #facc15;
+      --danger: #f87171;
+      --ok: #34d399;
+      --border: rgba(255,255,255,.13);
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
       min-height: 100vh;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
+      background: radial-gradient(circle at top, #1e3a8a 0, var(--bg) 46%);
       color: var(--text);
-      display: flex;
-      justify-content: center;
-      padding: 32px 16px;
+      padding: 22px;
     }
-
-    main {
-      width: 100%;
-      max-width: 760px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-    }
-
-    h1 {
-      margin: 0 0 8px;
-      font-size: 1.8rem;
-    }
-
-    .description {
-      margin: 0 0 24px;
-      color: var(--muted);
-    }
-
-    label {
-      display: block;
-      margin-bottom: 8px;
-      font-weight: 600;
-    }
-
-    textarea,
-    select {
-      width: 100%;
-      border: 1px solid var(--border);
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: 12px;
+      z-index: 10;
+      transform: translateY(-160%);
       border-radius: 10px;
-      padding: 12px;
-      font: inherit;
-      background: white;
+      padding: 10px 14px;
+      background: var(--accent2);
+      color: #020617;
+      font-weight: 800;
     }
-
+    .skip-link:focus { transform: translateY(0); }
+    main {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      background: rgba(17, 24, 39, .94);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: 0 22px 70px rgba(0,0,0,.32);
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(1.9rem, 5vw, 3.2rem); line-height: 1; }
+    p { line-height: 1.5; }
+    .subtitle { color: var(--muted); margin-top: 0; max-width: 850px; }
+    .grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    section {
+      background: rgba(31, 41, 55, .74);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    label { display: block; margin-bottom: 8px; font-weight: 750; }
+    textarea, select, input[type="range"] { width: 100%; }
     textarea {
-      min-height: 180px;
+      min-height: 420px;
       resize: vertical;
-      line-height: 1.5;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      background: #020617;
+      color: var(--text);
+      font: 1rem/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      outline: none;
     }
-
-    .field {
-      margin-bottom: 20px;
+    textarea:disabled { opacity: .78; }
+    textarea:focus, select:focus, input:focus, button:focus-visible, .skip-link:focus {
+      outline: 3px solid rgba(250, 204, 21, .95);
+      outline-offset: 3px;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, .18);
     }
-
-    .sliders {
-      display: grid;
-      gap: 16px;
-      margin-bottom: 24px;
+    select {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: #020617;
+      color: var(--text);
+      outline: none;
     }
-
-    .range-row {
-      display: grid;
-      grid-template-columns: 90px 1fr 48px;
-      align-items: center;
-      gap: 12px;
-    }
-
-    input[type="range"] {
-      width: 100%;
-    }
-
-    .value {
-      text-align: right;
-      color: var(--muted);
-      font-variant-numeric: tabular-nums;
-    }
-
-    .controls {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-bottom: 16px;
-    }
-
+    .controls { display: grid; gap: 14px; }
+    .control-row { display: grid; gap: 8px; }
+    .range-label { display: flex; justify-content: space-between; color: var(--muted); font-size: .92rem; }
+    .buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 4px; }
+    .file-controls { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: end; }
+    @media (max-width: 560px) { .file-controls, .buttons { grid-template-columns: 1fr; } }
     button {
       border: 0;
-      border-radius: 10px;
-      padding: 11px 16px;
-      font: inherit;
-      font-weight: 600;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-weight: 800;
       cursor: pointer;
-      color: white;
-      background: var(--primary);
+      color: #020617;
+      background: var(--accent);
     }
-
-    button:hover:not(:disabled) {
-      background: var(--primary-dark);
-    }
-
-    button.secondary {
-      background: #4b5563;
-    }
-
-    button.secondary:hover:not(:disabled) {
-      background: #374151;
-    }
-
-    button.danger {
-      background: var(--danger);
-    }
-
-    button.danger:hover:not(:disabled) {
-      background: #b91c1c;
-    }
-
-    button:disabled,
-    textarea:disabled,
-    select:disabled,
-    input:disabled {
-      opacity: 0.55;
-      cursor: not-allowed;
-    }
-
-    .status {
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    .secondary { background: var(--accent2); }
+    .danger { background: var(--danger); }
+    .ghost { background: #334155; color: var(--text); }
+    .ok { background: var(--ok); }
+    .hint, .small, .status { color: var(--muted); font-size: .92rem; }
+    .status { margin-top: 12px; min-height: 1.5em; }
+    .preview {
+      margin-top: 14px;
+      max-height: 300px;
+      overflow: auto;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #020617;
       padding: 12px;
-      border-radius: 10px;
-      background: #eef2ff;
-      color: #3730a3;
-      margin-bottom: 16px;
     }
-
-    .note {
-      margin: 0;
-      font-size: 0.9rem;
-      color: var(--muted);
-      line-height: 1.5;
+    .line {
+      padding: 9px 11px;
+      border-radius: 11px;
+      margin-bottom: 7px;
+      background: rgba(255,255,255,.055);
+      border: 1px solid transparent;
+    }
+    .line.active { border-color: var(--ok); background: rgba(52, 211, 153, .13); }
+    .speaker { display: inline-block; color: var(--accent2); font-weight: 800; margin-right: 6px; }
+    code { color: #bae6fd; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
     }
   </style>
 </head>
-
 <body>
-  <main>
-    <h1>Text to Speech</h1>
-    <p class="description">
-      Escribe un texto, elige una voz y conviértelo en diálogo usando la Web Speech API.
-    </p>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <main id="contenido">
+    <header>
+      <h1>Texto a voz robusto</h1>
+      <p class="subtitle">
+        Escribe texto normal o guion. Si usas <code>Nombre: texto</code>, el nombre aparece en la vista previa, pero no se lee en voz alta. El texto se divide en fragmentos cortos para reducir errores como <code>synthesis-failed</code>.
+      </p>
+    </header>
 
-    <div id="status" class="status">Cargando voces…</div>
+    <div class="grid">
+      <section>
+        <label for="scriptInput">Texto</label>
+        <textarea id="scriptInput" spellcheck="true">La secuenciación de ADN es una técnica que permite leer la información genética de un ser vivo.
 
-    <div class="field">
-      <label for="text">Texto</label>
-      <textarea id="text" placeholder="Escribe aquí el texto que quieres escuchar..."></textarea>
+El ADN funciona como un manual de instrucciones para las células.
+
+Ese manual está escrito con cuatro letras químicas: A, T, C y G.
+
+La máquina no conoce por sí sola el orden completo del ADN.
+
+Primero lee muchos fragmentos pequeños.
+
+Después, una computadora busca coincidencias entre esos fragmentos.
+
+Cuando dos fragmentos comparten una parte igual, probablemente estaban juntos en la molécula original.
+
+Así se reconstruye la secuencia más probable.</textarea>
+        <p class="hint">
+          Recomendación: usa líneas cortas. Evita pegar capítulos completos en una sola línea. Para narración normal, no escribas <code>Narrador:</code>.
+        </p>
+      </section>
+
+      <section>
+        <div class="controls">
+
+          <div class="control-row" aria-describedby="repositoryFileHelp">
+            <label for="repositoryFile">Archivo de texto del repositorio</label>
+            <div class="file-controls">
+              <select id="repositoryFile">
+                <option value="0315050_texto_tts_completo.txt">0315050_texto_tts_completo.txt</option>
+              </select>
+              <button id="loadRepositoryFileBtn" class="ghost" type="button">Seleccionar texto</button>
+            </div>
+            <div class="small" id="repositoryFileHelp">Carga un archivo <code>.txt</code> incluido en este repositorio y reemplaza el texto del editor.</div>
+          </div>
+
+          <div class="control-row">
+            <label for="voiceSelect">Voz</label>
+            <select id="voiceSelect"></select>
+            <div class="small">Si una voz falla, el reproductor intenta repetir con la voz predeterminada.</div>
+          </div>
+
+          <div class="control-row">
+            <div class="range-label"><label for="rate">Velocidad</label><span id="rateValue">1.00</span></div>
+            <input id="rate" type="range" min="0.6" max="1.5" step="0.05" value="1" />
+          </div>
+
+          <div class="control-row">
+            <div class="range-label"><label for="pitch">Tono</label><span id="pitchValue">1.00</span></div>
+            <input id="pitch" type="range" min="0.7" max="1.4" step="0.05" value="1" />
+          </div>
+
+          <div class="control-row">
+            <div class="range-label"><label for="volume">Volumen</label><span id="volumeValue">1.00</span></div>
+            <input id="volume" type="range" min="0" max="1" step="0.05" value="1" />
+          </div>
+
+          <div class="buttons">
+            <button id="previewBtn" class="ghost" type="button">Previsualizar</button>
+            <button id="testBtn" class="ok" type="button">Probar voz</button>
+            <button id="speakBtn" type="button">Reproducir</button>
+            <button id="pauseBtn" class="secondary" type="button">Pausar</button>
+            <button id="resumeBtn" class="secondary" type="button">Reanudar</button>
+            <button id="stopBtn" class="danger" type="button">Detener</button>
+          </div>
+        </div>
+
+        <div class="status" id="status">Listo.</div>
+        <div class="preview" id="preview" aria-live="polite"></div>
+      </section>
     </div>
-
-    <div class="field">
-      <label for="voice">Voz</label>
-      <select id="voice"></select>
-    </div>
-
-    <div class="sliders">
-      <div class="range-row">
-        <label for="rate">Velocidad</label>
-        <input id="rate" type="range" min="0.5" max="2" step="0.1" value="1">
-        <span id="rateValue" class="value">1.0</span>
-      </div>
-
-      <div class="range-row">
-        <label for="pitch">Tono</label>
-        <input id="pitch" type="range" min="0" max="2" step="0.1" value="1">
-        <span id="pitchValue" class="value">1.0</span>
-      </div>
-
-      <div class="range-row">
-        <label for="volume">Volumen</label>
-        <input id="volume" type="range" min="0" max="1" step="0.1" value="1">
-        <span id="volumeValue" class="value">1.0</span>
-      </div>
-    </div>
-
-    <div class="controls">
-      <button id="speak">Hablar</button>
-      <button id="pauseResume" class="secondary">Pausar</button>
-      <button id="stop" class="danger">Detener</button>
-    </div>
-
-    <p class="note">
-      Limitación: algunas voces del sistema operativo pueden ignorar el parámetro de tono
-      <code>pitch</code>. El comportamiento exacto depende del navegador y de las voces instaladas.
-    </p>
   </main>
 
   <script>
-    const synth = window.speechSynthesis;
-
-    const textInput = document.getElementById("text");
-    const voiceSelect = document.getElementById("voice");
-
-    const rateInput = document.getElementById("rate");
-    const pitchInput = document.getElementById("pitch");
-    const volumeInput = document.getElementById("volume");
-
+    const scriptInput = document.getElementById("scriptInput");
+    const voiceSelect = document.getElementById("voiceSelect");
+    const repositoryFile = document.getElementById("repositoryFile");
+    const rate = document.getElementById("rate");
+    const pitch = document.getElementById("pitch");
+    const volume = document.getElementById("volume");
     const rateValue = document.getElementById("rateValue");
     const pitchValue = document.getElementById("pitchValue");
     const volumeValue = document.getElementById("volumeValue");
-
-    const speakButton = document.getElementById("speak");
-    const pauseResumeButton = document.getElementById("pauseResume");
-    const stopButton = document.getElementById("stop");
-    const statusBox = document.getElementById("status");
+    const preview = document.getElementById("preview");
+    const statusText = document.getElementById("status");
+    const previewBtn = document.getElementById("previewBtn");
+    const loadRepositoryFileBtn = document.getElementById("loadRepositoryFileBtn");
+    const testBtn = document.getElementById("testBtn");
+    const speakBtn = document.getElementById("speakBtn");
+    const pauseBtn = document.getElementById("pauseBtn");
+    const resumeBtn = document.getElementById("resumeBtn");
+    const stopBtn = document.getElementById("stopBtn");
 
     let voices = [];
-    let currentUtterance = null;
+    let parsedLines = [];
+    let currentIndex = 0;
+    let isSpeakingScript = false;
+    let retryingCurrentLine = false;
 
     function setStatus(message) {
-      statusBox.textContent = message;
+      statusText.textContent = message;
     }
 
     function updateRangeLabels() {
-      rateValue.textContent = Number(rateInput.value).toFixed(1);
-      pitchValue.textContent = Number(pitchInput.value).toFixed(1);
-      volumeValue.textContent = Number(volumeInput.value).toFixed(1);
+      rateValue.textContent = Number(rate.value).toFixed(2);
+      pitchValue.textContent = Number(pitch.value).toFixed(2);
+      volumeValue.textContent = Number(volume.value).toFixed(2);
     }
 
-    function updateButtons() {
-      const isSpeaking = synth && synth.speaking;
-      const isPaused = synth && synth.paused;
-
-      speakButton.disabled = Boolean(isSpeaking);
-      pauseResumeButton.disabled = !isSpeaking;
-      stopButton.disabled = !isSpeaking;
-
-      pauseResumeButton.textContent = isPaused ? "Reanudar" : "Pausar";
+    function normalizeText(text) {
+      return text
+        .replace(/[“”]/g, '"')
+        .replace(/[‘’]/g, "'")
+        .replace(/\s+/g, " ")
+        .trim();
     }
 
-    function disableInterface(message) {
-      setStatus(message);
+    function splitLongText(text, maxLength = 180) {
+      const clean = normalizeText(text);
+      if (!clean) return [];
+      if (clean.length <= maxLength) return [clean];
 
-      textInput.disabled = true;
-      voiceSelect.disabled = true;
-      rateInput.disabled = true;
-      pitchInput.disabled = true;
-      volumeInput.disabled = true;
-      speakButton.disabled = true;
-      pauseResumeButton.disabled = true;
-      stopButton.disabled = true;
+      const sentences = clean.match(/[^.!?¿¡;:]+[.!?;:]?|[¿¡][^.!?]+[.!?]?/g) || [clean];
+      const chunks = [];
+      let buffer = "";
+
+      for (const sentence of sentences) {
+        const part = sentence.trim();
+        if (!part) continue;
+
+        if ((buffer + " " + part).trim().length <= maxLength) {
+          buffer = (buffer + " " + part).trim();
+        } else {
+          if (buffer) chunks.push(buffer);
+          if (part.length <= maxLength) {
+            buffer = part;
+          } else {
+            const words = part.split(/\s+/);
+            let wordBuffer = "";
+            for (const word of words) {
+              if ((wordBuffer + " " + word).trim().length <= maxLength) {
+                wordBuffer = (wordBuffer + " " + word).trim();
+              } else {
+                if (wordBuffer) chunks.push(wordBuffer);
+                wordBuffer = word;
+              }
+            }
+            buffer = wordBuffer;
+          }
+        }
+      }
+      if (buffer) chunks.push(buffer);
+      return chunks;
     }
 
-    function populateVoices() {
-      voices = synth.getVoices();
+    function parseScript(text) {
+      const rawLines = text
+        .split(/\n+/)
+        .map(line => line.trim())
+        .filter(Boolean);
 
-      const previousValue = voiceSelect.value;
+      const result = [];
+
+      for (const rawLine of rawLines) {
+        const match = rawLine.match(/^([^:]{1,40}):\s*(.+)$/);
+        const speaker = match ? match[1].trim() : "Texto";
+        const textToRead = match ? match[2].trim() : rawLine;
+        const chunks = splitLongText(textToRead);
+        for (const chunk of chunks) {
+          result.push({ speaker, text: chunk });
+        }
+      }
+      return result;
+    }
+
+    function renderPreview(activeIndex = -1) {
+      parsedLines = parseScript(scriptInput.value);
+      preview.innerHTML = "";
+
+      if (!parsedLines.length) {
+        preview.innerHTML = '<p class="small">No hay texto para leer.</p>';
+        return;
+      }
+
+      parsedLines.forEach((line, index) => {
+        const div = document.createElement("div");
+        div.className = index === activeIndex ? "line active" : "line";
+        div.innerHTML = '<span class="speaker"></span><span class="text"></span>';
+        div.querySelector(".speaker").textContent = line.speaker === "Texto" ? "" : `${line.speaker}:`;
+        div.querySelector(".text").textContent = ` ${line.text}`;
+        preview.appendChild(div);
+      });
+    }
+
+    function selectedVoice() {
+      const selectedIndex = Number(voiceSelect.value);
+      return Number.isInteger(selectedIndex) && selectedIndex >= 0 ? voices[selectedIndex] : null;
+    }
+
+    function sortVoices(list) {
+      return list
+        .map((voice, index) => ({ voice, index }))
+        .sort((a, b) => {
+          const aEs = a.voice.lang.toLowerCase().startsWith("es") ? 0 : 1;
+          const bEs = b.voice.lang.toLowerCase().startsWith("es") ? 0 : 1;
+          return aEs - bEs || a.voice.name.localeCompare(b.voice.name);
+        });
+    }
+
+    function loadVoices() {
+      if (!("speechSynthesis" in window)) return;
+      voices = speechSynthesis.getVoices();
       voiceSelect.innerHTML = "";
 
-      voices.forEach((voice, index) => {
+      const defaultOption = document.createElement("option");
+      defaultOption.value = "-1";
+      defaultOption.textContent = "Voz predeterminada del navegador";
+      voiceSelect.appendChild(defaultOption);
+
+      for (const { voice, index } of sortVoices(voices)) {
         const option = document.createElement("option");
         option.value = String(index);
-        option.textContent = `${voice.name} — ${voice.lang}${voice.default ? " — predeterminada" : ""}`;
+        option.textContent = `${voice.name} (${voice.lang})${voice.default ? " — predeterminada" : ""}`;
         voiceSelect.appendChild(option);
-      });
-
-      if (voices.length === 0) {
-        setStatus("No se encontraron voces disponibles todavía.");
-        updateButtons();
-        return;
       }
 
-      const previousIndex = Number(previousValue);
+      const spanishIndex = voices.findIndex(voice => voice.lang.toLowerCase().startsWith("es"));
+      voiceSelect.value = spanishIndex >= 0 ? String(spanishIndex) : "-1";
 
-      if (Number.isInteger(previousIndex) && voices[previousIndex]) {
-        voiceSelect.value = String(previousIndex);
-      } else {
-        const spanishIndex = voices.findIndex(voice =>
-          voice.lang && voice.lang.toLowerCase().startsWith("es")
-        );
-
-        voiceSelect.value = String(spanishIndex >= 0 ? spanishIndex : 0);
-      }
-
-      setStatus("Listo");
-      updateButtons();
+      setStatus(voices.length ? `Voces cargadas: ${voices.length}.` : "No se detectaron voces. Prueba con Chrome o Edge, o recarga la página.");
     }
 
-    function speakText() {
-      const text = textInput.value.trim();
+    function setPlaybackUi(active) {
+      scriptInput.disabled = active;
+      repositoryFile.disabled = active;
+      loadRepositoryFileBtn.disabled = active;
+      speakBtn.disabled = active;
+      testBtn.disabled = active;
+      previewBtn.disabled = active;
+    }
 
-      if (!text) {
-        setStatus("Escribe un texto antes de hablar.");
-        return;
-      }
-
-      /*
-        En algunos navegadores, cancelar justo después de pausar puede dejar
-        la cola de speechSynthesis en un estado extraño. Por eso reanudamos
-        antes de cancelar si estaba pausado.
-      */
-      if (synth.paused) {
-        synth.resume();
-      }
-
-      synth.cancel();
-
+    function makeUtterance(text, useSelectedVoice = true) {
       const utterance = new SpeechSynthesisUtterance(text);
-      const selectedVoice = voices[Number(voiceSelect.value)];
-
-      if (selectedVoice) {
-        utterance.voice = selectedVoice;
-        utterance.lang = selectedVoice.lang;
-      }
-
-      utterance.rate = Number(rateInput.value);
-      utterance.pitch = Number(pitchInput.value);
-      utterance.volume = Number(volumeInput.value);
-
-      utterance.onstart = () => {
-        currentUtterance = utterance;
-        setStatus("Leyendo…");
-        updateButtons();
-      };
-
-      utterance.onend = () => {
-        currentUtterance = null;
-        setStatus("Listo");
-        updateButtons();
-      };
-
-      utterance.onerror = event => {
-        currentUtterance = null;
-        setStatus(`Error: ${event.error || "no se pudo reproducir el texto"}`);
-        updateButtons();
-      };
-
-      synth.speak(utterance);
-
-      /*
-        Algunos navegadores actualizan speechSynthesis.speaking con un pequeño
-        retraso después de speak().
-      */
-      setTimeout(updateButtons, 0);
+      const voice = useSelectedVoice ? selectedVoice() : null;
+      if (voice) utterance.voice = voice;
+      utterance.lang = voice?.lang || "es-MX";
+      utterance.rate = Number(rate.value);
+      utterance.pitch = Number(pitch.value);
+      utterance.volume = Number(volume.value);
+      return utterance;
     }
 
-    function togglePauseResume() {
-      if (!synth.speaking) return;
-
-      if (synth.paused) {
-        synth.resume();
-        setStatus("Leyendo…");
-      } else {
-        synth.pause();
-        setStatus("Pausado");
-      }
-
-      updateButtons();
+    function speakSingleText(text, onDone, onError, useSelectedVoice = true) {
+      const utterance = makeUtterance(text, useSelectedVoice);
+      utterance.onend = () => onDone?.();
+      utterance.onerror = (event) => onError?.(event);
+      speechSynthesis.speak(utterance);
     }
 
-    function stopSpeaking() {
-      if (synth.paused) {
-        synth.resume();
+    function speakLine(index) {
+      if (!isSpeakingScript || index >= parsedLines.length) {
+        isSpeakingScript = false;
+        retryingCurrentLine = false;
+        currentIndex = 0;
+        setPlaybackUi(false);
+        renderPreview(-1);
+        setStatus("Lectura terminada.");
+        return;
       }
 
-      synth.cancel();
-      currentUtterance = null;
-      setStatus("Listo");
-      updateButtons();
+      currentIndex = index;
+      renderPreview(index);
+      const line = parsedLines[index];
+      setStatus(`Leyendo fragmento ${index + 1} de ${parsedLines.length}.`);
+
+      speakSingleText(
+        line.text,
+        () => {
+          retryingCurrentLine = false;
+          setTimeout(() => speakLine(index + 1), 120);
+        },
+        (event) => {
+          const errorName = event.error || "error desconocido";
+          if (!retryingCurrentLine && selectedVoice()) {
+            retryingCurrentLine = true;
+            speechSynthesis.cancel();
+            setStatus(`La voz seleccionada falló: ${errorName}. Reintentando con voz predeterminada.`);
+            setTimeout(() => {
+              speakSingleText(
+                line.text,
+                () => {
+                  retryingCurrentLine = false;
+                  setTimeout(() => speakLine(index + 1), 120);
+                },
+                (secondEvent) => {
+                  const secondError = secondEvent.error || "error desconocido";
+                  isSpeakingScript = false;
+                  retryingCurrentLine = false;
+                  setPlaybackUi(false);
+                  setStatus(`No se pudo reproducir. Error: ${secondError}. Prueba otra voz o reduce el texto.`);
+                },
+                false
+              );
+            }, 180);
+            return;
+          }
+
+          isSpeakingScript = false;
+          retryingCurrentLine = false;
+          setPlaybackUi(false);
+          setStatus(`No se pudo reproducir. Error: ${errorName}. Prueba otra voz o reduce el texto.`);
+        },
+        true
+      );
     }
 
-    if (!("speechSynthesis" in window)) {
-      disableInterface("Tu navegador no soporta la Web Speech API.");
-    } else {
+
+    async function loadRepositoryFile() {
+      const fileName = repositoryFile.value;
+      if (!fileName) {
+        setStatus("Selecciona un archivo de texto del repositorio.");
+        return;
+      }
+
+      setStatus(`Cargando ${fileName}…`);
+      try {
+        const response = await fetch(fileName, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        scriptInput.value = await response.text();
+        renderPreview();
+        setStatus(`Archivo cargado: ${fileName}. Fragmentos: ${parsedLines.length}.`);
+      } catch (error) {
+        setStatus(`No se pudo cargar ${fileName}. Abre la página desde un servidor local para permitir fetch.`);
+      }
+    }
+
+    function startSpeaking() {
+      speechSynthesis.cancel();
+      renderPreview();
+
+      if (!parsedLines.length) {
+        setStatus("Escribe texto antes de reproducir.");
+        return;
+      }
+
+      isSpeakingScript = true;
+      retryingCurrentLine = false;
+      currentIndex = 0;
+      setPlaybackUi(true);
+      setTimeout(() => speakLine(0), 120);
+    }
+
+    function testVoice() {
+      speechSynthesis.cancel();
+      setStatus("Probando voz.");
+      const testText = "Esta es una prueba corta de texto a voz.";
+      speakSingleText(
+        testText,
+        () => setStatus("La prueba de voz terminó correctamente."),
+        (event) => setStatus(`La prueba falló. Error: ${event.error || "error desconocido"}. Prueba otra voz.`),
+        true
+      );
+    }
+
+    previewBtn.addEventListener("click", () => {
+      renderPreview();
+      setStatus(`Vista previa actualizada. Fragmentos: ${parsedLines.length}.`);
+    });
+
+    loadRepositoryFileBtn.addEventListener("click", loadRepositoryFile);
+    testBtn.addEventListener("click", testVoice);
+    speakBtn.addEventListener("click", startSpeaking);
+
+    pauseBtn.addEventListener("click", () => {
+      if (speechSynthesis.speaking && !speechSynthesis.paused) {
+        speechSynthesis.pause();
+        setStatus("Reproducción pausada.");
+      }
+    });
+
+    resumeBtn.addEventListener("click", () => {
+      if (speechSynthesis.paused) {
+        speechSynthesis.resume();
+        setStatus("Reproducción reanudada.");
+      }
+    });
+
+    stopBtn.addEventListener("click", () => {
+      isSpeakingScript = false;
+      retryingCurrentLine = false;
+      speechSynthesis.cancel();
+      setPlaybackUi(false);
+      renderPreview(-1);
+      setStatus("Reproducción detenida.");
+    });
+
+    [rate, pitch, volume].forEach(input => input.addEventListener("input", updateRangeLabels));
+    scriptInput.addEventListener("input", () => renderPreview());
+
+    if ("speechSynthesis" in window) {
       updateRangeLabels();
-      updateButtons();
-
-      populateVoices();
-
-      /*
-        Chrome y algunos navegadores cargan las voces de forma asíncrona.
-        Por eso se repuebla el selector cuando el motor avisa que cambiaron.
-      */
-      synth.onvoiceschanged = populateVoices;
-
-      rateInput.addEventListener("input", updateRangeLabels);
-      pitchInput.addEventListener("input", updateRangeLabels);
-      volumeInput.addEventListener("input", updateRangeLabels);
-
-      speakButton.addEventListener("click", speakText);
-      pauseResumeButton.addEventListener("click", togglePauseResume);
-      stopButton.addEventListener("click", stopSpeaking);
-
-      window.addEventListener("beforeunload", () => {
-        if (synth.speaking || synth.paused) {
-          synth.cancel();
-        }
-      });
+      renderPreview();
+      loadVoices();
+      speechSynthesis.onvoiceschanged = loadVoices;
+      setTimeout(loadVoices, 300);
+      setTimeout(loadVoices, 1200);
+    } else {
+      setStatus("Este navegador no soporta Text to Speech con speechSynthesis.");
+      speakBtn.disabled = true;
+      pauseBtn.disabled = true;
+      resumeBtn.disabled = true;
+      stopBtn.disabled = true;
+      testBtn.disabled = true;
     }
   </script>
 </body>

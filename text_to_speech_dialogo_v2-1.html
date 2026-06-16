@@ -18,6 +18,7 @@
       --border: rgba(255,255,255,.13);
     }
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
       min-height: 100vh;
@@ -26,6 +27,19 @@
       color: var(--text);
       padding: 22px;
     }
+    .skip-link {
+      position: absolute;
+      left: 16px;
+      top: 12px;
+      z-index: 10;
+      transform: translateY(-160%);
+      border-radius: 10px;
+      padding: 10px 14px;
+      background: var(--accent2);
+      color: #020617;
+      font-weight: 800;
+    }
+    .skip-link:focus { transform: translateY(0); }
     main {
       width: min(1120px, 100%);
       margin: 0 auto;
@@ -60,7 +74,9 @@
       outline: none;
     }
     textarea:disabled { opacity: .78; }
-    textarea:focus, select:focus, input:focus {
+    textarea:focus, select:focus, input:focus, button:focus-visible, .skip-link:focus {
+      outline: 3px solid rgba(250, 204, 21, .95);
+      outline-offset: 3px;
       border-color: var(--accent);
       box-shadow: 0 0 0 3px rgba(56, 189, 248, .18);
     }
@@ -76,6 +92,8 @@
     .control-row { display: grid; gap: 8px; }
     .range-label { display: flex; justify-content: space-between; color: var(--muted); font-size: .92rem; }
     .buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 4px; }
+    .file-controls { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: end; }
+    @media (max-width: 560px) { .file-controls, .buttons { grid-template-columns: 1fr; } }
     button {
       border: 0;
       border-radius: 12px;
@@ -111,10 +129,15 @@
     .line.active { border-color: var(--ok); background: rgba(52, 211, 153, .13); }
     .speaker { display: inline-block; color: var(--accent2); font-weight: 800; margin-right: 6px; }
     code { color: #bae6fd; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
   </style>
 </head>
 <body>
-  <main>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <main id="contenido">
     <header>
       <h1>Texto a voz robusto</h1>
       <p class="subtitle">
@@ -147,6 +170,18 @@ Así se reconstruye la secuencia más probable.</textarea>
 
       <section>
         <div class="controls">
+
+          <div class="control-row" aria-describedby="repositoryFileHelp">
+            <label for="repositoryFile">Archivo de texto del repositorio</label>
+            <div class="file-controls">
+              <select id="repositoryFile">
+                <option value="0315050_texto_tts_completo.txt">0315050_texto_tts_completo.txt</option>
+              </select>
+              <button id="loadRepositoryFileBtn" class="ghost" type="button">Seleccionar texto</button>
+            </div>
+            <div class="small" id="repositoryFileHelp">Carga un archivo <code>.txt</code> incluido en este repositorio y reemplaza el texto del editor.</div>
+          </div>
+
           <div class="control-row">
             <label for="voiceSelect">Voz</label>
             <select id="voiceSelect"></select>
@@ -187,6 +222,7 @@ Así se reconstruye la secuencia más probable.</textarea>
   <script>
     const scriptInput = document.getElementById("scriptInput");
     const voiceSelect = document.getElementById("voiceSelect");
+    const repositoryFile = document.getElementById("repositoryFile");
     const rate = document.getElementById("rate");
     const pitch = document.getElementById("pitch");
     const volume = document.getElementById("volume");
@@ -196,6 +232,7 @@ Así se reconstruye la secuencia más probable.</textarea>
     const preview = document.getElementById("preview");
     const statusText = document.getElementById("status");
     const previewBtn = document.getElementById("previewBtn");
+    const loadRepositoryFileBtn = document.getElementById("loadRepositoryFileBtn");
     const testBtn = document.getElementById("testBtn");
     const speakBtn = document.getElementById("speakBtn");
     const pauseBtn = document.getElementById("pauseBtn");
@@ -343,6 +380,8 @@ Así se reconstruye la secuencia más probable.</textarea>
 
     function setPlaybackUi(active) {
       scriptInput.disabled = active;
+      repositoryFile.disabled = active;
+      loadRepositoryFileBtn.disabled = active;
       speakBtn.disabled = active;
       testBtn.disabled = active;
       previewBtn.disabled = active;
@@ -423,6 +462,26 @@ Así se reconstruye la secuencia más probable.</textarea>
       );
     }
 
+
+    async function loadRepositoryFile() {
+      const fileName = repositoryFile.value;
+      if (!fileName) {
+        setStatus("Selecciona un archivo de texto del repositorio.");
+        return;
+      }
+
+      setStatus(`Cargando ${fileName}…`);
+      try {
+        const response = await fetch(fileName, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        scriptInput.value = await response.text();
+        renderPreview();
+        setStatus(`Archivo cargado: ${fileName}. Fragmentos: ${parsedLines.length}.`);
+      } catch (error) {
+        setStatus(`No se pudo cargar ${fileName}. Abre la página desde un servidor local para permitir fetch.`);
+      }
+    }
+
     function startSpeaking() {
       speechSynthesis.cancel();
       renderPreview();
@@ -456,6 +515,7 @@ Así se reconstruye la secuencia más probable.</textarea>
       setStatus(`Vista previa actualizada. Fragmentos: ${parsedLines.length}.`);
     });
 
+    loadRepositoryFileBtn.addEventListener("click", loadRepositoryFile);
     testBtn.addEventListener("click", testVoice);
     speakBtn.addEventListener("click", startSpeaking);
 
