@@ -1,0 +1,857 @@
+Idioma español. Título. Un modelo econométrico de ahorro para México en el periodo mil novecientos ochenta a dos mil.
+
+Tesis para obtener el título de Licenciado en Economía. Presenta. Arias Guzmán Ericka Judith.
+
+Asesor. maestro Rafael Bouchain Galicia. Universidad Nacional Autónoma de México, Escuela Nacional de Estudios Profesionales Acatlán.
+
+Acatlán, Estado de México, febrero de dos mil tres. El proceso de fondeo de la inversión, al igual que muchos tópicos del análisis económico, han sido objeto de una amplia controversia en la ciencia económica. dividiéndose los planteamientos en dos vertientes que son puestas y contradictorias entre sí.
+
+La primera se conoce bajo el nombre de ahorro previo y postula que el financiamiento depende de los ahorros generados con anterioridad. El papel de los intermediarios financieros, bancarios o no bancarios, se limita a la recolección de los ahorros generados por los agentes superavitarios. principalmente familias, y su distribución entre los agentes deficitarios, empresas, teniendo como principal característica a la eficiencia.
+
+O sea, el sistema financiero debe generar una amplia gama de activos financieros para captar un mejor volumen de ahorro. política de profundización financiera, y distribuirlos entre los proyectos de inversión más redituables. El supuesto fundamental detrás de este planteamiento es que el libre movimiento de los factores productivos permitirá la imposición de una tasa de interés de equilibrio que garantizará.
+
+al máximo el crecimiento económico. La segunda gran vertiente. ahorro ex post, sostiene que la inversión crea su propio ahorro y los intermediarios financieros tienen dos funciones.
+
+primero generar suficiente liquidez, a través de créditos bancarios, para permitir la realización de proyectos de inversión redituables, y segundo. captar los ahorros producidos por la inversión mediante la emisión de instrumentos financieros de largo plazo. de modo tal que estos empaten con las utilidades y anulen el financiamiento de corto plazo Desde esta visión teórica.
+
+se supone que la inversión tiene la capacidad de crear su propio ahorro mediante el incremento en el ingreso, vía efecto multiplicador. que genera dicha actividad. Con base en este supuesto Keynes sostiene que el gasto de la inversión depende de dos premisas.
+
+A, Generar altos rendimientos, determinados por el precio de demanda y oferta, o eficiencia marginal de capital y tasa de interés. y Debe existir financiamiento de corto y largo plazo. ocho, Este último anula el primero, garantizando con ello la continuación del financiamiento inicial, de corto plazo.
+
+lo cual permite que prosiga la actividad de la inversión y del crecimiento económico. El supuesto básico de esta corriente teórica es que el sistema capitalista está dominado por relaciones monetarias que permiten al sistema financiero generar liquidez de manera independiente de. los recursos reales.
+
+Las características particulares de la moneda en una economía capitalista provocan que esta no es neutral. y variaciones en la cantidad de oferta y demanda afectan el nivel de la inversión y la producción. De manera particular, al reducirse la liquidez en el sistema financiero, manteniendo constantes los demás factores, se deprime la actividad productiva.
+
+e inversamente, si aumenta el financiamiento puede crecer la inversión independientemente de los fondos reales retenidos. Keynes, dos mil, sostiene. El financiamiento de corto plazo está en función de las reservas bancarias que contienen.
+
+Además, de depósitos, activos financieros que no necesariamente representan recursos reales y su objetivo es cubrir los gastos necesarios durante el período de producción e instalación de los. bienes de capital fijo. El productor de bienes de capital fijo pide prestado para cubrir los gastos del capital circulante y, a su vez.
+
+el comprador de estos bienes pide prestado para pagar las maquinarias cuando le sean entregadas. Este tipo de financiamiento tiene la característica de ser un fondo revolvente, o sea, los créditos deben ser restituidos en un periodo breve para que los bancos continúen. operando.
+
+otorgar créditos, . De lo contrario se genera un proceso inflacionario que debilita la función de unidad de cuenta y de valor del dinero. La restitución de los créditos de corto plazo se debe realizar mediante la generación de deudas de largo que se empaten con los rendimientos esperados que fluyen a.
+
+lo largo de todo el periodo de existencia de la inversión. Consecuentemente, la función de fondeo es anular el financiamiento de corto plazo. En este trabajo se procederá a revisar y analizar algunas de las diferentes teorías que explican al ahorro y la inversión y se procederá a plantear algunas hipótesis.
+
+y objetivos. así como también se sugerirá algún tipo de alternativa de desarrollo en cuánto al comportamiento del ahorro y la inversión en México concierne. Construir un modelo econométrico para estimar la contribución de la inversión al comportamiento del ahorro en México en el período mil novecientos ochenta a dos mil.
+
+Hacer una comparación entre las diferentes variables y su dos. contribución al crecimiento económico en México. Hacer un análisis de la economía durante dicho período, con base en la determinación de la cuenta corriente y de inversión, ahorro, formación bruta de capital fijo.
+
+Realizar una revisión de trabajos empíricos donde se muestre la relación entre ahorro, inversión y crecimiento económico. Analizar la falta de solidez del mercado financiero y el impacto que tienen los capitales extranjeros en la dependencia del ahorro externo para el crecimiento de México seis. Analizar la paradoja neoliberal, niveles financieros elevados y baja propensión al ahorro y desarrollo económico.
+
+Investigar la relación entre el ahorro, la tasa de interés, la inversión y siete. el desarrollo económico en México Analizar los ajustes a la política monetaria ante la crisis de mil novecientos noventa y cuatro y el ocho. papel del sistema bancario.
+
+uno O. Analizar como la mayor parte de los recursos del exterior no tienen el impacto que deberían de tener en el sistema productivo. Demostrar que la apertura comercial, no se ha traducido en un II.
+
+incremento de los salarios reales. doce. Realizar un análisis de cómo la elevación de la tasa de interés no ha estimulado un mayor ahorro e inversión.
+
+Analizar los efectos de la desregulación financiera en el ahorro de trece. México. catorce.
+
+Hacer un análisis del papel que juega el sistema bancario en el crecimiento sostenido del ingreso, para traducirse en un mayor desarrollo económico. Estructurar una propuesta alternativa de desarrollo, frente al modelo quince. neoliberal. . Hipótesis. La política económica desde el Plan Nacional de Desarrollo mil novecientos noventa y cinco a dos mil, con el doctor Ernesto Zedillo Ponce de León.
+
+ex presidente de México, hasta la actual administración con el licenciado Vicente Fox Quesada se ha sustentado en la idea de que la crisis económica de finales de. mil novecientos noventa y cuatro se originó en la persistente escasez de ahorro interno de los últimos años. Esta insuficiencia, en un contexto de crecimiento del producto y de la inversión, determinó un alto nivel de ahorro externo en el mismo periodo.
+
+es decir, una fuga de capitales por medio de una transferencia de valor. La explicación parte del esquema contable de que la inversión es igual al ahorro y que el ahorro es igual a ahorro interno más ahorro externo. .
+
+Por lo tanto, existe la posibilidad de que al incrementarse el ahorro interno, disminuya la necesidad de recurrir a recursos externos. De acuerdo con el pasado plan de política económica, El Programa Nacional de Financiamiento al Desarrollo. del gobierno federal, para lograr un crecimiento perdurable y la consolidación económica para el año dos mil.
+
+se requería incrementar el nivel de ahorro interno, ahorro público más ahorro privado, y así reducir la dependencia proveniente del exterior. Nuestro crecimiento no puede depender imprudentemente del ahorro externo. este debe ser un complemento sanamente acotado del ahorro propio.
+
+En buena medida el que la economía mexicana crezca conforme con las metas trazadas en este programa dependerá del éxito con que promovamos un mayor ahorro interno. cuatro Este planteamiento es resultado de un marco teórico, que considera que el ahorro previo es igual a la inversión y así poder alcanzar un equilibrio en la. economía en el largo plazo.
+
+La teoría que supone la liberalización de las tasas de interés y la desregulación económica, financiera. argumenta que la actividad productiva se ve limitada por la insuficiencia de ahorro y una canalización ineficiente de dicho ahorro. Para acelerar el crecimiento propone liberalizar las tasas de interés, eliminar controles a la expansión del crédito, y reducir el financiamiento al gobierno.
+
+La Teoría supone que al permitir que los intermediarios financieros fijen sus tasas de interés. tenderán a subir y con ello se incrementa la captación bancaria. sin embargo no sucedió de esta manera en México, ya que la realidad nos mostró como las tasas de interés tendieron a bajar.
+
+La liberalización del crédito y la reducción del déficit público permitirán que el mayor volumen de recursos disponible se destine a financiar proyectos eficaces del sector privado Este. enfoque. Sin embargo, supone que los agentes cuentan con información completa, y que el mercado bancario opera en condiciones de libre competencia.
+
+Mántey, mil novecientos noventa y seis, cinco México en la década de los ochenta emprendió el proceso de desregulación financiera y liberalización de las tasas de interés. inspirada en los postulados de la corriente neoliberal Esta corriente destaca la existencia de indivisibilidades en la acumulación de capital en los países en desarrollo. y de explotar los proyectos con alto rendimiento, con sólo liberalizar el crédito al sector privado de dichas economías Sin embargo.
+
+la liberalización de las tasas de interés bancarias pasivas, en países como México, queda limitada por la estrategia de maximización de utilidades que sigan los bancos con base. a su estado de confianza. Esto es que si el riesgo es alto, su gestión de pasivos buscará ampliar el diferencial entre la tasa de depósitos y la tasa de valores gubernamentales.
+
+penalizando la tasa de interés del ahorrador, invirtiendo una parte de los recursos captados en estos títulos, y aumentando tanto las tasas activas como el racionamiento del crédito. Cuando los bancos operan como en México, en condiciones de competencia oligopólica, tanto los ahorradores como los deudores se encuentran en desventaja. debido a que un aumento en el riesgo de los banqueros, o una disminución en su grado de confianza sobre el futuro.
+
+ocasionan alzas en las tasas de interés activas e incrementos en el racionamiento, como antes se explicó. Así la tasa de interés activa representa un punto de equilibrio para el banco, pero no para el mercado. Los bancos invierten en valores gubernamentales para reducir su riesgo, y elevar sus utilidades, pero no realizan eficazmente la función de intermediación entre ahorradores e inversionistas.
+
+La escasa canalización del crédito implica que este se otorgue pero con tasas de interés elevadas. por lo que sólo se le otorgan a proyectos o actividades de alto rendimiento y riesgo. es decir, de carácter especulativo.
+
+La crisis financiera debe ser interpretada dentro del contexto de una crisis de acumulación más profunda. El modelo neoliberal mexicano ha precipitado una crisis estructural que está vinculada al estancamiento o la paralización económica. al incremento de la desigualdad de la distribución de los ingresos.
+
+a la precipitada caída de los salarios, la desindustrialización, a un déficit estructural en la balanza de pagos y a un rápido giro hacia un sector financiero especulativo. que eventualmente ocasionó el colapso del sistema bancario. Así pues, la crisis de diciembre de mil novecientos noventa y cuatro, no se produjo en el contexto del proteccionismo o de la antigua estrategia de sustitución de.
+
+importaciones. la cual mostró su agotamiento en mil novecientos ochenta y dos con el aumento de las tasas de internacionales de interés y la baja de los precios petroleros. en los mercados mundiales.
+
+lo que entraba en crisis era entonces la moderna, liberalizada, desregulada y abierta economía mexicana, ejemplo internacional de éxito en la aplicación de las políticas de ajuste y. estabilización preferidas por el Consenso de Washington. Sin embargo, las políticas mexicanas atrajeron inversión extranjera durante los años noventa y sobre todo se atrajeron recursos volátiles de corto plazo.
+
+y no recursos estables que sirvieran para financiar la inversión de largo plazo. la oferta financiera internacional que principalmente es de corto plazo sirvió para estabilizar temporalmente la economía, en parte financiando cuantiosos volúmenes de importaciones de consumo y bienes intermedios. más que bienes de capital, sin provocar presiones inflacionarias y con un tipo de cambio estable para asegurar la certidumbre a los inversionistas.
+
+los recursos del exterior vinieron en cuantías considerables, ciertamente, pero para fluir requirieron de altas tasas de interés reales, dichas tasas desestimularon la inversión productiva. mientras que el tipo de cambio Citado por James M Cypher. México¿fragilidad financiera o crisis estructural?
+
+Vol veintisiete número Pp México Los salarios promedio cayeron de su base pre, neoliberal donde mil novecientos ochenta es igual a cien. a setenta y cuatro en mil novecientos noventa y tres La calda más drllstica la reportaron los salarios manufactureros. donde ocumeron fuertes reducciones en la fuerza laboral Sin embargo, los salarios manufactureros en mil novecientos noventa y cuatro fueron únicamente del noventa y cuatro por ciento sobre.
+
+el nivel de mil novecientos ochenta Los salarios mlnimos. que pueden representar los salarios de entre el treinta por ciento y el cuarenta por ciento de la población. hablan caldo sobrevaluado estimulaba el consumo importado y el endeudamiento externo de los nacionales que tenían capacidad económica para elfo.
+
+En el marco neoliberal, el peso del endeudamiento externo se expresó en la necesidad de pagos de intereses. necesidad de realizar amortizaciones netas y la gestión de condicionados refinanciamientos de la deuda externa mexicana. todo lo cual afectó la disponibilidad neta de divisas, el tipo de cambio, el nivel de gasto público, la demanda interna, incluidos el consumo y la inversión.
+
+Recapitulando. nuestras hipótesis principales son. El modelo de la estrategia neoliberal que aumenta las tasas de interés como vía para incrementar el ahorro, permitió cerrar la brecha externa.
+
+atrayendo flujos de capital de corto plazo, pero no aportó recursos de largo plazo que contribuyeran a un incremento de la acumulación de capital productivo. Las impeñecciones en el mercado bancario que la teoría neoliberal ignora han impedido que la banca mexicana cumpla eficazmente con su función de intermediación de ahorro interno. depósitos, para que se traduzca en una mayor inversión productiva. . Impacto en el crecimiento económico. .
+
+uno punto uno. Definición. En general el ahorro se entiende como la parte del ingreso que no se gasta, de acuerdo con la teoría macroeconómica corresponde a la ecuación S es igual.
+
+a Y. C. donde el ahorro es igual al ingreso menos el consumo.
+
+El ahorro se entiende por el excedente de la renta sobre los gastos de consumo corriente. Los gastos de las economías domésticas normalmente son iguales o inferiores a su renta, lo cual da lugar a que se aporte una proporción del mismo. como precaución ante posibles necesidades futuras de consumo, ya sea de carácter previsible o imprevisible y es a esa parte de la renta lo que se le conoce.
+
+como ahorro. Se debe entender al ahorro como algo esencialmente distinto a la inversión en el caso del consumidor En las circunstancias actuales. por lo general el consumidor coloca sus ahorros en sus cuentas y depósitos en instituciones financieras o en títulos.
+
+valores u otros bienes y de esta forma a través del sistema financiero y del mercado de capitales las unidades productivas pueden obtener fondos que dedican a la. inversión Ahorro privado o ahorro de las empresas corresponde a la parte de la renta que no distribuyen a sus accionistas y pasa a ser la primera fuente. del financiamiento de la inversión.
+
+pero esencialmente distinta de ésta, ya que los fondos ahorrados pudieran tener otros destinos, ya sea de forma permanente o transitoria. Ahorro público se considera como la diferencia entre el total de ingresos y gastos corrientes del sector público. Es el saldo positivo de la cuenta del sector público de la contabilidad nacional.
+
+uno punto dos. . Escuela clásica. . Aún cuando existieron diferentes ideas entre los miembros de la escuela clásica, en general sostuvieron principios que incluían la creencia en la libertad natural y la importancia del. crecimiento económico como medios para mejorar la condición de la población.
+
+El principal exponente de esta escuela a quien se le considera como padre de la economía es Adam Smith. al que le siguen David Ricardo y Malthus entre otros autores. Exponiendo en forma un poco más particular las ideas de Smith el análisis se centra en la teoría del crecimiento y en el enfoque que se le da.
+
+al ahorro. establece la base es el egoísmo personal. Cada La teoría de Smith individuo intenta mediante el empleo de su capital que el ingreso anual de la sociedad sea tan grande como pueda.
+
+Por regla general no intenta promover el bienestar público ni sabe en cuanto está contribuyendo a ello. Prefiriendo incrementar la actividad doméstica en vez de la foránea, sólo busca su propia seguridad, y dirigiendo esa actividad de forma que consiga el mayor valor. sólo busca su propia ganancia, y en este como en otros casos está conducido por una mano invisible que promueve un objetivo que no entraba en sus propósitos.
+
+Tampoco es negativo para la sociedad que no sea parte de su intención ya que promoviendo su propio interés promueve el de la sociedad en forma más efectiva. que si realmente intentase promoverlo ocho El crecimiento económico hasta la aparición del sistema comercial. fue una consecuencia de la interacción del egoísmo, las modificaciones en los derechos de propiedad y el cambio institucional en un sentido más amplio.
+
+Como dice el autor, el crecimiento económico dependía fundamentalmente de la amplitud de la especialización y de la división del trabajo. La acumulación de capital hace posible emplear trabajo, en tanto que el capital acumulado constituye un fondo para mantenimiento de la población trabajadora. en el concepto de fondo de salarios, Smith reúne los elementos esenciales del proceso de crecimiento La existencia de un fondo de salarios es simultáneamente.
+
+un elemento para racionalizar el ahorro, es decir la acumulación, . La doctrina sostiene que los trabajadores dependen de los capitalistas para que estos los provean de los bienes salariales de subsistencia. La única manera de incrementar el stock de bienes salariales consiste en inducir a los capitalistas a que ahorren y el único modo de hacer esto es aumentar.
+
+los beneficios que en opinión de Smith. constituyen la única fuente de ahorro, es decir, los ahorros tienen que encontrar una salida en el proceso de producción. Si se usan para contratar más trabajadores, el fondo de salarios crece, y lo mismo sucede con los pagos a los trabajadores.
+
+En consecuencia los trabajadores gastan más en bienes salariales, aumenta la demanda agregada y se produce más en el siguiente período de producción Bajo este sistema el atesoramiento. se considera como irracional y. Por lo tanto, todos los ahorros se invierten.
+
+Evidentemente existe un límite mínimo para los salarios. a medida que crece el fondo de salarios aumenta la población, el incremento en la población no puede continuar indefinidamente. por que una población mayor aumentaría la carga que debe soportar el fondo de salarios, con lo que es probable que las tasas de salarios caigan y con.
+
+ello el ahorro. Resumiendo, para los economistas clásicos el ahorro era propio de la clase de los propietarios, ya que los salarios de los trabajadores tanto productivos como improductivos. permitían únicamente alcanzar el nivel de subsistencia.
+
+Los propietarios consumían una parte de su renta adquiriendo bienes producidos por los trabajadores productivos y pagando a los trabajadores improductivos que empleaban. el resto era el ahorro, que incrementaba su stock de capital real, dando empleo a mayor númeroero de trabajadores productivos. La renta ahorrada se acumulaba inmediatamente El ahorro era por tanto, una actividad y el sistema económico sólo obtenía beneficios de ello.
+
+En general los clásicos no consideraban que hubiera límites al ahorro, aún cuando algunos autores indicaban limitantes al ahorro. Por su parte David Ricardo encontraba una limitación a la acumulación en la disminución de los beneficios al incrementarse el stock de capital. Malthus advierte la diferencia entre el ahorro que se destina a la acumulación y el atesoramiento del avaro, que retira la moneda de la circulación.
+
+Asimismo la acumulación podía encontrar obstáculos por la insuficiencia de la demanda. uno punto tres. .
+
+Escuela neoclásica y keynesiana. Para la teoría neoclásica, el consumo, y por ende el ahorro, están determinados no sólo por el ingreso presente sino también por el ingreso a lo largo de. la vida del individuo.
+
+de ahí que una razón para ahorrar sea la posibilidad de transferir recursos del presente al futuro. decisión intertemporal, cuyo propósito es el de mantener un consumo estable a lo largo de la vida de la persona. o mayor en el futuro Esto ha llevado a concebir el consumo agregado como una variable determinada por factores tales como la estructura de edades.
+
+la tasa de interés, el nivel de riqueza, que son los mismos que explican los niveles de ahorro global. En este marco teórico se ubica el enfoque del ciclo de vida de Modigliani, el del ingreso permanente de Friedman. y el del horizonte intertemporal de Ramsey, Villagómez, mil novecientos noventa y tres, En resumen.
+
+para la teoría neoclásica, la función de ahorro refleja el supuesto de que el consumo es transferido en el tiempo. es decir, los individuos dejan de consumir en el presente con la promesa de un consumo mayor en el futuro Este incremento en el consumo futuro se descuenta. al consumo presente.
+
+a una tasa que equipara el sacrificio actual de dejar de consumir. Así, el ahorro se convierte en una función positiva de la tasa de interés. De manera similar, se presenta a la inversión como el costo presente de la obtención de una corriente de ingresos futuros.
+
+Conocidos los costos presentes y los ingresos futuros, la tasa de descuento puede ser calculada para cada inversión Como ambas funciones. la de inversión y la de ahorro, están en función de la misma tasa de descuento. se puede determinar la tasa de equilibrio en que el ahorro y la inversión se igualen.
+
+Para Keynes, el consumo está en función del ingreso, ambos considerados en el periodo presente. y de algunas circunstancias objetivas y subjetivas, tales como la distribución del ingreso en la sociedad, aspectos psicológicos y hábitos de consumo. La función consumo es importante por sus efectos sobre el nivel del ingreso, a través del multiplicador de la inversión.
+
+el cual depende de la propensión marginal a consumir. Dado que los factores objetivos y subjetivos no varían rápidamente, la propensión a consumir puede ser considerada como una función bastante estable del ingreso, Keynes, dos mil, . Tal afirmación ha provocado que se defina a la función consumo keynesiana como dependiente básicamente del ingreso corriente.
+
+y que el ahorro se exprese como función del consumo. Para Keynes, la igualdad entre el volumen de ahorro y el volumen de inversión surge ex post. por el carácter bilateral de las operaciones entre el productor y el comprador de equipo de producción.
+
+al respecto señala. . en conjunto, el excedente del ingreso sobre el consumo, al que llamamos ahorro, no puede diferir de la adición al equipo de capital.
+
+al que llamamos inversión, Keynes, dos mil, página setenta y seis, . Sin embargo, esta igualdad no debe llevar a la conclusión de que el aumento del ahorro de un individuo incrementará en la misma proporción la inversión global. Un aumento en el ahorro individual aumenta la riqueza individual, pero no necesariamente incrementa la riqueza total, pues esta está afectada por los ahorros y.
+
+consiguientemente, por la riqueza de otros individuos En la Teoría General, la inversión determina el producto, y este el ahorro. . De modo que, la variable dinámica es la inversión, y el ahorro es una variable pasiva que aumenta o disminuye en función de la actividad económica.
+
+La propensión marginal a ahorrar, por lo tanto, no determina el crecimiento del producto. A partir de esta interpretación de Keynes, los poskeynesianos retoman la teoría del ahorro para enriquecerla con más elementos analíticos. que permiten explicar la relación entre inversión, ahorro y crecimiento económico.
+
+En este sentido, la interrogante no resuelta por Keynes en la Teorfa General, que plantea¿de qué fuentes provienen los recursos para financiar la inversión que incrementará el. producto y el ingreso? es retomada por los poskeynesianos.
+
+Al respecto Pollin, mil novecientos noventa y cuatro, y otros autores de esta corriente, Chick mil novecientos ochenta y seis punto uno nueve ocho ocho, mil novecientos noventa. Wolfson mil novecientos noventa y seis. Moore, mil novecientos ochenta y cinco, mil novecientos ochenta y ocho.
+
+Wray mil novecientos noventa, señalan que son los bancos, y no los ahorradores, los responsables de canalizar el crédito a los inversionistas. Son los bancos los que permiten incrementar los fondos para invertir, a través del incremento de la oferta de crédito, la cual depende del comportamiento de sus reservas. En consecuencia, es probable que la inversión aumente, aún cuando la tasa de ahorro permanezca constante.
+
+en otras palabras, un crédito bancario puede incrementar el nivel de la inversión, y por tanto, del ingreso. Esto hace posible que el ahorro aumente, ex post, permitiendo igualar el incremento en la inversión La evidencia empírica apoya esta relación de causalidad. En un estudio reciente.
+
+el Fondo Monetario Internacional, mil novecientos noventa y seis, reporta un conjunto de países que han observado altas tasas de ahorro y bajo crecimiento del producto. mientras que en otros han coexistido tasas de ahorro relativamente bajas, con un crecimiento alto del producto. El caso de los países asiáticos, muestra que primero se dio un alto crecimiento del producto.
+
+y posteriormente se incrementaron sus tasas de ahorro De lo anterior se infiere que un incremento del ahorro interno no garantiza un crecimiento del producto. uno punto cuatro. .
+
+Escuela poskeynesiana. En el enfoque teórico poskeynesiano, la existencia de la incertidumbre es la base del análisis De aquí se deriva la no neutralidad del dinero. lo que significa que el dinero modifica el ingreso real y el empleo, a través de su impacto sobre la tasa de interés real.
+
+Para los keynesianos, el dinero no es sustituible por ninguna otra mercancía, tiene una elasticidad de producción igual a cero, y un costo de transferencia casi nulo. Estos supuestos llevan a una función de demanda de dinero determinada no sólo por los motivos de transacción y financiamiento de la inversión. sino también como depósito de valor, lo cual invalida la Ley de Say, base de la teoría cuantitativa del dinero y del intercambio real.
+
+En un mundo donde no hay certidumbre sobre la valoración futura del capital, el ahorro no se canaliza automáticamente hacia la inversión. Las decisiones de inversión dependen de la diferencia existente entre la valoración de los activos de capital que hace el mercado. precio de demanda, en base a la corriente de utilidades que se espera obtener de ellos, y su probable costo de reposición o precio de oferta.
+
+Minsky, mil novecientos ochenta y dos, En un contexto de incertidumbre, el precio de demanda de los activos de capital puede estar fuertemente influido por la demanda de. dinero por el motivo especulación. ya que esta modificaría el nivel de la tasa de interés, Keynes, mil novecientos treinta y seis, .
+
+Por otra parte, la inversión debe considerarse como una función inversa del nivel de apalancamiento alcanzado, ya que este genera un riesgo creciente para las empresas. Kalecki, mil novecientos setenta y uno, Minsky, mil novecientos ochenta y siete, . Cabe señalar que el financiamiento externo a la empresa estará limitado por lo que se considere, en un momento dado.
+
+como un nivel normal. este dependerá de las expectativas que se tengan sobre la economía, y sobre el comportamiento y organización de las instituciones financieras Otros factores importantes en la determinación de. la inversión son los fondos internos e.
+
+Je la empresa, los avances tecnológicos y la capacidad ociosa. Los fondos internos de las empresas, en el enfoque poskeynesiano, influyen sobre la inversión porque la liquidez y el volumen del colateral les asegura un acceso preferencial al. mercado de fondos prestables.
+
+Kalecki, mil novecientos treinta y seis y Steindl, mil novecientos setenta y nueve, . formación de expectativas de rentabilidad futura. de ahí que, ante un incremento en la capacidad ociosa no deseada, las empresas reaccionan lentamente a otros estímulos para invertir, incluyendo variaciones en los precios relativos.
+
+En el mismo sentido actúan los avances tecnológicos. Una oleada de innovaciones tecnológicas modifica y expande el acervo de capital de las empresas, que persiguen rentas oligopólicas. y sus efectos son relativamente independientemente de la tasa de interés.
+
+Mántey, mil novecientos noventa y seis, . La incorporación de los fondos internos de las empresas, en el análisis poskeynesiano, no debe confundirse con el planteamiento neoclásico de que el nivel de ahorro determina el. volumen de la inversión.
+
+Cabe señalar que la interpretación confusa que se deriva del análisis neoclásico, sobre el papel del financiamiento externo de la inversión proviene del mismo Keynes. quien en la Teoría General. al excluir de su análisis de la demanda de dinero el motivo financiamiento.
+
+permilió a Hicks convertir el concepto de preferencia por la liquidez en el concepto de fondos prestables. con lo que se colocó nuevamente al ahorro como determmante de la inversión. Levy, mil novecientos noventa y nueve, .
+
+uno punto cinco. . Escuela monetarista y neoliberalismo.
+
+En los años setenta, la teoría económica neoclásica observa un aire de renovación con los aportaciones de un grupo de teóricos. encabezados por Ronald McKinnon, que rechazan el supuesto de la neutralidad del dinero. Sin embargo, dicha flexibilización sólo se aplica a los medios de pago creados por el la banca privada En su trabajo Dinero y capital en el desarrollo económico.
+
+McKinnon, mil novecientos setenta y cuatro, sostiene la hipótesis de que la fragmentación del mercado de capitales ha generado el uso inadecuado de los factores productivos. ha eliminado la vocación empresarial. e impedido que en importantes sectores de la economía se de un desarrollo tecnológico Para corregir estas distorsiones, él considera que es Desde esta perspectiva.
+
+el otorgamiento de crédito barato a la pequeña industria y a la agricultura, fue una política incorrecta d los gobiernos de los países en desarrollo. por un doble motivo. En primer lugar, porque las bajas tasas de interés sobre los préstamos implicaban también bajas tasas de interés por los depósitos.
+
+y una reducida captación de recursos canalizables a la inversión. En segundo lugar, porque el crédito barato no impulsó a este tipo de inversionistas a elegir proyectos productivos rentables. mientras que un sector de medianos empresarios emprendedores prefirió limitar su crecimiento, sujetándolo a los limites del autofinanciamiento.
+
+antes que recurrir al crédito otorgado por las instituciones bancarias del exterior Todo esto supuestamente conformó un círculo vicioso que impidió el crecimiento del ahorro interno. y desvió la inversión hacia proyectos de baja productividad. Al no estimular los gobiernos la profundización y la innovación financiera, el mercado de capitales tampoco se consolidó, siendo el endeudamiento indirecto por la vía del sistema bancario.
+
+la forma predominante de financiamiento externo de las empresas en los paises en desarrollo Según McKinnon. en una economía que ha estado financieramente reprimida. un aumento en las tasas de interés por encima de la productividad marginal de la inversión.
+
+tendría el efecto de elevar la propensión al ahorro, y su canalización al mercado financiero, aumentando con ello la disponibilidad de crédito Esto induciría a los empresarios a. invertir en proyectos de alta rentabilidad que incorporaran meioras tecnológicas y escalas de producción mayores. .
+
+De modo que, la nueva inversión no conduciría a una reducción en la tasa de ganancia. sino lo contrario Sin embargo, para que este círculo virtuoso se inicie, según McKinnon. es necesario dar una respuesta al problema de la incertidumbre, que frena el fortalecimiento de instituciones financieras.
+
+lo que a su vez fomenta la práctica del autofinanciamiento En los países en desarrollo. la incertidumbre reduce el coeficiente de endeudamiento y acorta el horizonte temporal de los préstamos, que generalmente son de corto plazo. esto restringe y limita la redistribución intertemporal de los recursos entre los empresarios.
+
+Después de realizar este diagnóstico, McKinnon sostiene que la complementariedad entre dinero y capital requiere de saldos monetarios reales, eme sobre pe. bien remunerados, y en crecimiento, para que la inversión y el producto agregado crezcan. Las tasas de interés bajas contraen los saldos monetarios reales y disminuyen la capacidad de acumulación de capital.
+
+Así pues, para la corriente neoliberal, los movimientos de la tasa de interés influyen en el ahorro, y este determina el nivel de la inversión. siendo el mercado financiero el responsable de realizar la función de intermediación entre sectores deficitarios y sectores superavitarios. De acuerdo con este enfoque, la tasa de interés equilibra el mercado de crédito, que tiene como fin el financiamiento de proyectos productivos.
+
+en equilibrio, dicha tasa maximiza la captación del ahorros y su canalización eficiente. El sustento teórico de este planteamiento se encuentra en la Ley de Say. en el carácter exógeno de la oferta monetaria.
+
+en la perfecta sustituibilidad entre las mercancías, lo que permite suponer que la función del dinero puede ser desempeñada por cualquier otro bien. y la recurrencia a la teoría de las expectativas racionales, que permite predecir el futuro mediante el análisis de los sucesos económicos pasados. con lo cual se puede asumir la existencia de certidumbre Además, supone que el mercado financiero opera en condiciones de libre competencia No obstante que McKinnon incorpora el.
+
+supuesto de la no neutralidad del dinero. sólo lo aplica a los medios de pago creados por el sistema bancario privado, manteniéndolos para la emisión primaria, dinero de curso legal. su carácter neutral.
+
+En su análisis, las expectativas de inflación se forman de manera racional, con base a la teoría cuantitativa de los precios. . De modo que, la emisión primaria es un importante determinante de la inflación esperada Esta concesión al monetansmo tradicional lo condujo a una teoría de la inflación contradictoria.
+
+por dinero de curso legal genera inflación, a pesar de que ambos son utilizados sin distinción por los agentes económicos. Finalmente, McKinnon supone que a pesar de ajustes significativos en la paridad de las monedas se provocarán efectos inflacionarios insignificantes. Recapitulando, para el enfoque neoliberal, el problema del crecimiento económico se explica por los bajos niveles de ahorro interno.
+
+de ahí que el aumento de este se constituya en la condición necesaria para que se den la inversión y el crecimiento económico. Bajo esta perspectiva, la liberalización de las tasas de interés estimularía la captación financiera, y permitiría una eficiente distribución del crédito entre los sectores productivos. estos manifestarían una demanda excedente de crédito para invertir.
+
+Así, en los países en desarrollo, el manejo activo de la tasa de interés, ajustada al tipo de cambio esperado. es decir con una expectativa de inflación dada, fomentará el ahorro interno, frenará la fuga de capitales y estimulará la entrada de estos. toda vez que la tasa de retorno del capital será mayor en países con mayor grado de industrialización la política monetaria neoliberal esbozada es cuestionable por dos importantes.
+
+omisiones. que han tenido efectos trascendentes en los países que han llevado a cabo reformas financieras de acuerdo a sus recomendaciones. En primer lugar, porque como ya se ha señalado, presenta serias inconsistencias en su explicación del proceso inflacionario.
+
+y desprecia los efectos inflacionarios de un ajuste al tipo de cambio. En segundo lugar, porque esta política desestima los efectos que el alza de la tasa de interés tiene sobre las finanzas de los sectores ya endeudados. Esto ha conducido a problemas de insolvencia, y ha terminado por disminuir el nivel de inversión, afectando negativamente a la generación de ingresos.
+
+el nivel de ahorro y la estabilidad del sistema bancario los efectos de la elevación de tasas de interés sobre el volumen del crédito. previstos por McKinnon, han sido cuestionados aún por otros teóricos de la misma absoluta de las tasas de interés por parte de la autoridad monetaria. y consideró preferible una política gradual, argumentando que en estructuras bancarias oligopólicas era muy probable que los márgenes de intermediación no disminuyeran.
+
+sino que por el contrario, tendieran a ampliarse, Jo que llevaría a una contracción de la oferta de créditos Otros. Cho, mil novecientos noventa, han aceptado que la existencia de mercados financieros fragmentados implica que las tasas de interés bancarias altas pueden generar una expansión de los depósitos. bancarios.
+
+a costa de sustraer fondos de los Si se supone que estos operan eficientemente, y con mercados informales menores requisitos de reserva. por estar desregulados, podría suceder que a pesar de que se registrara una mayor captación bancaria, habría una disminución en el volumen total de crédito disponible. es decir procedente de los mercados formal e informal, De lo anterior se deduce que el alza en la tasa de interés no asegura el incremento del ahorro.
+
+ni de la disponibilidad crediticia, y menos aún la expansión y consolidación del sector financiero. Por el contrario, la liberalización del sistema financiero puede provocar el reforzamiento de la estructura oligopólica del mismo. y la penalización del ahorro y la inversión productiva, que conduciría a la recesión.
+
+en un contexto de fragilidad financiera, Mántey, mil novecientos noventa y seis, . En estas circunstancias, sería sumamente difícil lograr un crecimiento económico sostenido encaminado al desarrollo de una economía uno punto seis. .
+
+Determinantes del ahorro interno. . Una vez mencionado qué es el ahorro y cómo se le considera en los diferentes enfoques económicos.
+
+para poder tener la posibilidad de movilizar rncursos a través del ahorro. se requiere del conocimiento de los factores que determinan a esta variable. El proceso de llbcralizacrón tiabido en México a principios de la década de mil noventa en el sector financiero y en Como ya se ha mencionado.
+
+la importancia del ahorro se centra principalmente en el papel que juega como promotor del crecimiento a través de la inversión. Así el estudio de los determinantes del ahorro servirá posteriormente para poder establecer con claridad las alternativas para su fomento. uno punto seis. . Nivel de ingreso. .
+
+Una de las motivaciones de los individuos para ahorrar se encuentra principalmente en la posibilidad de poder transferir su consumo de un período a otro. sin ninguna otra posibilidad que no sea la de mantener un consumo estable a través del tiempo como lo explica la teoría del ciclo vital diez Por otro. lado el nivel de ingreso determina el nivel de ahorro.
+
+de acuerdo a la teoría keynesiana que argumenta que un incremento en el ingreso, aumentará la propensión marginal a ahorrar. con lo que la propensión media a ahorrar aumentaría también con el ingreso Para las dos teorías se explica que un cambio temporal del ingreso debe tener un. efecto menor en el consumo.
+
+y mayor en el ahorro, que en el caso de cambios permanentes. si a estos supuestos se les aplica un supuesto de expectativas racionales, obtenemos una explicación, de que los cambios en el consumo son impredecibles En nuestro país como. se ha observado en años recientes la pérdida constante de la participación de los salarios en el ingreso y ha sido uno de los factores que ha contribuido.
+
+en forma negativa para el aumento del ahorro en los últimos años uno punto seis. . Crecimiento económico. . En virtud de que el capital requerido para promover proyectos de inversión generadores de empleo e ingreso. se obtiene principalmente a través de instrumentos financieros que permitan canalizar recursos a la actividad productiva.
+
+A mayor amplitud en el horizonte temporal de la utilización de recursos más estable resulta el financiamiento del desarrollo económico. La idea de que el ahorro desempeña un importante papel en el proceso de desarrollo económico ha permitido postular que el ahorro determina la tasa de financiamiento de. la acumulación de capital.
+
+aún cuando esta mayor tasa de ahorro represente un menor nivel de bienestar para las generaciones presentes debido a su menor consumo pero un mayor nivel de bienestar. para las generaciones futuras. El ahorro es una herramienta que al contribuir al crecimiento real y sostenido de las naciones, refleja la fortaleza de las economías en el mediano plazo.
+
+Existe evidencia causal en muchos paises en los que se han observado altas tasas de crecimiento en el producto. dicha evidencia se observa en varios países del sudeste asiático como. Corea del Sur, Singapur o Malasia, así como en Chile.
+
+Estas economías han mostrado un importante dinamismo en las últimas dos décadas, lo que ha llevado a diversos economistas a afirmar que para canalizar dichas tasas de crecimiento. se requiere aumentar el ahorro del país. Por su parte en los paises en desarrollo de América, entre los factores que produjeron la caída de la tasa de ahorro figura la oleada de afluencia de.
+
+capitales y la liberalización financiera que dieron como resultado un mayor acceso a los préstamos internos y l externos Tasa de Crecimiento del Producto Interno Bruto. mil novecientos setenta a mil novecientos noventa y siete, Fuente Indicadores gráficos de nestabilidad financrera en América Latina y el Sudeste Asiático. mil novecientos noventa y nueve, Guadalupe Mantey y Noemí Levy, Universidad Nacional Autónoma de México, Acatlán.
+
+México Una de las más notables constantes de los datos comparativos entre paises. es la relación que existe entre la tasa de ahorro y el crecimiento del producto. Por lo general, los paises que generan altos niveles de ahorro crecen más rápidamente que aquellos en los que el nivel de ahorro es menor.
+
+Algunos países han mostrado tasas elevadas de ahorro, y comparativamente, un bajo crecimiento económico, mientras que otros han experimentado un saludable crecimiento económico a pesar de tener una. tasa de ahorro relativamente baja. por lo menos durante un determinado periodo.
+
+El Producto interno bruto real en Chile por ejemplo, ha registrado un crecimiento promedio de más de seis por ciento anual en los últimos diez años y su. tasa de ahorro se ha mantenido en un promedio de apenas dieciocho por ciento. .De manera que la dirección de la causalidad que subyace entre la relación que existe entre el ahorro y el crecimiento es difícil de comprender.
+
+pues como existen razones para creer que existen efectos positivos en ambas direcciones y el efecto positivo del ahorro sobre el crecimiento es el más directo. diremos en nuestro trabajo que un nivel de ahorro incrementa la tasa de crecimiento del producto al producir una acumulación más rápida del capital. de ello se desprenderá que para aumentar el ritmo de crecimiento económico, los países deben pensar primero en estimular el ahorro para incentivar la formación de capital También.
+
+se puede decir que existe un circulo virtuoso entre el crecimiento y el ahorro. los aumentos en el crecimiento elevan la tasa de ahorro, lo que a su vez se traduce en un mayor crecimiento. Cabe mencionar que el crecimiento económico no sólo depende del esfuerzo de inversión y de ahorro sino también de factores como la eficiencia con que se utilicen los.
+
+medios de producción y de la mano de obra Entre más productiva y eficazmente se asignen los recursos de la sociedad. consecuentemente sera mayor el crecimiento del producto nacional y el empleo, el aumento de la productividad y eficiencia deben recibir suma importancia en la estrategia para promover el. crecimiento económico.
+
+Hay que considerar también otro aspecto importante en la relación ahorro, crecimiento, es el que se refiere a la inversión. la cual refleja la disponibilidad de los recursos necesarios para financiar el proceso de acumulación de capital, que a su vez impacta sobre el crecimiento. uno punto seis. . Estructura de la población. .
+
+Los factores demográficos han sido elementos importantes en el estudio de la determinación de las decisiones de consumo o ahorro de los individuos. Cabe mencionar que es de suma importancia considerar en este tipo de análisis de los determinantes del ahorro, tanto la estructura de edad de la población. así como los factores que afecten a esta variable.
+
+La actual situación demográfica de México se caracteriza por el rápido crecimiento que tuvo la población hasta los años setenta. lo cual propició un hecho en apariencia paradójico aunque la tasa de crecimiento comenzó a disminuir, desde entonces. la población ha seguido creciendo significativamente en númeroeros absolutos El crecimiento en el pasado produjo una distribución de la población principalmente de Jóvenes Ante la actual tendencia.
+
+reflejará en unos años a una población envejecida, este enveiecimiento se traducirá en presiones crecientes sobre las bases de financiamiento de la seguridad social del país. Por ello la prioridad de impulsar el ahorro tanto familiar como personal Las personas ahorran más para emergencias que para el futuro. cosa que es comprensible dadas las diferencias de las instituciones sociales con las que se cuenta como son los servicios de salud.
+
+los niveles de ingreso y situaciones de emergencia. a las que con mayor frecuencia están expuestas las personas de bajos recursos. pudiendo no ser el nivel de ingreso un factor determinante para el ahorro trece En la medida en que más personas económicamente inactivas dependan del ingreso de las.
+
+personas econórrncamente activas. el ahorro se verá limitado por ello en la medida que la población económicamente crezca en relación con la población de niños y adultos jubilados. Existe otro factor a considerar para que exista un aumento del ahorro interno que es la creciente incorporación de la mujer a la fuerza de trabajo.
+
+ya que ello aumenta el ingreso familiar por un lado y por otro, tiende a reducir las tasas de natalidad. lo que favorece la tendencia decreciente en la tasa de dependencia. uno punto seis. . Superávit en finanzas públicas. .
+
+Un determinante más a considerar del ahorro interno es el superávit en las finanzas públicas, ahorro público, . El aumento de esta variable constituye la principal vía para aumentar el ahorro interno en el corto plazo. Esto es debido a que este componente depende fundamentalmente de políticas fiscales que impliquen una reducción en el gasto público y un aumento en el ingreso del gobierno.
+
+el tener unas finanzas públicas sanas necesariamente llevara a dicho objetivo Para lo que se argumenta que deberá existir una política fiscal comprensiva que permita incrementar la base. impositiva cuidando no aumentar las tasas marginales. cuando generen distorsiones en los mercados de trabajo y de bienes y servicios.
+
+Los instrumentos naturales para promover el ahorro público son la política tributaria y la política de gasto. El mayor ahorro público permitirá un sano financiamiento de la inversión pública El ahorro generado por el sector público habrá de destinarse prioritariamente al financiamiento de la infraestructura. De modo que, se apoye la expansión de la capacidad instalada de la economía, y con ello.
+
+la generación de empleo Aunque este aumento del ahorro público en la actualidad se ve limitado al considerarse el impacto en el déficit fiscal debido a los programas. de rescate al sector financiero. así como al financiamiento de programas como el del nuevo sistema de pensiones.
+
+uno punto seis. . Eficiencia de los intermediarios financieros. . Aún cuando en un principio la política financiera sirvió de manera insuficiente a la población objetivo. promovió la descapitalización de la banca de desarrollo y los fideicomisos e ignoró la importancia de la calidad del sistema financiero para el crecimiento económico.
+
+Hoy en día los intermediarios financieros desempeñan una función vital en el desarrollo económico al movilizar el ahorro, manejar riesgos. evaluar proyectos, facilitar transacciones y ayudar a las empresas en el aprovechamiento de las ventajas derivadas de las economías de escala. Los intermediarios financieros se especializan en reducir los riesgos y los costos relacionados con la información asimétrica.
+
+En particular los intermediarios financieros minimizan la selección adversa al concentrarse en evaluar la calidad crediticia tanto de las unidades familiares como de las empresas y disminuye el. riesgo moral supervisando a los prestatarios y haciendo efectivos los contratos. La selección adversa del nesgo moral también afecta a los cuenta habientes.
+
+Como disponen de la información insuficiente sobre la calidad absoluta y relativa de los bancos, pueden tener dificultad para distinguir entre los bien administrados y aquellos expuestos a. riesgos excesivos. Esta asimetria en la información puede ocasionar pánico cuando en caso de quiebra de un banco, los cuenta habientes intentan retirar en masas sus ahorros.
+
+Para evitar tales reacciones en un primer momento. las autoridades normalmente invertían utilizando fondos destinados a asegurar los depósitos asi como créditos del banco central. Sin embargo, cuando los bancos perciben que su responsabilidad sólo es parcial, tienen un incentivo para realizar actividades más riesgosas.
+
+De ahí la importancia de una regulación y supervisión prudencial financiera quince adecuadas catorce Castañeda R Gonzalo. mil novecientos noventa y ocho La empresa mexicana y su gobrerno corporativo. antecedentes y desaflos p, ara el siglo X! .uno. UOLA, Alter Ego México, La rPguración Ps una pol! ra gubernamental que revisa y controla las activrdades económicas de cierto tipo Muchos países en desarrollo tienen bases impositivas pequeñas.
+
+por lo que deben apoyarse en el financiamiento obligatorio del sistema bancario. Con una base de depositantes pequeña muchos países recurren a la impresión de moneda para financiar sus gastos Pero la inflación sumada a los techos de las tasas. de interés pueden volverlas marcadamente negativas.
+
+deprimiendo aún más el ahorro. Además las tasas de interés inferiores a las del mercado incitan a los inversionistas a solicitar préstamos para proyectos que de otro modo no podrían generar suficientes rendimientos. Este tipo de estrategias distorsionantes promueven lo que se conoce con el nombre de represión financiera la cual ocasiona sistemas financieros más débiles y más pequeños.
+
+menos capaces de movilizar el ahorro, canalizar la inversión y realizar transacciones a bajo costo, sistemas menos aptos para promover el desarrollo económico. . De modo que se ha promovido que el sector financiero genere oportunidades atractivas para inducir a un mayor ahorro tanto de las familias como de las empresas Por.
+
+lo que el sector financiero deberá dedicarse a generar nuevas fuentes de ahorro sobre todo en sectores que no han sido incorporados adecuadamente al sistema financiero formal. por ejemplo, la captación de ahorro popular. De ahí la importancia que se le ha dado en los últimos años a la reforma financiera buscando con ello que este sector sea más eficiente y promueva.
+
+el ahorro Desde la década de mil novecientos noventa hasta nuestros días. la reforma financiera comprende seis medidas complementarias que son. liberalización financiera.
+
+desarrollo del mercado de dinero, reprivatización de la banca comercial e implantación de un modelo de banca universal. medidas para incrementar la competencia en el sector financiero. reforma de la banca de desarrollo y los fideicomisos y el otorgamiento de la autonomia del banco central.
+
+Para poder dar firmeza al sistema financiero mexicano, se requiere que todas las clases sociales tengan acceso a él. así como el que los servicios de éstas Ante la insuficiencia de instituciones de crédito en las zonas rurales. Cabe mencionar, que, se requiere un mayor númeroero de dichas instituciones en éstas zonas, así como una cultura crediticia para la gente de menos recursos.
+
+Es necesario avanzar en forma paralela en el fortalecimiento de la supervisión y vigilancia de los intermediarios financieros en la búsqueda de un mejor sistema financiero mexicano uno. punto seis. Politica Monetaria y Crediticia.
+
+empírrcos Trabajos muestran que el financiamiento de los déficit presupuestales del gobierno con emisiones del banco central puede generar inflación. algunos países han otorgado autonomia a sus bancos centrales para instrumentar sus politicas crediticias pero no el tipo de cambio con el fin de consolidar y reservar la. estabilización.
+
+En abril de mil novecientos noventa y cuatro se otorgó autonomía al Banco de México mediante una enmienda a la constitución. la cual establece que el propósito del banco central es procurar la estabilidad de precios. La autonomía del Banco de México se sustenta en que ninguna autoridad le puede dictar a la institución su política de crédito.
+
+es decir, no podrá obligársele a financiar los déficit presupuestales del gobierno Gracias a la liberalización financiera, la reforma fiscal y la recuperación económica. que se dio hasta el año dos mil, el crédito al sector privado se ha ampliado considerablemente en tanto que el crédito otorgado por la banca comercial al. sector público ha disminuido.
+
+Cabe señalar el papel que juega la tasa de interés, cuando las tasas de interés son altas, nos indica que. los costos son elevados y los riesgos también, por lo que la política que se debe aplicar es aquella que imponga controles sobre las tasas de interés esto. conlleva a desalentar la movilización de depósitos por parte de los bancos ya que el costo no es cubierto por los rendimientos sobre los tres.
+
+f préstamos, lo que da como resultado que los bancos dependan de una manera peligrosa del financiamiento externo del gobierno. Muy a menudo esta política equivocada de tasas de interés ha contribuido a los déficit gubernamentales y a la inflación. El tipo de cambio es una de las variables clave de la economía, su valor norninal y su valor real dieciocho son influidos por una gran diversidad de.
+
+aspectos de la macroeconomía. La evolución nominal y real del tipo de cambio influyen en la competitividad de corto plazo de la economía, la producción nacional de bienes importables y exportables. el ahorro interno, el nivel general de precios y por supuesto, el mercado de divisas y la balanza de pagos.
+
+De ahí la importancia de contar con una politica cambiaria congruente con los objetivos y estrategias de los Planes de Desarrollo en los últimos años. En este sentido, es importante reconocer que los márgenes y restricciones de la política cambiaria están dados por el comportamiento de otras variables y ámbitos de la economía. como son las finanzas públicas, la política monetaria, el nivel de las reservas internacionales, la promoción del ahorro y la productividad Por lo que la política carnbiaria deberá.
+
+evitar una sobrevaluación del tipo de cambio real que inhiba el ahorro interno y la producción nacional. Al mismo tiempo debe procurarse que, en combinación con otros instrumentos de la politica económica, la evolución cambiaria coadyuve a la estabilización del nivel de precios Al ser. objetivo principal del Banco de México procurar la estabilidad del poder adquisitivo de la moneda nacional se promueve a través del control que ejerce el Banco de México.
+
+sobre la expansión del crédito interno. El crédito interno por lo tanto. constituye un elemento fundamental para influir sobre el nivel de precios y sobre las expectativas de los ahorradores inversionistas.
+
+Resumiendo El fortalecimiento del ahorro interno descansará en a, Una reforma fiscal que promueva el ahorro y la inversión. b, La promoción del ahorro privado a través de instrumentos financieros que ofrezcan seguridad y rendimientos competitivos a los ahorradores. c, El fortalecimiento de los mecanismos de financiamiento del sistema de seguridad social como medio eficaz para estimular el ahorro interno.
+
+La consolidación del ahorro público mediante el mantenimiento de d, finanzas públicas sanas, y de un ejercicio del gasto corriente y de inversión pública que siga criterios de. eficiencia social. e, El uso del ahorro externo sobre bases de complementariedad con el ahorro interno.
+
+uno punto siete. . Tasas de interés y crecimiento económico. . No hay duda de que la tasa de interés es una variable clave en el crecimiento económico. de hecho gran parte de la información económica diaria hace referencia a su comportamiento y muchas de las políticas económicas seguidas por los diferentes países giran entorno a.
+
+garantizar una tasa de interés que asegure el crecimiento económico. Diversos trabajos empíricos argumentan que las crisis económicas están acompañadas de movimientos ascendentes de la tasa de interés y la restricción monetaria. mientras que el crecimiento económico está ligado a los movimientos descendentes de la tasa de interés y por incrementos de los agregados monetarios Sin embargo.
+
+dichos trabajos han demostrado que en muchas ocasiones que las bajas tasas de interés y las políticas monetarias expansivas no garantizan el crecimiento económico uno punto siete. . Determinantes de las tasas de interés. . Las explicaciones sobre los factores que determinan las tasas de interés divergen. Por un lado sostienen que es un pago por diferir el consumo presente, mientras que por el otro la definen como una recompensa por no atesorar.
+
+es decir monto del ahorro, objeto de estudio en nuestra investigación, y en el segundo, la forma que adopta el ahorro. Estas diferentes concepciones originan teorías distintas, a partir de las cuales emanan políticas económicas opuestas. Específicamente, es posible encontrar dos grandes vertientes sobre los determinantes de la tasa de interés.
+
+la teoría de los fondos prestables, sustentada por la visión teórica ortodoxa, y la teoría por la preferencia por la liquidez. propuesta por la escuela de pensamiento de la demanda efectiva. uno punto siete. . Teoría de los fondos prestables. .
+
+La visión ortodoxa de la economía sostiene que la tasa de interés está determinada por factores reales. es decir, por la oferta de fondos y la demanda de fondos prestables. ello implica que la oferta de capital es dependiente de la frugalidad de los ahorradores y que la demanda de capital lo es de los rendimientos de la.
+
+inversión. De acuerdo con esta visión, las fuerzas del mercado pueden garantizar el pleno empleo de los factores productivos, no hay incertidumbre, . los precios son flexibles y el dinero se caracteriza por ser neutral y estable.
+
+Las principales corrientes teóricas que conciben a la tasa de interés como un fenómeno real son la prekeynesiana. la keynesiana y la monetarista, entre las cuales se destacan los siguientes elementos. i, Al suponer una relación de intercambio real sostiene que el ahorro sólo se expresa en bienes reales, con un período temporal corto y que necesariamente.
+
+se convierte en inversión, siendo los recursos reales no consumidos la única fuente de financiamiento de la inversión. Entonces los recursos reales no consumidos, es decir, el ahorro constituye la oferta de capitales que sólo se demandan para ampliar el acervo de capital fijo Especificamente Fisher. mil novecientos treinta, sostiene que la tasa de interés es un fenómeno real que depende de las preferencias del público por consumir ahora en lugar de hacerlo en.
+
+el futuro y de la tasa de ganancia. es J productivo, lo cual implica que la tasa de interés garantiza la igualdad del ahorro con la inversión. Si el ahorro es mayor que la inversión, habrá una mayor disponibilidad de fondos prestables en relación con la demanda y la tasa de interés tenderá a bajar.
+
+Ello reducirá el incentivo para ahorrar, así como el costo del financiamiento, lo cual alentará la demanda de la inversión. hasta cerrarse la brecha entre el ahorro y la inversión. ii, El ahorro se fundamenta en un análisis microeconómico que supone que al ahorrar los agentes posponen el consumo.
+
+generándose traspasos del poder adquisitivo presente hacia el futuro determinado. y dicho ahorro tiene como función financiar la inversión. Este planteamiento es correcto para explicar el comportamiento individual de los agentes, pero a nivel agregado se desconoce cuándo los recursos reales no consumidos.
+
+que reducen la demanda efectiva presente, se canalizan nuevamente a la producción. En consecuencia hay una diferencia sustancial entre los análisis micro y macro. iii, Se acepta la presencia temporal de precios inflexibles, anulándose con ello el poder de los mecanismos autorregulatorios propuestos por los prekeynesianos.
+
+lo cual empero, es neutralizado por intervención estatal, por medio del gasto fiscal que asegura, conjuntamente con la presencia de precios correctos. el pleno empleo de los factores productivos. En resumen, una aceleración de la oferta monetaria o déficit fiscal, en vez de acelerar el crecimiento económico.
+
+generará un proceso inflacionario que aumentará la tasa de interés nominal. manteniendo constante la tasa de interés real y, por lo tanto, la inversión y el ingreso. La tasa de interés tiene la función de equilibrar el ahorro y la inversión.
+
+diecinueve Los prekeynesianos plantean que este mecanismo va acompañado por la flexibilidad de los salarios. St el uno punto siete. .
+
+Teoría de la preferencia de la liquidez. . Se parte del supuesto de que hay incertidumbre, la cual es claramente Por consiguiente, las experiencias pasadas y del diferenciable del riesgo presente no necesariamente se repetirán en.
+
+el futuro. aunque serán la base para tomar las decisiones sobre el futuro Con ello se invalida la presencia de los precios correctos y la constancia en la velocidad de. circulación del dinero.
+
+elementos clave para asegurar el pleno empleo de las fuerzas productivas. El dinero por su función de depósito de valor, deja de ser neutro. por lo tanto, puede afectar al volumen de la producción.
+
+En este punto es necesario resaltar que la velocidad del dinero deja de ser estable, lo cual implica que no hay mecanismos que aseguren de antemano variaciones en. la producción como consecuencia de cambios en la cantidad de dinero. En otras palabras, los aumentos de la oferta monetaria podrán generar incrementos en la liquidez, en vez de elevar la demanda de valores.
+
+y no se reduce la tasa de interés. Incluso las variaciones de la tasa de interés no necesariamente afectarán a la inversión. ello dependerá de los espíritus animales de los empresarios.
+
+Los movimientos de la tasa de interés pueden afectar a la inversión y la forma en que se mantiene el ahorro El volumen de este está determinado por. el ingreso y sólo su distribución entre dinero y activos monetarios y financieros se explica por la tasa de interés En consecuencia las distorsiones entre el ahorro y. la inversión se resuelven con cambios en el ingreso De manera específica.
+
+si se incrementa la inversión sube el ingreso, porque se demandan más insumos y fuerza de trabajo, que grados En palabras de Knigth. mil novecientos sesenta y cuatro, La diferencia entre las dos categorías, riesgo e ncertidumbre, es que las distnbuc nnes probabilis! cas de!
+
+resultado. agrupadas en instancias, son conocidas para el pnmer término, ya sea a través de! cálculo u µnon o estadístico de pasadas experiencias, mientras que para la rncertidumbre esto no es váilido dos La demanda de valores dependerá tanto del interés que estos.
+
+pagan como de las ganancias de capital por vanaciUnes en sus cotizdcmnes Consecuentemente. una reducción de la tasa de interés podrfa generar un mciernento en el flujo de endimientos que otorga el activo financiero. empero, s existen, hay una percepción de que la tasa de interés estfl muy bala y se prevé que aumente.
+
+ello signtfica que los precios de los bonos incrementarán la demanda efectiva, generándose un mayor nivel de ahorro que, de mantenerse constante la tasa de interés. se canalizará nuevamente al sistema financiero Una de las condiciones necesarias, más no suficientes, es que el crecimiento sea acompañado de una mayor oferta monetaria. a tasas de interés constantes.
+
+Inversamente, si baja la inversión, habrá una reducción en el ingreso, el ahorro real y el financiero. Hay tres diferencias sustanciales entre la visión ortodoxa y la demanda efectiva, que modifican la función de la tasa de interés en el crecimiento económico. En primer lugar, no hay acuerdo sobre las variables que eliminan los desequilibrios externos entre el ahorro y la inversión.
+
+La corriente ortodoxa, mediante la suposición de precios flexibles y la velocidad de circulación estable, sostiene que la tasa de interés es la variable que equilibra el ahorro. y la inversión. Mientras que la demanda efectiva plantea la existencia de precios incorrectos e inestabilidad en la velocidad de circulación.
+
+lo cual implica que las tasas de interés sólo afectan negativamente la forma que adquiere el volumen del ahorro. es decir, determina la cantidad de títulos y bonos financieros que se demandarán y variaciones del ingreso igualarán la inversión con el ahorro. En segundo lugar, hay divergencia sobre los mecanismos de transmisión.
+
+La visión clásica supone que los rendimientos de los activos financieros están determinados por los activos físicos, generándose ajustes inmediatos en el monto de inversión y ahorro. En este sentido, la inversión y el ahorro deberían ser altamente sensibles a los cambios de la tasa de interés. Para el primer caso, la relación entre la inversión y la tasa de interés es incorrecta, porque el acto de invertir genera riesgos.
+
+toma tiempo e implica costos, consecuentemente, los cambios rápidos en la inversión Por el lado de los ahorros. en caso de existir una relación positiva entre la tasa de interés y el monto de ahorro. la respuesta también sería lenta y gradual, porque los planes de consumo no se modifican de manera inmediata.
+
+no hay un ajuste rápido entre las horas de ocio y trabajo. y los ahorradores no tienen experiencia en tomar ventajas de las oportunidades financieras. Levy, dos mil, veintitrés.
+
+En tercer lugar, las políticas monetarias que emanan de estos planteamientos son opuestas. La visión ortodoxa sostiene que el aumento de la oferta de fondos para financiamiento se logrará mediante incrementos de la tasa de interés. para lo cual debe reducir la oferta monetaria y evitar procesos inflacionarios que aumenten la tasa de interés nominal.
+
+mientras que ta demanda efectiva plantea la necesidad de mayores niveles de inversión acompañados por incrementos en la cantidad de dinero. Asimismo se plantea generar déficit fiscales cuando se reduzca el nivel de la inversión a fin de neutralizar los movimientos de las fuerzas del mercado. Los mayores niveles de actividad económica se deben respaldar con mayores niveles de liquidez a fin de evitar aumentos en la tasa de interés.
+
+El dinero adquiere una importancia fundamental y explica la presencia de mayores niveles de inflación en los procesos de desarrollo sin certeza de que el dinero adicional se. usará para generar el crecimiento real. uno punto siete. . Tasa de interés y crecimiento económico. .
+
+Las tasas de interés bancarias, especialmente las de corto plazo, desempeñan un papel central en el financiamiento de la inversión. Desde la perspectiva de la teoría ex post del ahorro, se sostiene que en las condiciones de una economía monetaria. la inversión se autofinancia y, consecuentemente, las condiciones necesarias para que se lleve a cabo una inversión son una n Levy Orlik.
+
+Noemí, dos mil, Tasas de mterés. agregados monetarios y crecimiento económico. En Momento Económico, número ciento siete, enero, febrero, .
+
+La visión ortodoxa sostiene que la tasa de interés nominal está determinada por la tasa de interés real más la tasa de inflación esperada En los treinta se. uti el concepto de ahorro forzado. el cual fue rechazado por Keynes al sostener que la rentabilidad positiva, mayor al costo de capital, disponibilidad de y financiamiento.
+
+La creación de dinero es la base del financiamiento de la inversión, la cual, empero, se caracteriza por ser de corto plazo. Keynes, para explicar las características del crédito bancario, recurre al concepto de fondo revolvente, propuesto con anterioridad por Robertson. e indica que dicho fondo puede suministrar los recursos necesarios para el período de transición de la inversión.
+
+mismo que abarca desde el momento en que el empresario organiza el financiamiento hasta el momento en que incrementa el acervo de capital. Al incrementar la inversión aumenta el ingreso, que genera mayor ahorro, dada una propensión marginal constante de consumo. De canalizarse los ahorros crecientes a las instituciones financieras se anularán los créditos bancarios de corto plazo.
+
+Es decir, el ahorro cierra, en vez de abrir, el proceso de crecimiento productivo. Una condición indispensable para llevar a cabo dicho proceso es que la tasa de interés de corto plazo se mantenga constante y se iguale a la de largo. plazo.
+
+En este sentido, la política monetaria encargada de canalizar recursos a la producción, es esencial en periodos de crecimiento económico. porque permite financiar nuevas decisiones de inversión y transformar el financiamiento de corto en largo plazo, impidiéndose la generación de incertidumbre. A la inversa, incrementos de la tasa de interés provocan aumentos en el costo del financiamiento de largo plazo para la inversión existente.
+
+En situación semejante, el ahorro generado por la nueva inversión no se canalizará al sistema financiero porque se reducirá el precio de los bonos. lo cual retardará o incluso anulará la decisión de comprarlos. En palabras de Keynes, aumenta la preferencia por la liquidez En consecuencia, las políticas monetarias restrictivas provocan que el ahorro generado por el crecimiento económico no se transforme.
+
+en ahorro financiero. Para nuestro trabajo retomaremos algunos puntos de las diferentes teorías revisadas. En primer!
+
+ugar supondremos que el crecimiento del producto interno bruto es factor determinante del nivel de ahorro. ya que en función del crecimiento de la economía en general depende el ahorro del país. En segundo lugar, tenemos que la tasa de interés es también determinante del nivel de ahorro, ya que dependiendo del nivel que esta presente.
+
+será el monto del ahorro, esto es congruente cuando nos hicimos referencia a que la tasa de interés es el premio para el ahorrador por dejar de consumir. en el presente. transfiriendo ese consumo al futuro.
+
+En tercer lugar. tenernos que la inversión también es determinante para el ahorro, por la igualdad de equilibrio que existe entre dichas variables. El modelo en el presente trabajo está planteado de esta forma.
+
+Y CRECIMIENTO ECONÓMICO. . Desregulación financiera y crecimiento económico en méxico. . La teoría en que se apoya la liberalización de las tasas de interés y la desregulación financiera sostiene que la actividad productiva se ve limitada por una insuficiencia. de ahorros y una canalización ineficiente de estos.
+
+Para acelerar el crecimiento propone liberalizar las tasas de interés, eliminar los controles a la expansión del crédito, y reducir el financiamiento al gobierno. veintisiete En estos años, existe gran atención a la influencia del ahorro sobre los niveles de financiamiento y el crecimiento económico. En julio de mil novecientos noventa y ocho, se dio a conocer el Programa Nacional de Financiamiento al Desarrollo.
+
+llamado Programa Nacional de Financiamiento al Desarrollo, que analizaremos más adelante. El margen de maniobra que ofrece es minimo para enfrentar sus obligaciones de pago de la deuda externa. La gestión internacional no es suficiente para aliviar la carga del servicio de la deuda.
+
+Por tanto, es importante el esfuerzo para analizar las medidas de política económica y así identificar los problemas actuales del modelo aplicado en la economía mexicana Actualmente. el Gobierno Federal está decidido a emprender el camino del crecimiento económico. Pero en la economía mexicana existen diversos factores que apuntan hacia acelerar o inhibir su crecimiento.
+
+Uno importante es el grado de confianza del sector privado. que se mide por sus niveles de inversión y que dan lugar al crecimiento. En las circunstancias actuales, las inversiones pueden generarse a consecuencia, principalmente, de la posibilidad de rentabilidad y en la credibilidad sobre la política económica.
+
+Sin inversión no hay crecimiento y sin crecimiento no hay expectativas de nada No obstante. hasta ahora, la realidad histórica no ha sido dar incentivos a la Mántey de Anguiano. M Guadalupe, mil novecientos noventa y seis, Liberalización financiera con oligopolio bancario.
+
+penalización en virtud de que el nivel de inversión depende de los recursos disponibles para su financiamiento se inversión. Factores como la estabilidad del tipo de cambio y los acontecimientos políticos han tomado mayor relevancia en estos años y muestran sus efectos en la economía. Las características de una economía abierta como la nuestra no está exenta de riesgos.
+
+dos punto uno. Evolución del Ahorro y la Inversión en México En el país, el proceso de ajuste de la política económica iniciado en los ochenta nos lleva no sólo al. reto de enfrentar la acumulación de una enorme deuda externa.
+
+sino de evitar el deterioro de la actividad económica. Esta situación propicia un modelo de crecimiento que se sustenta diferente, pues rehuye a continuar con el endeudamiento externo, pero sigue sobre una base externa. la inversión extranjera y una maquila exportadora El hecho es generar las divisas y el nivel de ahorro necesario para cubrir los requerimientos financieros de los sectores en.
+
+crecimiento. De lo contrario, la formación del ahorro interno no sería suficiente para sostener los niveles de inversión interna. lo que nos lleva a depender del ingreso de recursos externos.
+
+De hecho, México presenta dos restricciones al crecimiento económico. Por un lado, la existencia de una brecha de ahorro, o desahorro en este caso, debido a que el ahorro interno es menor a las necesidades de fondos. para efectuar la inversión interna Por otra parte.
+
+aparece una brecha de comercio exterior que se genera porque las importaciones superan a la capacidad exportadora, y que provocan la insuficiencia de divisas. BRECHA DE AHORRO es igual a Y, C más uno más G, . BRECHA DE COMERCIO EXTERIOR es igual a X, M En donde.
+
+Y. Producto Interno Bruto. Inversión Fija Bruta.
+
+C. Consumo. M.
+
+Importaciones. X. Exportaciones Existe evidencia empírica sobre la existencia de estas brechas en países en desarrollo, como México.
+
+Las dos brechas plantean que cuando se da un ahorro comercial. Esto implica, por simple lógica, que la insuficiencia de ahorro interno se tiene que compensar por una demanda o la entrada de fondos externos. lo que lleva a cerrar dicha brecha.
+
+El proceso de ahorro e inversión ha registrado un comportamiento inestable a lo largo de los ochenta y noventa La participación de la inversión fija bruta respecto al. Producto interno bruto alcanzó un punto máximo de veintiséis punto siete seis por ciento en mil novecientos ochenta y uno y después cayó hasta llegar al quince punto. ocho cero por ciento en mil novecientos ochenta y tres.
+
+en plena recesión. En años posteriores, se movió con altibajos y registró otra recaída con nivel mínimo del catorce punto cinco ocho por ciento en mil novecientos noventa y cinco. por el estallamiento de la crisis.
+
+En cuanto al ahorro interno bruto también sufrió un movimiento paralelo, pero unas veces superior a la inversión y otras inferior a ésta. La tasa de ahorro bruto también osciló en una banda. Desde su punto máximo del veinticinco punto siete cero por ciento en relación al Producto interno bruto en mil novecientos ochenta y uno pasó a un mínimo de.
+
+dieciséis punto ocho cuatro por ciento en mil novecientos ochenta y seis y mil novecientos noventa y nueve. veintidós punto seis cero mil novecientos ochenta y ocho, mil novecientos ochenta y nueve mil novecientos noventa La pobre formación de ahorro interno de algunos años. descritos en porcentajes negativos en relación al Producto interno bruto, significa la necesidad de fondos externos.
+
+El análisis de ahorro, inversión permite distinguir principalmente cuatro períodos. En mil novecientos ochenta y mil novecientos ochenta y uno que representan los años finales del auge petrolero uno. cuando la inversión fija bruta superó el ahorro interno.
+
+Se llegó a un nivel de desahorro promedio del uno punto uno por ciento respecto del Producto interno bruto. mil novecientos ochenta y dos a mil novecientos ochenta y ocho, la recesión y el ajuste drástico de la economía provocaron un desplome de la inversión fija bruta. y se manifestó un titubeante crecimiento económico.
+
+La participación del ahorro interno fue superior a la inversión en cinco punto cero ocho por ciento promedio con relación al Producto interno bruto. y alcanzó una brecha máxima de cinco punto cuatro ocho por ciento en mil novecientos ochenta y tres cuando la inversión fija bruta cayó nueve punto cinco cuatro. por ciento en términos reales.
+
+En este período los excedentes de ahorro se generaron por los bajos niveles de inversión, no motivados por un dinamismo de la actividad económica. mil novecientos ochenta y nueve a mil novecientos noventa y cuatro, se presenta una recuperación temporal de los niveles de inversión y del crecimiento económico. El ahorro interno es insuficiente para cubrir todos los requerimientos de la inversión fija bruta, por lo que se vuelve a un desahorro respecto al Producto interno bruto.
+
+del tres por ciento. Por consiguiente, el déficit de ahorro interno se cubrió con la entrada de inversión extranjera. Durante mil novecientos noventa y cinco a dos mil se manifestó una nueva crisis que trajo consigo menores niveles de inversión y.
+
+a la vez, marcó el inicio de la reactivación económica que perdura hasta el momento actual. La brecha a favor del ahorro interno es del dos siete por ciento promedio con relación al Producto interno bruto. El exceso de ahorro interno fue ocasionado por la depresión en la inversión y el superávit comercial.
+
+Sin embargo en términos de porcentaje del Producto interno bruto se visualiza una recuperación, la cual no es suficiente para los objetivos planteados para el financiamiento del desarrollo. Se aprecia, en general, que cuando el nivel de inversión se cae entonces se. p completamente inversa entre ahorro interno e inversión.
+
+Obviamente, et ajuste se registra mediante la participación del ahorro externo. ver cuadro anterior y siguiente, . dos punto dos.
+
+Financiamiento de la Inversión En los ochenta, la situación critica de la economía provocó ajustes en el financiamiento y se desplazó hacia un esquema más competitivo. Hasta mil novecientos ochenta y dos, los recursos que financiaban la formación de capital provenían en gran medida de préstamos del exterior. Desde ese año, los saldos favorables de la balanza comercial reflejaron excedentes internos que se destinaron al proceso de inversión.
+
+El superávit comercial implicó contribuir en la tasa de ahorro interno hasta por un nueve punto seis por ciento respecto al Producto interno bruto en mil novecientos ochenta. y tres. su nivel más alto, y después bajó al uno punto cuatro por ciento del Producto interno bruto en mil novecientos ochenta y ocho.
+
+A partir de mil novecientos ochenta y nueve y hasta mil novecientos noventa y cuatro, la tasa de ahorro interno no sostuvo un ritmo deseado para los niveles. de inversión y de acumulación de capital fijo. Una parte importante de éste.
+
+además, se destinó al pago del servicio de la deuda externa. Las transferencias netas de capital al exterior fueron alcanzando montos considerables, como en mil novecientos noventa y dos que llegó a representar el cinco. por ciento del Producto interno bruto.
+
+Asimismo, el crecimiento de las importaciones provocada por la rápida apertura al exterior y el Tratado de Libre Comercio, TLC, agravaban más la situación. Era evidente que esto impedía dirigir fondos a la formación de capital. Para mil novecientos noventa y cinco a dos mil nuevamente se obtiene un superávit comercial y se recuperan los niveles de excedentes de ahorro.
+
+La tasa de ahorro interno vuelve a repuntar favorablemente, pero no lo bastante para que deje de ser importante el ahorro externo. Una fuente importante de financiamiento en periodos de crisis lo constituyeron las reservas por depreciación de las empresas. Ni siquiera lo fueron las utilidades en muchas empresas.
+
+La proporción de dichas reservas dentro de la inversión fija bruta fue en aumento, y llegaron a representar hasta un noventa y cinco por ciento del total en. los ochenta. El valor de reemplazo de los acervos creció considerablemente, debido a los altos niveles de inflación y la consecuente revaluación de los activos.
+
+Por ello, la mayor parte de la inversión era destinada a la reposición o. nueve pequeña proporción se dirigía a proyectos nuevos y al aumento de la capacidad instalada. A partir de mil novecientos ochenta y nueve se empezó a reportar una ligera mejoría en esta variable.
+
+pero todavía insuficiente para impulsar una reactivación sostenida de la economía. El nivel de inversión interna se ve, más bien, influenciada por la entrada de fondos externos y las expectativas sobre el crecimiento económico. Esto da lugar a pensar en el grado de confianza en la política económica y en otro tipo de variables más de carácter cualitativo, que meramente cuantitativo.
+
+Si bien en materia de financiamiento subsisten serios problemas, todo parte de la capacidad de generar ahorro interno. Este no es sólo suficiente y el país debe enfrentar sus obligaciones de pago con el exterior. El servicio de la deuda ascendió a veintinueve ochocientos sesenta y cuatro millones de dólares en mil novecientos noventa y seis.
+
+lo que representó un nueve punto cero por ciento del Producto interno bruto. Sin duda, esta enorme carga ocasiona menores recursos para financiar el crecimiento económico del país La banca actual no apoya con financiamiento a las empresas. Puesto que cuenta con altos indices de cartera vencida y problemas de estrangulamiento crediticio, credit crunch, .
+
+Existen bancos comerciales que están intervenidos por la Comisión Nacional Bancaria y de Valores y, en general. se muestran renuentes a conceder créditos y evitan la disminución de sus márgenes de capitalización. Algunos bancos se ven obligados a efectuar su asociación con bancos extranjeros para reponer dichos márgenes Esta situación exige promover el ahorro interno y evitar la dependencia de.
+
+los fondos externos. Es buscar un crecimiento más nacionalista. El Gobierno Federal impulsa un nuevo programa financiero, denominado Programa Nacional de Financiamiento al Desarrollo.
+
+Se crean mecanismos de financiamiento interno para obtener un crecimiento sostenido, a tasas anuales mayores del cinco por ciento. Así utilizar el ahorro externo sólo como complemento. La propuesta involucra que se generen recursos suficientes y que la economía sea autofinanciable, Promover el ahorro privado, Aprovechar y no depender del ahorro externo.
+
+Consolidar y mejorar el sistema financiero Estas líneas de acción implican la instrumentación de un nuevo sistema de pensiones. el fomento del ahorro popular y una política fiscal que estimule el ahorro y la inversión. El programa señala la necesidad de generar ahorro para aumentar la inversión.
+
+Sin embargo, no contempla los mecanismos mediante los cuales el ahorro se dirigirá necesariamente a la inversión. El crecimiento queda supeditado a la capacidad de ahorro interno, y se maneja la posibilidad de que los fondos externos sean un complemento. aún cuando sabemos la importancia que poseen actualmente la inversión extranjera directa y los financiamientos a largo plazo.
+
+La Inversión y su efecto en el Crecimiento Económico Después de la crisis económica de finales de mil novecientos noventa y cuatro y durante mil novecientos noventa y. cinco. la economía empieza a mostrar señales inequívocas de recuperación.
+
+De acuerdo con datos del INEGI, el Producto interno bruto aumentó a una tasa anual del cinco punto uno por ciento en mil novecientos noventa y seis. en contraste a la caída del seis punto dos por ciento del año anterior. Este ritmo de actividad aún se eleva un poco más durante mil novecientos noventa y siete, debido a la reanimación de la inversión.
+
+Para mil novecientos noventa y siete, la economía creció al siete punto cero por ciento respecto al mismo periodo del año anterior. Esa tasa de crecimiento obedeció a la reactivación de la industria manufacturera, el comercio y la construcción. Para mil novecientos noventa y ocho la economía tuvo un crecimiento del seis por ciento en promedio.
+
+En mil novecientos noventa y nueve el Producto interno bruto aumentó dos punto cinco por ciento. es decir respecto al año anterior el Producto interno bruto disminuyó tres punto cinco por ciento. Sin embargo para el dos mil existió una recuperación de la economía mexicana donde el Producto interno bruto llegó a siete dos por ciento Las manufacturas mostraron un.
+
+fuerte dinamismo en ramas como metálicas básicas. automotriz y la maquila de exportación. Estas se caracterizan por sus altas exportaciones y que, aunado a mecanismos internos de inversión, se convierten en elementos propulsores de la economla.
+
+Sin embargo. también existen factores que obstaculizan el progreso económico y que podrían provocar que fuera de corto plazo. Son factores de carácter interno a la economía, que prevalecen por encima de los externos, y que pueden controlarse para esperar la consolidación de la recuperación económica.
+
+Estrechez del mercado interno y del consumo privado, Altos niveles de endeudamiento de empresas e individuos, Débil situación financiera de los bancos Lento crecimiento de la inversión privada. De la evolución futura de estos elementos será determinante el desempeño Un determinante del crecimiento económico desde un punto de vista de su pror. edencia, es reconocer el papel importante de la inversión fija bruta.
+
+Sin embargo, la insuficiencia de la inversión y el hecho de que esta se dedicara en su mayor parte a la reposición. dio lugar a efectos casi nulos sobre el nivel de la actividad industrial y el crecimiento económico. La restricción dinámica al crecimiento no está en la insuficiencia de ahorro interno.
+
+sino en la ausencia de una agresiva politica industrial. Esta no implica ser inducida completamente por un estado intervencionista y su fin es restaurar la eficiencia marginal del capital, entendida como relación capital I producto, . El deficiente desempeño sectorial y el nulo crecimiento de la productividad y la competitividad internacional, son razones suficientes para creer que constituyen en una fuerte restricción a una.
+
+tasa sostenida de crecimiento. No está de más señalar a la agricultura y otros sectores primarios, ante su ineficiente capitalización. lo que frena el progreso económico.
+
+En casi dos décadas, los problemas de crecimiento económico se han enfrentado mediante el empleo del ajuste estructural. Consiste en llevar a cabo reformas institucionales, a través de políticas económicas de tipo neoliberal. Las medidas han sido.
+
+Reducción del tamaño del sector público dos. Desregulación de los mercados tres. Apertura al exterior A pesar de esto, algunos especialistas ortodoxos consideran que el modelo neoliberal no se ha aplicado en toda su dimensión.
+
+al persistir la intervención del gobierno en la economía, tanto en mercados cambiarios y en la producción de bienes y servicios La economía presenta varios casos. como PEMEX, CFE, Metro. etc, que significan una competencia desleal al sector privado y es dislorsionanle de los mercados.
+
+El Estado debe limitarse a proveer a la sociedad de un orden legal y administrativo, que defina la propiedad y promueva la asignación correcta de recursos En cambio. otros enfoques consideran que el gobierno debe tomar iniciativas que reactiven la inversión, facilite la comunicación entre individuos y empresas. y apoye el desarrollo económico.
+
+Hay situaciones en que el mercado no llega per se a un objetivo social deseable, lo que implica una intervención decidida y eficiente del Estado Me inclino a. pensar que aunque predomina actualmente esta segunda posición en el gobierno. lo cual pudiera ser aceptable, el problema es la lógica que se emplea El modelo neoclásico y el que se aplica actualmente.
+
+si bien postula un crecimiento inducido por ahorro, este nunca será garantía para movilizar mayores fondos a la inversión. Como si el ahorro ejerciera por sí solo un efecto detonante del crecimiento Según Keynes, el ahorro es un excedente y una parte del ingreso generado. no al revés El secreto del crecimiento entonces queda en reactivar la inversión Es importante que el crecimiento se impulse con una política industrial más activo sería la.
+
+inversión y. a la vez, se neutralizarían los efectos de mercados imperfectos, monopolios, etc. .
+
+Esto podría acompañarse con una política económica congruente. James Tobin, Premio Nobel de economía en mil novecientos ochenta y uno, recomienda una estrategia de crecimiento que combine adecuadamente las políticas presupuesta! y monetaria.
+
+Sí la primera se restringe la otra se flexibiliza, y Cuando ambas políticas son limitadas o restrictivas se aleja viceversa. irremediablemente el crecimiento de nuestra economía. dos punto cuatro.
+
+Tasas de interés, ahorro e inversión en México. El sistema financiero mexicano se acopló a los cambios del sistema monetario mundial, al transitar desde una estructura financiera basada en el mercado bancario hacia una fundamentada en. el mercado de capitales.
+
+lo cual implicó profundos cambios institucionales. Se fortaleció el mercado de capitales con el objetivo de fondear la inversión. se liberalizó la determinación de la tasa de interés y se retiró al Estado de la actividad productiva A partir de mil novecientos ochenta y nueve es posible.
+
+diferenciar. en las estadísticas financieras mexicanas, entre la tasa de interés de fondeo del Banco de México y la tasa interbancaria Es decir. sólo a partir de esa fecha se puede distinguir entre la tasa que impone el instituto central a los bancos comerciales y la que estos cobran.
+
+Ambas se caracterizan por ser activas Trabajos empíricos muestran como la tasa de fondeo es superior a la interbancaria y sus movimientos son semejantes. aunque en ciertos períodos se amplia el diferencial de ambas, detectándose tres períodos. El primero de mil novecientos ochenta y nueve a mil novecientos noventa y tres y puede explicarse por el crecimiento económico ocurrido en esos años.
+
+que provocó un aumento en la demanda de financiamiento. El segundo, después de la crisis de mil novecientos noventa y cuatro. Y por último, durante las devaluaciones de mil novecientos ochenta y ocho, y esto puede explicarse por la reducción de la oferta monetaria de parte de las instituciones.
+
+bancarias. debido a la mayor incertidumbre generada por la crisis. cinco Otro grupo de tasas de interés relevantes en el sistema bancario es el de las tasas de depósitos bancarios que tienen como función recolectar el ahorro generado.
+
+por el crecimiento económico. Estas tasas, también denominadas pasivas, deben ser menores que las de fondeo y las interbancarias. La evidencia en la práctica nos muestra como el público en México prefiere invertir en instrumentos de corta duración.
+
+Este fue un factor clave que dificultó el otorgamiento de créditos bancarios de largo plazo e impidió alargar las fechas de vencimiento de los créditos. Otra característica de la estructura de las lasas de interés es que ias correspondientes a los depósitos bancarios y de fondeo se mueven en la misma dirección. Empero, se denotan varios períodos.
+
+Entre finales de mil novecientos ochenta y cuatro a principios de mil novecientos noventa, se amplía el margen de fondeo y de depósitos. lo cual señala que los bancos ampliaron sus ingresos mediante diferencial de precios entre la tasa activa y la pasiva durante el periodo de bajo crecimiento económico. Posteriormente hasta mil novecientos noventa y cuatro se reduce el diferencial, el cual vuelve a incrementarse durante la crisis de mil novecientos noventa y cinco.
+
+Ello indica que en los periodos de crisis la tasa interbancaria aumenta su importancia como mecanismo para atraer ingresos a los bancos. dos punto cinco. Instrumentos gubernamentales y tasas de interés.
+
+Los instrumentos gubernamentales que se han mantenido por mayor tiempo en el mercado financiero han sido los Certificados de la Tesorería. Celes, de veintiocho y noventa días, por lo cual se utilizarán como representativos de este sector. Estos instrumentos están avalados por el erario y por ello tienen los menores riesgos del mercado financiero.
+
+Dada esta característica, se supone que la tasa interbancaria debe ser superior a la de depósito y ésta, a su vez. debe ser mayor que las tasas de instrumentos gubernamentales Dicha estructura de mercado provoca que los bancos incrementen la tasa de interés de depósitos para atraer mayores volúmenes. de estos al presentarse una reducción del ingreso bancario y o o del monto de las reservas internacionales.
+
+Es decir, un aumento en la tasa interbancaria, provocado por mayores tasas de fondeo, genera incrementos en las tasas de depósitos bancarios y reducciones en la de títulos. gubernamentales. Empero, en economías en desarrollo como México, la situación es a la inversa, debido a que el financiamiento y la captación bancaria son reducidos.
+
+De hecho, la mayor parte de los rendimientos bancarios se obtiene por la compra de títulos gubernamentales, Levy, mil novecientos noventa y nueve, treinta y uno. Es decir. en economías con sistemas financieros débiles.
+
+la tasa de los instrumentos gubernamentales es mayor que la de los depósitos bancarios, y una escasez de divisas internacionales y o o una caída del ingreso bancario. inducen incrementos de las tasas de los instrumentos gubernamentales, manteniendo constantes la tasa de los depósitos bancarios, Mántey, mil novecientos noventa y seis. treinta y dos En cuanto al comportamiento de la tasa de interés tenemos diferentes fases.
+
+La primera se ubica en la década de los ochenta, período en que tuvo lugar la desregulación financiera. y se distingue por el incremento pronunciado de todas las tasas de interés Tanto de los instrumentos gubernamentales. como la de los depósitos y la nterbancaria, en términos reales, muestran un comportamiento ascendente, presentándose bajos diferenciales entre la tasa de los Celes y la interbancaria.
+
+lo cual implica que los bancos obtenían un rendimiento muy parecido por prestar y comprar bonos gubernamentales, carentes de riesgo. La siguiente fase tiene lugar entre mil novecientos noventa y uno y mil novecientos noventa y cuatro. primer trimestre, y se distingue por un alto crecimiento económico y la apertura del mercado de capitales Durante ese período bajan las tasas de interés y aumenta el.
+
+diferencial entre la tasa interbancaria y los Cetes y la tasa de depósito. lo cual se debe a una reducción más acelerada de las tasas de los Celes. O sea, los bancos obtienen mayores rendimientos por prestar dinero con relación a la compra de bonos gubernamentales y pagan proporcionalmente menos rendimientos a los agentes que depositan.
+
+sus ingresos en los bancos treinta y uno Levy Orlik. Noemí, mil novecientos noventa y nueve, . Evolución de la banca comercial y sus efectos sobre el financiamiento de la El tercer período ocurre de mil novecientos noventa y cuatro a mil novecientos noventa y.
+
+seis y se distingue por un fuerte aumento de las tasas de interés. incluso aparece como un anuncio de la crisis de ese año. Encontramos de nuevo un aumento en el diferencial entre las tasas interbancaria y de depósitos y entre la tasa interbancaria y los Celes.
+
+lo cual muestra que se encarece el precio de los créditos con relación a la tasa de los instrumentos gubernamentales y se amplia el margen de intermediación entre. las tasas activa y pasiva. Finalmente, entre mil novecientos noventa y siete y mil novecientos noventa y nueve vuelven a reducirse las tasas, se retoma el crecimiento económico.
+
+manteniéndose un alto diferencial entre la tasa interbancaria y la de depósitos y reduciéndose el margen entre la interbancaria y los Celes Los instrumentos gubernamentales. en particular los Cetes, tienen un papel central en la estructura de las tasas de interés porque sus altos rendimientos atraen flujos externos y constituyen una fuente importante. de rendimientos para los bancos.
+
+Los depósitos bancarios no tienen una función importante en la recolección de los ahorro y. Por lo tanto, sus rendimientos se mantienen bajos. Los instrumentos gubernamentales, Celes, también inciden en la tasa de interés activa.
+
+la cual, como es de esperarse, tiene un precio mayor por ser una tasa activa y una mayor incertidumbre. En mil novecientos ochenta y dos, mil novecientos ochenta y cinco y mil novecientos ochenta y siete la tasa de interés activa real estuvo por debajo de la. tasa real de los Celes a noventa días esto es debido a un cierto crecimiento económico y en especial hubo una fuerte entrada de capitales externos.
+
+lo cual presionó a la baja de los Celes. Recapitulando, la tasa de interés es una variable monetaria influenciable por instituciones y movimientos de los agregados monetarios. En México, las autoridades gubernamentales, en vez del Banco Central, inciden en el movimiento de las tasas de interés y las autoridades bancarias controlan la base monetaria.
+
+Por lo tanto, la autonomia del Banco de México es limitada, empero los esfuerzos realizados por el gobierno mexicano de otorgarle la autonomía absoluta. Finalmente debe señalarse que una condición suficiente, más no necesaria, es contar con una política monetaria flexible para garantizar el crecimiento económico y posteriormente el nivel de desarrollo. buscado.
+
+dos punto seis. Comportamiento del Ahorro Externo en México La sustitución de importaciones y la promoción de exportaciones son cruciales para disminuir las presiones sobre el sector externo y para mantener. el crecimiento económico.
+
+Con la industrialización conseguida mediante la sustitución de importaciones, se esperaba que las economías latinoamericanas lograrían un crecimiento más sostenido y menos vulnerable a las fluctuaciones de la. economía internacional. Según ese enfoque, la industrialización haría que la dinámica económica se sustentara en el crecimiento del mercado interno.
+
+Las condiciones de mayor integración interna que permitirían la sustitución de importaciones generaría un mayor efecto multiplicador de la inversión. propiciando altas tasas de crecimiento del ingreso, del ahorro y del empleo. Se esperaba que la sustitución de importaciones.
+
+Además, de generar condiciones para incrementar el ahorro, aumentaría la capacidad innovadora y desarrollo tecnológico Pero a pesar de tales ntenciones las lasas de ahorro y de productividad. disminuyeron y el déficit de comercio exterior se mantuvo. con lo que los países donde esta política se llevó a la práctica, resultaron aún más vulnerables respecto al exterior La dinámica manufacturera privilegió.
+
+Por lo tanto, a aquellos bienes que por sus procesos productivos y condiciones de mercado garantizaban altos niveles de rentabilidad y crecimiento Esta característica principal y con ello. dejó de lado la producción de bienes que representaban menores niveles de rentabilidad o que podrían afectar la rentabilidad de las ramas más dinámicas. Tal es el caso de la producción de bienes de capital, cuya importación se prefirió Esta lógica a la cual se supeditó la política de sustitución de importaciones.
+
+en México. impidió que ella avanzara verticalmente en las diferentes ramas productivas con la perspectiva de alcanzar mayores grados de integración interna en el aparato productivo. Como consecuencia tuvimos.
+
+bajos grados de integración interna en el aparato productivo industrial, altos coeficientes de importación, bajo coeficiente de exportaciones y creciente déficit comercial externo. Fue la mayor disponibilidad de endeudamiento externo en la década de mil novecientos noventa lo que permitió financiar el déficit externo. las deficiencias productivas, las ganancias monopólicas y la dinámica económica, postergando así la necesidad de reestructurar el aparato productivo para disminuir sus deficiencias.
+
+La disponibilidad de divisas permitió mantener y ampliar la oferta crediticia interna a bajo costo e incentivó el crecimiento de la inversión. la cual proseguía reproduciendo las características productivas que ampliaban la brecha interna, productiva y financiera, y la brecha del sector externo. es decir, los llamados desequilibrios macroeconómicos Las brechas interna y externa que habían producido la vulnerabilidad creciente de la economía.
+
+obligaron a implementar políticas contraccionistas para reducir las presiones sobre esos desequilibrios y generar el superávit capaz de financiar las obligaciones con los acreedores. Por medio de la política contraccionista se quería encarar con la política de alzas de interés y la devaluación. el propósito era fomentar el ahorro interno y la entrada de capitales.
+
+ahorro externo, incrementar la eficiencia y la productividad mediante la Tratar de liberalización del comercio externo, como ya se dijo. tiene un costo alto, ya que lleva a la depuración del aparato productivo. Afecta.
+
+Además, del crecimiento de aquellos sectores y ramas productivas que no tienen tas condiciones productivas ni financieras para modernizarse e incrementar su productividad necesaria para encarar la competencia. con importaciones De ahí que se tenga que facilitar a esos sectores el acceso al capital nacional y extranjero para que impulsen su modernización La liberalización del comercio. exterior en circunstancias de bajos niveles de productividad y de grandes niveles de endeudamiento interno y externo.
+
+coloca a las empresas nacionales en una posición de desventaja frente a los competidores externos. La liberalización del comercio exterior termina por modificar la estructura de rentabilidad y de inversión de la economía. Se cambia a favor de quienes tienen mejor posición productiva, financiera y competitiva.
+
+Esto conlleva a que entre más sea la magnitud de capitales extranjeros que ingresan a nuestro país, mayor será la dependencia de ahorro externo. ya que en México se dan las condiciones para que esto se lleve acabo. En este contexto de alta fragilidad macroeconómica, el gobierno insistía que el comportamiento de las exportaciones indicaba la presencia de un tipo de cambio real consistente con los.
+
+propósitos de la política comercial. En efecto, la creciente apreciación real del peso fue compatible con el crecimiento de las exportaciones. las cuales se concentraron en las grandes empresas transnacionales productoras de bienes intensivos en mano de obra y en las maquiladoras Situación que pudieron enfrentar la mayoría de.
+
+las empresas mexicanas dada la carencia de tecnología. sistemas de organización, mercadeo, cultura empresarial La apertura comercial combinada con la apreciación del peso fomentó la entrada masiva de importaciones que rebaso con mucho la capacidad y. velocidad de ajuste de las empresas mexicanas.
+
+cuyos niveles de competencia son bajos El comportamiento superavitario de las balanzas comercial y en cuenta corriente alcanzado durante el ajuste recesivo de mil novecientos ochenta y tres. a mil novecientos ochenta y siete. se había vuelto deficitario a partir de mil novecientos ochenta y ocho Ello hace evidente las deficiencias estructurales de aparato industrial para generar divisas que financien la acumulación.
+
+agravada por la premura con la que se venía ejecutando la apertura comercial, en este contexto. en mil novecientos noventa y dos se concibió como una restricción meramente temporal. que, uno perfil exportador de la economía.
+
+Esto último tendría lugar con la renovación del aparato tecnológico, los incrementos en la productividad y el creciente vuelco en favor de las exportaciones no petroleras. Nora Lustig explica la visión gubernamental en los siguientes términos. una vez que las importaciones de bienes de capital y otros factores provenientes de la reforma estructural consolidaran la modernización productiva.
+
+la tasa de crecimiento de la productividad subiria, garantizando mayores exportaciones netas aún con el mismo tipo de cambio real. Durante la transición, las entradas de capital financiarían la brecha de la balanza de pagos. dos punto siete.
+
+Salarios Reales y Tipo de Cambio. La política económica neoliberal que se aplica en México desde mil novecientos ochenta y tres ha profundizado el deterioro de las condiciones de vida de la mayoría de. la población.
+
+Así los saldos macroeconómicos relativamente favorables alcanzados durante mil novecientos noventa y dos y hasta los tiempos previos a la crisis. en mil novecientos noventa y cuatro, no se reflejaron en la vida cotidiana de los trabajadores La recesión que se inició a finales de mil novecientos noventa y. cuatro.
+
+el Banco de México la atribuye de manera fundamental a una sene de acontecimientos desfavorables en varios ordenes de la vida nacional e nternacional que incidieron marcadamente en. la evolución de la economía del país. En el ámbito nacional, eventos políticos y delictivos generaron un ambiente de gran incertidumbre que influyo adversamente en las expectativas de los agentes económicos del país y del.
+
+exterior. . treinta y cuatro El diecinueve de diciembre de mil novecientos noventa y cuatro se decidió devaluar el peso quince punto tres por ciento.
+
+para ubicarse, a finales del año. con una depreciación aproximada del setenta y uno por ciento con respecto al dólar de Estados Unidos. situación que confirmo la profundidad de los desajustes que desde mucho antes se hablan presentado.
+
+El crecimiento del producto interno bruto, Producto interno bruto, en mil novecientos noventa y tres había sido de tan solo cero punto cuatro por ciento en términos reales. de la economía. pues de alcanzar un cuatro punto cuatro por ciento en mil novecientos noventa bajó a tres punto seis por ciento en mil novecientos noventa y uno y a.
+
+dos punto ocho por ciento observado en mil novecientos noventa y dos. . Durante el año que se comenta el crecimiento registrado fue de tres punto cinco por ciento.
+
+La tendencia tan limitada del crecimiento del Producto interno bruto, durante el sexenio, acentuó el rezago en el ofrecimiento de puestos de trabajo. aunque lo peor aún no llega pues se espera que esta problemática, se agudice debido a la profundización de la crisis ya que seguramente. el desempleo aumentara porque la tasa de aumento del Producto interno bruto será muy inferior a la del crecimiento de la población.
+
+lo que generara una severa disminución del producto per cápita. Los objetivos de recuperar las condiciones de vida de la población que se anunciaron en la octava etapa del Pacto para la Estabilidad. la Competitividad y el Empleo, PECE, firmada el tres de octubre de mil novecientos noventa y tres.
+
+y con vigencia hasta el treinta y uno de diciembre de mil novecientos noventa y cuatro treinta y cinco no se cumplieron ni en su mínima expresión. Aunque se logró un relativo control de la inflación, no sucedió lo mismo con la recuperación de los salarios ni del empleo. El crecimiento sostenido de la economía se dió de manera muy endeble Es decir, no se evitó que la población de bajos recursos viera reducido.
+
+aun más, su poder adquisitivo o sus condiciones de empleo El PECE continuó con la misma política laboral. ya que se mantuvieron las bases para el control de los aumentos salariales. .
+
+Además, de que se estableció un elemento. aparentemente novedoso, para que a partir de ese momento las modificaciones salariales se determinaran por el incremento de la productividad de la mano de obra. Esta forma de entender la recuperación salarial no es recomendable, ya que se someten las revisiones del salario y su recuperación a los aumentos de la productividad.
+
+Al condicionar de esta manera el mejoramiento salarial de los quince En sus orígenes fue el Pacto de Solidaridad Económica. PSE, que consto de seis etapas que van del quince de trabajadores se olvida que la pérdida de poder de compra puede adjudicarse no a la improductividad sino. a una política salarial que se ha empeñado en reducir el ingreso real de los trabajadores.
+
+De esta manera, a nueve años del inicio de los pactos de concertación económica, que sumaron mas de trece fases. no se dió la recuperación salarial tan reiterada en los objetivos de concertación. El acuerdo que funcionaria durante mil novecientos noventa y cuatro, con sus prórrogas y modificaciones aseguraba que el salario mínimo recuperaría.
+
+en solo doce meses, todo el poder de compra que había perdido en los últimos años. ello con el aumento directo a los salarios a partir de enero de mil novecientos noventa y cinco. más un incremento adicional por bono de productividad, .
+
+Además, de que se exentaría del Impuesto Sobre la Renta a todos los trabajadores que ganaran hasta dos salarios mínimos. El númeroero de beneficiados con esta medida seria de aproximadamente uno punto tres cero cero, cero trabajadores. Al examinar el comportamiento de los salarios mínimos en el periodo que comprende desde el inicio de los pactos de concertación.
+
+hasta la ratificación del ultimo acuerdo y sus proyecciones económicas para mil novecientos noventa y cinco, podemos hacer la siguiente evaluación. Si tomamos como punto de partida el año en que se iniciaron los Pactos de Solidaridad, mil novecientos ochenta y siete. y lo proyectamos hasta mil novecientos noventa y cinco, sabemos, que la pérdida acumulada del salario se elevó a treinta y ocho punto cinco siete por ciento al.
+
+finalizar el año. Jo que representa la disminución de mas de un tercio del poder adquisitivo de los trabajadores. En términos del salario real el ingreso de los trabajadores tuvo una caída que va de cinco punto ocho seis siete veinticuatro pesos reales.
+
+poder adquisitivo, a tres punto seis cero cuatro. dieciocho pesos en el periodo señalado Debernos aclarar que en este cálculo se incluye el aumento del salario otorgado en mayo de mil novecientos noventa y cinco. y se la inflación fue de veinticuatro punto cero uno por ciento en el mismo año y peor aún en mil novecientos noventa y seis en dónde la.
+
+inflación llegó a cuarenta y uno punto cuatro uno por ciento. conforme a las expectativas económicas del Acuerdo de Unidad para Superar la Emergencia Económica, AUSEE, planteadas en enero de mil novecientos noventa y cinco y renovadas en el. Programa de Acción J para Reforzar el Acuerdo de Unidad para Superar la Emergencia Económica.
+
+PARAAUSEE, . Como vemos, la declarada preocupación por la gran cantidad de trabajadores que se encuentran en la pobreza y el afán por mejorar los salarios. no encuentran correspondencia con las políticas que se han y siguen impulsando, de ahí que las afirmaciones sobre la recuperación del salario son muy cuestionables.
+
+La siguiente cita es del informe Por su parte, la expansión durante mil novecientos noventa y cuatro del gasto de consumo en bienes y servicios fue favorecida por. salarios reales más altos. por un modesto aumento del empleo, y por mayores erogaciones del gobierno por concepto de remuneraciones a servidores públicos En términos generales se destaca la inflación.
+
+el crecimiento de la economía y el saneamiento de las finanzas públicas, . Sin embargo, no se obtuvieron resultados en el mejoramiento del nivel de vida de la mayoría de los mexicanos. Se aplicó una política de sacrificio, por parte de los asalariados, que permitió reducir la nflación.
+
+pero la promesa de recuperación del nivel de vida de los mexicanos no se ha visto en términos reales. La ultima prórroga del Pacto reitera el compromiso de mejorar el ingreso de los trabajadores, pero eso no se ha visto hasta ahora. sin embargo sí podemos afirmar que la inflación en términos de informes oficiales ha disminuido.
+
+pero en términos reales no se ha visto reflejado en el poder adquisitivo de la población En lo que respecta a la nflación. sigue siendo un elemento clave en la estrategia económica para salir de la crisis. Su control permitiría mejorar las condiciones de vida de la población, pues se lograría una mejor distribución del González Chávcz Gerardo.
+
+mil novecientos noventa y cinco, La evolución del salario en México En Momento Economico, no ochenta. llEC Universidad Nacional Autónoma de México México treinta y nueve Aquí nos referimos a los trabajadores que recitJen el salario mirnmo. aunque hay muchos que rn esa cantidad reciben Por ejemplo, en el informe que se analiza se menciona que el porcentaje de la población con ingresos nferioies a.
+
+un salano mínimo era de once tres por ciento que aunque se redujo con respecto a mil novecientos noventa y tres. sigue siendo ingreso, y esto no ha ocurrido hasta ahora pese a que la inflación ha sido controlada por las autoridades competentes. El efecto positivo del abatimiento de los indices inflacionarios no tienen su correspondencia con la recuperación de la capacidad productiva.
+
+el mejoramiento en la demanda de empleo y la recuperación salarial que se mantiene inconclusa. Las revisiones de los salarios mínimos y contractuales, en mil novecientos noventa y tres continuaron bajo el control del gobierno y aunque se registró un pequeño incremento del. poder adquisitivo en mil novecientos noventa y cuatro se reflejó en una fuerte pérdida durante mil novecientos noventa y cinco.
+
+Las reflexiones anteriores nos permiten observar que, independientemente del porcentaje de inflación, si no hay una correspondencia entre los incrementos salariales y el aumento de los precios. el efecto en el salario real será determinante. Y el poder adquisitivo se pierde cada vez más año con año.
+
+En estas condiciones, el deterioro del nivel de vida puede ser de la misma intensidad o mayor si se mantiene una polílrca laboral que da prioridad al control. de la inflación a casia de los salarios. No es suficiente la presencia de indices inflacionarios menores.
+
+si los aumentos salariales no son superiores o, cuando existe menos, similares a la evolución de los precios. se presentará esta situación, porque hay una relación directa entre precios y salarios. Mientras se mantenga el desequilibrio entre las dos variables, el poder adquisitivo se seguirá deteriorando.
+
+La proporción entre salarios y precios ha jugado en contra de los trabajadores Más aún, el logro de lasas rnferrores. en el indice inflacionario se ha sustentado en la política de control salarial, ya que la renovación constante de los pactos han permitido establecer controles tanto en los. salarios mínimos como en los contractuales Los éxitos macroeconómrcos de la política neoliberal.
+
+como el saneamiento fiscal, que incluso permitieron generar un superávit del sector público y cumplir holgadamente los pagos de la deuda rnterna y externa. esto hasta mil novecientos noventa y cinco, y la reducción de la inflación, entre otros, no se han visto reflejados en la situación económica de los hogares. Por el contrario, el saneamiento de las finanzas muchas de las empresas privadas, vinculadas anteriormente al sector público.
+
+han resentido la reducción de la demanda de bienes y servicios por parte del sector estatal. lo cual contrae aún más el mercado interno, el empleo y los salarios. Actualmente, no existe tal saneamiento de las finanzas públicas y la prueba más relevante es el FOBAPROA, .
+
+Además, de que la deuda externa es cada vez mayor y esto conlleva a la pérdida del poder adquisitivo de las familias. Esta situación se entiende por el recorte de la inversión estatal y el alejamiento de muchas actividades generadas por el proceso privatizador y la significativa contracción de las. inversiones privadas a causa de la crisis.
+
+pero también por la intermediación financiera y los altos costos del crédito. La competitividad global de la economía mexicana se ha fincado en la productividad como la formula para competir en el mercado y elevar el nivel de vida de. la población Según el Banco de México.
+
+esta política permitió el desarrollo intenso del proceso de inversión que ha transformado el aparato productivo y genero una creciente productividad de la mano de obra. en el sector manufacturero aumento ocho punto cero por ciento en promedio por trabajador en mil novecientos noventa y cuatro. la tasa mas alta de la ultima década, .
+
+es decir, el cambio estructural y la creciente apertura externa de la economía han impuesto a las empresas la búsqueda de mejores condiciones competitivas para elevar la eficiencia. y la productividad. Los resultados de esta política, aunque no se reconoce explícitamente, señalan que la apertura indiscriminada de los mercados enfrenta a muchas empresas a una competencia muy dificil.
+
+en medio de condiciones adversas, que llevaron a muchas de ellas a que desaparecieran del mercado o a encarar críticos problemas de supervivencia Según se asegura en el. Informe. en el periodo mil novecientos noventa y uno a mil novecientos noventa y cuatro la remuneración real por trabajador se incremento a una tasa media anual de cinco.
+
+punto ocho por ciento No se puede decir lo mismo con las remuneraciones totales. ya que a la pérdida de dos seis por ciento regislrada en mil novecientos noventa y tres. se le debe de agregar la acumulada de uno punto uno por ciento de mil novecientos noventa y cuatro.
+
+Los sueldos totales. que habían registrado una tenue recuperación en mil novecientos noventa y tres, sufrieron una caída de cero punto nueve por ciento en mil novecientos noventa y cuatro. En Jo que respecta a los salarios totales, continuaron su tendencia descendente al agregársele al cinco punto cuatro por ciento registrado en mil novecientos noventa y tres un.
+
+dos punto cinco por ciento en mil novecientos noventa y cuatro. De lo anterior podemos deducir que si bien es cierto que en algunos sectores de la economía se registro una reducida recuperación de las remuneraciones. en términos globales hubo una caída de la masa salarial, como consecuencia del incremento del desempleo, la caída del salario real y la persistencia de la recesión económica.
+
+El panorama actualmente no es diferente ya que en años subsecuentes, mil novecientos noventa y cinco a dos mil. después de la crisis de mil novecientos noventa y cinco. los salarios siguieron perdiendo su poder adquisitivo, se incrementó el desempleo y podríamos decir, que seguimos en una recesión, de la cual no hemos podido salir.
+
+La mayor parte de los trabajadores o siguen resintiendo pérdidas en su poder adquisitivo o la recuperación que ha experimentado su salario no compensa la caída acumulada en. el sexenio y menos aún si nos referimos a períodos anteriores. La situación descrita corresponde al grupo de trabajadores que mantienen su puesto de trabajo, pero esta situación es mas dramática para otro tipo de asalariados.
+
+nos referimos a los sectores en que la apertura comercial los ha desplazado del mercado por no ser competitivos o a las empresas que continúan reduciendo su planta. laboral. por ejemplo, las industrias textil y de prendas de vestir, zapatera, electrónica, metalúrgica, etc.
+
+A pesar del deterioro social, la política de ajuste continúa su movimiento en un terreno que conduce a la profundización del modelo. y aunque reconoce el bajo crecimiento económico y el aumento del desempleo, sigue confiando en que las fuerzas del mercado solucionarán estos problemas Como vemos. han sido grandes los costos de este proceso y el sector laboral es el más duramente golpeado.
+
+No sólo por el desempleo causado por la modernización en los sectores industrial y de servicios sino. también, por el incremento generado por el crecimiento natural de la demanda de trabajo que acentúa sus índices como consecuencia de la política de modernización agropecuaria que ha. profundizado la tendencia en el desplazamiento del campo a la ciudad.
+
+así como por la profundidad de la crisis desatada en diciembre de mil novecientos noventa y cuatro. Los beneficios esperados, como consecuencia de los profundos cambios económicos impulsados desde mil novecientos ochenta y tres no se reflejaron en el bienestar social prometido. La apuesta de que los beneficios se lograrían con el incremento de la productividad y de la competitividad de la economía no alcanzan todavía a distinguirse.
+
+Los datos oficiales muestran que la solución de los problemas generados por la profundización de la crisis económica recurrente y la modernización del proceso productivo son sumamente cuestionados. Además, de que la apertura económica ha deteriorado la posición, dentro del mercado interno, de muchas empresas que no pueden modernizarse ni resistir una competencia como se esta. dando.
+
+provocando el cierre o la cancelación de actividades productivas que aumentan significativamente el desempleo, lo que a su vez genera una contracción mayor del mercado interno que se. revierte en contra de los supuestos objetivos que el proyecto liberal pretende corregir. la pobreza, el desempleo y los aspectos sociales a los que esta situación conduce.
+
+La continuidad de la política neoliberal amenaza profundizar la crisis económica, en la medida en que los objetivos planteados para salir de ella no mostraron una realización concreta. lo cual evidencia la necesidad de modificar esos postulados. Es indudable que todos los acontecimientos de orden político que se mencionan en el Informe del Banco de México tuvieron que ver en la profundización de la crisis.
+
+económica. pero no son los factores que la explican. El agotamiento de la forma de acumulación neoliberal implica el extremo de las contradicciones capitalistas que es necesario reformar si realmente se quiere preservar la estabilidad.
+
+la economía y la política. tres punto uno. Comportamiento del ahorro en México en el período de mil novecientos ochenta a dos mil.
+
+En el capítulo uno se mencionó que dentro del marco teórico neoclásico, el ahorro se encuentra definido como la abstención en el consumo presente de una parte del. ingreso con el objeto de posponerlo hacia el futuro. esta abstención estará determinada, en este enfoque, por la tasa de interés.
+
+Mientras que el sector privado mantendrá una demanda de inversión tal que permita pagar una tasa de interés. dicha tasa será igual o menor a la Productividad Marginal del Capital La igualdad entre tasa de interés que genera ahorro y la que estarán dispuestos a pagar. los empresarios para financiar sus inversiones determinará la plena utilización de los recursos.
+
+La existencia de un mercado financiero, el cual logra el equilibrio entre la oferta y la demanda del ahorro. vía una tasa de interés, logrará el equilibrio de la inversión que genera el pleno empleo A diferencia del anterior enfoque. la teoría de la demanda efectiva, analizada a través de los trabajos de Keynes y los Poskeynesianos.
+
+establece que la tasa de interés es un fenómeno puramente monetario determinado por la oferta y demanda de dinero. Keynes define la demanda de dinero como la recompensa por no atesorar. es decir, por la retención de liquidez, de la cual el motivo especulativo es fundamental ya que está determinado por la incertidumbre que existe respecto a la tasa.
+
+de interés futura. Las variables monetarias tendrán incidencia sobre los factores reales de la economía, convirtiendo a los instrumentos financieros en elementos fundamentales del financiamiento de la inversión. especialmente con la evolución del sistema bancario.
+
+Esto le permite a la inversión expandir sus niveles de crédito vía multiplicador bancario, y el proceso de fondeo de la inversión a través del El papel de. financiamiento bancario lo coloca como un elemento principal de las decisiones de inversión. y a partir de este mecanismo, el nivel de ahorro dejará de ser un elemento que determine las decisiones de oferta de crédito por parte de las instituciones.
+
+bancarias. por la otra. El financiamiento y la incertidumbre serán elementos determinantes de las ampliaciones productivas de la economía.
+
+En esta parte del trabajo se tendrá como finalidad el análisis de la variable ahorro total para México durante el período mil novecientos ochenta a dos mil. El objetivo que se persigue es determinar el comportamiento que sigue el ahorro para dicho período. La importancia que tiene este análisis radica en el rol que ha jugado esta variable para reactivar los niveles de inversión de México para elevar el crecimiento y.
+
+el sentar las bases para el crecimiento de largo plazo. desarrollo económico, durante el período de estudio, . Además, de determinar cual de las diferentes teorías estudiadas a lo largo del trabajo se adecúa más a la explicacién del comportamiento de las variables objeto de estudio.
+
+El plan de trabajo consistirá en la elaboración de un modelo econométrico de ahorro de acuerdo con los planteamientos teóricos con la finalidad de encontrar la mejor explicación. posible del comportamiento del ahorro en México desde el año de mil novecientos ochenta a dos mil. .
+
+Cabe mencionar, que los datos se encuentran en períodos trimestrales desde el año de mil novecientos ochenta, esto con el objetivo de reducir errores por falta de información. Los datos utilizados están en precios constantes de mil novecientos noventa y cuatro, en tasas de crecimiento. el programa utilizado para el procesamiento y análisis de datos es el Análisis del comportamiento del ahorro en México.
+
+tres punto dos. En la gráfica se puede observar un comportamiento cíclico del Producto Interno Bruto, podemos ver que en la crisis de mil novecientos ochenta y dos el comportamiento del. ahorro interno tuvo un declive muy notorio.
+
+esto es congruente ya que el servicio de deuda se elevó y el ahorro interno cayó. también vemos un declive en la crisis de mil novecientos noventa y cuatro Antes de la crisis de mil novecientos noventa y cuatro la dependencia del ahorro externo. fue menor.
+
+pero debido a la devaluación, la tendencia se revirtió, esto no es congruente con el Plan Nacional de Desarrollo mil novecientos noventa y cinco a dos mil. en donde el expresidente doctor Ernesto Zedillo expuso que uno de los principales objetivos era el de reducir la dependencia del ahorro externo. que este sólo se debería utilizar como complemento del ahorro interno y así no depender del extranjero en cuestiones de ahorro.
+
+Los factores que influyen en el comportamiento del ahorro total en México se podrían resumir en. a, Ahorro Interno. b, Inversión.
+
+c, Producto Interno Bruto. En la práctica el Producto interno bruto que influye en el ahorro total, es el Producto interno bruto de dos periodos anteriores. ya que dependiendo del ingreso se toma la decisión de ahorrar o de consumir, lo que congruente con lo que afirmaba Keynes.
+
+en donde exponía que el ahorro es la decisión de sacrificar el consumo presente con aras a recibir un mejor rendimiento ahorrando. Tasa de Interés real Dicha variable se calculo tomando como base la d, tasa de interés denominada Costo Promedio Porcentual. CPP, ya que la información estadística de la tasa de interés es limitada.
+
+a dicha tasa de interés, CPP, le restamos la inflación para cada período. tres punto tres. Especificación Teórica del modelo.
+
+Desde una perspectiva teórica los factores que tienen influencia sobre el ahorro total de largo plazo son tres Ahorro interno, Producto interno bruto, e Inversión. El modelo general está representado por la siguiente ecuación. U es igual a Término de error.
+
+En el modelo podemos apreciar que un incremento en el ahorro interno de uno por ciento, incrementa el ahorro total en cero punto tres cuatro por ciento. por cada cambio porcentual de uno, en el Producto interno bruto de un período anterior, afecta al ahorro total en cero punto dos siete dos por ciento. .
+
+Asimismo, el cambio porcentual del Producto interno bruto de dos periodos anteriores afecta al ahorro total en cero punto dos uno dos por ciento. la tasa de interés congruente con la teoría, afecta al ahorro negativamente, por lo que un incremento de uno por ciento en la tasa de interés. reduce el ahorro total en un O ochocientos treinta y cuatro por ciento.
+
+la inversión tiene un efecto sobre el ahorro total de cero punto cero tres nueve por ciento Se decidió representar a la variable explicativa del Producto interno bruto. en forma rezagada uno y dos períodos ya que el Producto interno bruto en el período actual no resultó estadísticamente significativa Esto quiere decir que el ahorro total. depende del Producto interno bruto de uno y dos períodos anteriores.
+
+Los coeficientes, son estadisticamente significativos, lo que quiere decir que son relevantes para nuestro modelo. El estadístico t y el estadístico F son aceptables. En el trabajo de Craig Burnside, mil novecientos noventa y ocho, muestra como efectivamente, el ahorro privado en México depende del total de la producción.
+
+Producto interno bruto, de la tasa de interés, impacto negativo, pero. Además, de el saldo en las finanzas públicas, dependiendo de este saldo es el impacto que tiene sobre el ahorro privado. El trabajo de Patricia Rodríguez, muestra la relación que tiene el ahorro externo con el crecimiento de México, esto reafirma la dependencia que todavía se tiene del extranjero.
+
+principalmente de Estados Unidos, pese a los esfuerzos del gobierno, por implementar políticas de no dependencia, a través del ahorro interno. En los planes de desarrollo del doctor Ernesto Zedillo y del licenciado Vicente Fox, uno de los objetivos, todavía no alcanzados. está la utilización del ahorro externo, como complemento del ahorro interno El trabajo de Thirlwall, concluye que el ahorro interno depende de la capacidad y el deseo de.
+
+ahorrar. la capacidad de ahorrar depende principalmente del nivel del ingreso per cápita, del crecimiento del ingreso y de su distribución. el deseo de ahorrar depende sustancialmente del nivel de la tasa de interés, pero que éstas en México tienen un efecto limitado.
+
+pero que en cualquier caso desalientan la inversión y. Por lo tanto, el ahorro. Plantea que el ahorro externo no puede ser analizado sin tomar en cuanta el servicio de la deuda.
+
+ya que de lo contrario las conclusiones nos podrían llevar a pensar que el ahorro externo. aumenta la tasa de crecimiento de un país y así suponer que no tiene efecto negativo sobre el ahorro interno y la productividad del capital. cuarenta y ocho Burnside, Craig, mil novecientos noventa y ocho, Pnvate Saving n México, mil novecientos ochenta a mil novecientos noventa y cinco The World Bank.
+
+Septiembre Rodrlguez López, Patricia, mil novecientos noventa y siete, La quimera del ahorro exierno como complemento del interno en la. Pruebas de diagnóstico del modelo. .
+
+A continuación se presentan los resultados de las pruebas que se realizaron con el fin de conocer si el modelo cumple con los supuestos del método de mínimos. cuadrados ordinarios. En primer lugar se debe verificar si las variables incluidas en el modelo son suficientes para explicar los movimientos en la variable dependiente.
+
+en este caso, el ahorro total de largo plazo, para ello se debe verificar el valor de la R ajustada. En este caso se obtuvo un valor de cero punto ocho tres siete tres, por lo cual se concluye que las variables incluidas en el modelo son relevantes. y la bondad de ajuste es buena.
+
+El ahorro en México durante el período de estudio fue congruente con los planteamientos de la teoría neoclásica. al estar en función directa con los niveles de la tasa de interés y el nivel de ingreso de la economía. la tasa de interés tiene un impacto negativo sobre el nivel total de ahorro.
+
+mientras que desde la perspectiva de la demanda efectiva, existe una relación entre el nivel de la actividad económica y el nivel de ahorro total. esta relación la analizamos con las pruebas de exogeneidad y expresamos dicha relación en términos del presente trabajo, veamos. Los resultados del análisis del ahorro con la variable de inversión, nos sirvieron de elemento para afirmar que durante el período mil novecientos ochenta a dos mil en.
+
+México. el comportamiento del ahorro estuvo determinado por el comportamiento de la inversión, esto es congruente con los planteamientos del segundo capítulo sobre el fondeo de la inversión y. es consistente con el comportamiento del mercado de valores de México.
+
+al incrementarse su actividad a partir de mil novecientos ochenta y ocho y del multiplicador monetario y financiero del mismo año. El proceso de fondeo de la inversión explicó en gran medida los niveles de las capacidades productivas al transferir el mercado de valores los ahorro recolectados a través. de la emisión de activos financieros Las imperfecciones en el mercado bancario.
+
+impidieron a la banca mexicana que cumpliera eficazmente con su función de intermediación del ahorro interno para que se tradujera en una mayor inversión productiva y sólo desarrolló. el ahorro en el sistema financiero. ya que en la realidad no se ha logrado el crecimiento sostenido de largo plazo, desarrollo económico, .
+
+El modelo de ahorro nos permitió sustentar la relación que existe entre el ahorro y la inversión, pero. Cabe mencionar, que dicha relación, sólo existe en el mercado financiero y no en el productivo, ya que no se reflejó en el incremento del empleo. salarios y desarrollo económico en general, como se puede ver en la realidad.
+
+La capacidad de expansión de las empresas fue mínima ya que, México sufrió crisis financieras y bancarias que impidieron el financiamiento externo. y este financiamiento depende de las expectativas de la economía como lo marca la escuela poskeynesiana La principal fuente de financiamiento en México se debió al ahorro externo. ya que el fortalecimiento del ahorro interno en México descansará en.
+
+i, una reforma fiscal que promueva el ahorro y la inversión. ii, promoción del ahorro privado a través de instrumentos financieros de largo plazo que ofrezcan seguridad y rendimientos competitivos a los ahorradores. iii, mecanismos de financiamiento del sistema de seguridad social.
+
+iv, finanzas públicas sanas. ejercicio eficaz del gasto corriente, así como también inversión pública que siga criterios de eficiencia social. v, uso moderado y de carácter complementario del ahorro externo.
+
+vi, y finalmente del uso del crédito para reactivar el aparato productivo, con la finalidad de lograr el desarrollo económico.
