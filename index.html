@@ -171,12 +171,12 @@ Así se reconstruye la secuencia más probable.</textarea>
 
       <section>
         <div class="controls">
-
           <div class="control-row" aria-describedby="repositoryFileHelp">
             <label for="repositoryFile">Archivo de texto del repositorio</label>
             <div class="file-controls">
               <select id="repositoryFile">
                 <option value="0315050_texto_tts_completo.txt">0315050_texto_tts_completo.txt</option>
+                <option value="guia_tts_datos_moleculares.txt">Guía de estudio — datos moleculares</option>
               </select>
               <button id="loadRepositoryFileBtn" class="ghost" type="button">Seleccionar texto</button>
             </div>
@@ -306,6 +306,7 @@ Así se reconstruye la secuencia más probable.</textarea>
           }
         }
       }
+
       if (buffer) chunks.push(buffer);
       return chunks;
     }
@@ -338,10 +339,12 @@ Así se reconstruye la secuencia más probable.</textarea>
         const speaker = match ? match[1].trim() : "Texto";
         const textToRead = match ? match[2].trim() : rawLine;
         const chunks = splitLongText(textToRead);
+
         for (const chunk of chunks) {
           result.push({ chapter: currentChapter, speaker, text: chunk });
         }
       }
+
       return result;
     }
 
@@ -428,7 +431,6 @@ Así se reconstruye la secuencia más probable.</textarea>
 
       const spanishIndex = voices.findIndex(voice => voice.lang.toLowerCase().startsWith("es"));
       voiceSelect.value = spanishIndex >= 0 ? String(spanishIndex) : "-1";
-
       setStatus(voices.length ? `Voces cargadas: ${voices.length}.` : "No se detectaron voces. Prueba con Chrome o Edge, o recarga la página.");
     }
 
@@ -456,7 +458,7 @@ Así se reconstruye la secuencia más probable.</textarea>
     function speakSingleText(text, onDone, onError, useSelectedVoice = true) {
       const utterance = makeUtterance(text, useSelectedVoice);
       utterance.onend = () => onDone?.();
-      utterance.onerror = (event) => onError?.(event);
+      utterance.onerror = event => onError?.(event);
       speechSynthesis.speak(utterance);
     }
 
@@ -484,7 +486,7 @@ Así se reconstruye la secuencia más probable.</textarea>
           retryingCurrentLine = false;
           setTimeout(() => speakLine(index + 1), 120);
         },
-        (event) => {
+        event => {
           const errorName = event.error || "error desconocido";
           if (!retryingCurrentLine && selectedVoice()) {
             retryingCurrentLine = true;
@@ -497,7 +499,7 @@ Así se reconstruye la secuencia más probable.</textarea>
                   retryingCurrentLine = false;
                   setTimeout(() => speakLine(index + 1), 120);
                 },
-                (secondEvent) => {
+                secondEvent => {
                   const secondError = secondEvent.error || "error desconocido";
                   isSpeakingScript = false;
                   retryingCurrentLine = false;
@@ -519,7 +521,6 @@ Así se reconstruye la secuencia más probable.</textarea>
       );
     }
 
-
     async function loadRepositoryFile() {
       const fileName = repositoryFile.value;
       if (!fileName) {
@@ -532,6 +533,7 @@ Así se reconstruye la secuencia más probable.</textarea>
         const response = await fetch(fileName, { cache: "no-store" });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         scriptInput.value = await response.text();
+        selectedStartIndex = 0;
         renderPreview();
         setStatus(`Archivo cargado: ${fileName}. Fragmentos: ${parsedLines.length}.`);
       } catch (error) {
@@ -563,7 +565,7 @@ Así se reconstruye la secuencia más probable.</textarea>
       speakSingleText(
         testText,
         () => setStatus("La prueba de voz terminó correctamente."),
-        (event) => setStatus(`La prueba falló. Error: ${event.error || "error desconocido"}. Prueba otra voz.`),
+        event => setStatus(`La prueba falló. Error: ${event.error || "error desconocido"}. Prueba otra voz.`),
         true
       );
     }
@@ -609,6 +611,10 @@ Así se reconstruye la secuencia más probable.</textarea>
 
     [rate, pitch, volume].forEach(input => input.addEventListener("input", updateRangeLabels));
     scriptInput.addEventListener("input", () => renderPreview());
+
+    window.addEventListener("beforeunload", () => {
+      if ("speechSynthesis" in window) speechSynthesis.cancel();
+    });
 
     if ("speechSynthesis" in window) {
       updateRangeLabels();
