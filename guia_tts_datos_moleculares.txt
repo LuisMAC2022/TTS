@@ -1,0 +1,1969 @@
+Guía de preparación. Técnicas de campo y laboratorio para la obtención de datos moleculares.
+
+Estación de Biología Tropical Los Tuxtlas, Veracruz. Análisis de datos por Zoom.
+
+Esta guía está organizada para que llegues con base teórica y destreza práctica suficientes.
+
+Te servirá para entender el curso, ejecutar bien las actividades, hacer preguntas informadas y repasar lo esencial.
+
+Prioriza la preparación práctica sobre la teoría extensa.
+
+Nota de orientación sobre Los Tuxtlas.
+
+La Estación está en el kilómetro treinta de la carretera Catemaco-Montepío.
+
+Se ubica en San Andrés Tuxtla, Veracruz, código postal noventa y cinco mil setecientos uno.
+
+Está dentro de una zona núcleo de la Reserva de la Biosfera Los Tuxtlas.
+
+Es una región de selva húmeda tropical, considerada la extensión de selva baja más norteña del continente.
+
+Esto define el clima: calor, humedad alta y lluvia frecuente.
+
+También define el marco legal, porque es un Área Natural Protegida con reglas de colecta más estrictas.
+
+Tenlo presente al prepararte para el trabajo de campo y la lista final.
+
+Capítulo 1. Propósito científico del curso.
+
+El curso recorre la cadena completa que va del organismo en campo al dato molecular interpretado.
+
+Conviene entender esa cadena como un flujo donde cada eslabón condiciona al siguiente.
+
+Cómo la colecta en campo conecta con la investigación basada en ADN.
+
+Todo dato molecular empieza con un espécimen físico y sus metadatos.
+
+El flujo de trabajo del código de barras de ADN va desde la colecta del espécimen y el registro de sus datos.
+
+Después pasa por extracción, reacción en cadena de la polimerasa y secuenciación.
+
+Finalmente, las secuencias y los metadatos pueden cargarse en bases de datos como BOLD.
+
+La calidad de la identificación final depende de que el espécimen esté bien colectado.
+
+También depende de que esté bien preservado y bien documentado.
+
+Sin un vínculo trazable entre el tubo de tejido y un ejemplar de referencia, el dato molecular pierde valor científico.
+
+Idealmente, ese ejemplar de referencia debe depositarse en una colección científica.
+
+Por qué los métodos de preservación afectan la calidad del ADN.
+
+El ADN comienza a degradarse en cuanto el tejido muere.
+
+La degradación ocurre por acción de nucleasas endógenas y de microorganismos.
+
+La preservación busca inactivar esas nucleasas lo más rápido posible.
+
+La elección del método cambia de forma medible el rendimiento y la integridad del ADN extraído.
+
+Estos métodos incluyen etanol, congelación, sílica gel y RNAlater.
+
+Las mejores prácticas de colección y preservación deben probarse en laboratorio antes del trabajo de campo.
+
+Así se confirma que puede extraerse ADN de buena calidad de las muestras colectadas.
+
+La integridad del ADN es cada vez más importante, sobre todo para secuenciación de nueva generación.
+
+Un ADN íntegro está poco fragmentado y libre de contaminantes coextraídos.
+
+Cómo se generan datos moleculares a partir de muestras biológicas.
+
+La secuencia general empieza con la extracción de ácidos nucleicos.
+
+Después viene el control de calidad, que incluye cuantificación y evaluación de pureza.
+
+Luego se amplifica un marcador mediante reacción en cadena de la polimerasa.
+
+Después se secuencia el fragmento.
+
+La secuenciación puede ser Sanger, para fragmentos individuales.
+
+También puede ser secuenciación de nueva generación, para millones de fragmentos en paralelo.
+
+Al final se realiza el procesamiento bioinformático.
+
+En secuenciación de nueva generación, tras la extracción casi siempre hay un paso de control de calidad.
+
+Se recomienda usar espectrofotometría ultravioleta para evaluar pureza.
+
+También se recomienda usar métodos fluorométricos para cuantificar.
+
+Cómo se usan estos datos.
+
+Los marcadores estandarizados permiten estudiar biodiversidad y taxonomía.
+
+En ese caso, se identifican especies comparando un fragmento estándar contra bases curadas.
+
+Por ejemplo, en animales suele usarse COI, subunidad uno de la citocromo c oxidasa.
+
+Para plantas terrestres se recomienda la combinación de los loci rbcL y matK.
+
+Para hongos se acepta ampliamente la región ITS.
+
+Los datos también permiten hacer filogenética.
+
+En filogenética se reconstruyen relaciones evolutivas alineando secuencias homólogas y construyendo árboles.
+
+También sirven para genética de la conservación y genética de poblaciones.
+
+En esos campos se estima diversidad genética, estructura poblacional, flujo génico y unidades de manejo.
+
+Preguntas que deberías poder responder tras esta sección.
+
+¿Por qué un espécimen sin metadatos es casi inútil para biología molecular?
+
+¿Qué marcador usarías para identificar un escarabajo, una orquídea y un hongo, y por qué?
+
+¿En qué punto del flujo se decide si una muestra sirve para secuenciación de nueva generación?
+
+Capítulo 2. Guía de estudio tema por tema.
+
+Para cada tema se revisan conceptos clave, vocabulario, errores comunes, destrezas y preguntas de autoevaluación.
+
+Sección dos punto uno. Colecta y preservación de especímenes biológicos.
+
+Conceptos clave.
+
+Debes entender el vínculo entre espécimen, tejido y metadato.
+
+También debes entender la inactivación de nucleasas, el ejemplar de referencia y el depósito en colección científica.
+
+La preservación adecuada es la base de todo lo demás.
+
+Las prácticas de colecta y los métodos de preservación deben evaluarse en laboratorio antes del campo.
+
+Vocabulario.
+
+Espécimen, en inglés specimen.
+
+Ejemplar de referencia, en inglés voucher specimen.
+
+Tejido, en inglés tissue.
+
+Submuestreo, en inglés subsampling.
+
+Metadatos, en inglés metadata.
+
+Colecta científica, en inglés scientific collecting.
+
+Cadena de custodia, en inglés chain of custody.
+
+Errores comunes.
+
+No etiquetar en el momento.
+
+Usar etanol de baja concentración, por ejemplo setenta por ciento, porque puede degradar el ADN.
+
+Usar poco etanol respecto al tejido.
+
+No llevar duplicados o respaldos.
+
+No anotar coordenadas.
+
+Destrezas a repasar.
+
+Submuestreo estéril de tejido.
+
+Rotulado con lápiz o tinta indeleble resistente a etanol.
+
+Uso de GPS o aplicación de coordenadas.
+
+Llenado de libreta de campo.
+
+Preguntas.
+
+¿Qué proporción mínima de etanol respecto al tejido se recomienda?
+
+¿Por qué conviene tener un stock de trabajo y un respaldo?
+
+Sección dos punto dos. Seguridad en el laboratorio.
+
+Conceptos clave.
+
+Equipo de protección personal.
+
+Manejo de reactivos peligrosos.
+
+El fenol causa quemaduras químicas graves.
+
+El cloroformo es carcinógeno.
+
+Por eso muchas instituciones evitan métodos que usen fenol y cloroformo.
+
+También debes conocer señalización y manejo de residuos.
+
+Vocabulario.
+
+Bata, en inglés lab coat.
+
+Campana de extracción, en inglés fume hood.
+
+Ficha de datos de seguridad, en inglés safety data sheet.
+
+Residuos peligrosos, en inglés hazardous waste.
+
+Derrame, en inglés spill.
+
+Errores comunes.
+
+Pipetear con la boca. Nunca debe hacerse.
+
+No usar guantes al manejar bromuro de etidio u otros intercalantes.
+
+Comer o beber en el área de laboratorio.
+
+Descartar fenol-cloroformo por el drenaje.
+
+Destrezas a repasar.
+
+Colocación y retiro correcto de guantes.
+
+Lectura de una ficha de datos de seguridad.
+
+Ubicación de regadera de emergencia y lavaojos.
+
+Preguntas.
+
+¿Qué harías ante un derrame de fenol en la piel?
+
+¿Por qué el cloroformo se maneja en campana?
+
+Sección dos punto tres. Cálculos químicos y pipeteo.
+
+Conceptos clave.
+
+Concentración, dilución, molaridad y volumen de reacción.
+
+También debes manejar la ecuación C uno por V uno es igual a C dos por V dos.
+
+Otro concepto clave es la mezcla maestra, o master mix.
+
+Vocabulario.
+
+Dilución, en inglés dilution.
+
+Dilución seriada, en inglés serial dilution.
+
+Concentración madre, en inglés stock concentration.
+
+Concentración final, en inglés final concentration.
+
+Alícuota, en inglés aliquot.
+
+Errores comunes.
+
+Confundir concentración con cantidad.
+
+No homogeneizar después de diluir.
+
+Cometer errores de pipeteo.
+
+El error más común al trabajar con ADN suele ser el error de pipeteo.
+
+Destrezas a repasar.
+
+Despejar V uno en la ecuación C uno por V uno es igual a C dos por V dos.
+
+Calcular volúmenes para varias reacciones, incluyendo un margen adicional.
+
+Pregunta.
+
+Si tienes un cebador de cien micromolar y quieres diez micromolar en cincuenta microlitros, ¿cuánto cebador y cuánta agua necesitas?
+
+Sección dos punto cuatro. Introducción al ADN.
+
+Conceptos clave.
+
+Estructura de doble hélice.
+
+Bases A con T, y G con C.
+
+Carga negativa del esqueleto fosfato, que es clave para electroforesis.
+
+ADN genómico nuclear frente a ADN mitocondrial o cloroplástico.
+
+Gen marcador.
+
+El código de barras de ADN aplica conocimientos de estructura, carga y estabilidad del ADN.
+
+Estos conocimientos se usan a lo largo de todo el procedimiento.
+
+Vocabulario.
+
+Nucleótido, en inglés nucleotide.
+
+Pares de bases, en inglés base pairs.
+
+Cadena complementaria, en inglés complementary strand.
+
+ADN bicatenario, en inglés double-stranded DNA.
+
+Locus, en inglés locus.
+
+Errores comunes.
+
+Creer que más banda en el gel siempre significa más calidad.
+
+Confundir genoma nuclear con genoma organelar.
+
+Preguntas.
+
+¿Por qué el ADN migra hacia el ánodo positivo?
+
+¿Por qué COI, que es mitocondrial, es útil para identificar animales?
+
+Sección dos punto cinco. Extracción de ADN.
+
+Conceptos clave.
+
+La extracción incluye lisis celular.
+
+Después separa el ADN de proteínas y polisacáridos.
+
+Luego se hace precipitación, lavado y resuspensión.
+
+CTAB es un detergente catiónico que facilita la lisis.
+
+También ayuda a evitar que metabolitos secundarios interfieran.
+
+Es eficaz y barato para plantas.
+
+Otras alternativas son los kits comerciales de columna de sílice.
+
+También puede usarse precipitación con etanol o isopropanol.
+
+Vocabulario.
+
+Lisis, en inglés lysis.
+
+Tampón de extracción, en inglés extraction buffer.
+
+Precipitación, en inglés precipitation.
+
+Sobrenadante, en inglés supernatant.
+
+Pastilla o pellet, en inglés pellet.
+
+Eluir, en inglés elute.
+
+Errores comunes.
+
+Sobrecargar tejido, porque se satura el tampón.
+
+Arrastrar fase orgánica.
+
+No eliminar etanol residual antes de resuspender.
+
+Coextraer polifenoles o polisacáridos, lo cual es problemático en plantas.
+
+Destrezas a repasar.
+
+Centrifugado.
+
+Pipeteo de fases.
+
+Manejo de microtubos.
+
+Preguntas.
+
+¿Qué función cumple el CTAB?
+
+¿Por qué se añade RNasa?
+
+¿Por qué muchos laboratorios prefieren columnas en vez de fenol-cloroformo?
+
+Sección dos punto seis. Electroforesis y cuantificación de ADN.
+
+Conceptos clave.
+
+La electroforesis en gel de agarosa separa fragmentos por tamaño según su carga.
+
+El marcador de peso molecular, o ladder, permite estimar tamaños.
+
+La cuantificación puede hacerse por espectrofotometría.
+
+En espectrofotometría se usa la absorbancia a doscientos sesenta nanómetros.
+
+También se usan las razones A doscientos sesenta entre doscientos ochenta.
+
+Y A doscientos sesenta entre doscientos treinta, para estimar pureza.
+
+La cuantificación también puede hacerse por fluorometría.
+
+En Qubit, un tinte se une selectivamente al ADN bicatenario.
+
+La espectrofotometría y la fluorometría responden preguntas distintas.
+
+El espectrofotómetro mide todo lo que absorbe a doscientos sesenta nanómetros y da información de pureza.
+
+El fluorómetro mide cuánto ADN diana hay realmente.
+
+Además, suele ser más sensible y específico.
+
+Vocabulario.
+
+Gel de agarosa, en inglés agarose gel.
+
+Pozo, en inglés well.
+
+Marcador de peso molecular, en inglés DNA ladder.
+
+Razón de pureza, en inglés purity ratio.
+
+Fluorómetro, en inglés fluorometer.
+
+Errores comunes.
+
+Confiar solo en A doscientos sesenta.
+
+Esto puede sobreestimar la concentración.
+
+Los métodos espectrofotométricos pueden reportar de tres a cuatro veces más concentración que Qubit.
+
+Ignorar una razón A doscientos sesenta entre doscientos treinta baja.
+
+Eso puede indicar sales, fenol o carbohidratos.
+
+Otros errores son cargar demasiado ADN o interpretar mal el ladder.
+
+Destrezas a repasar.
+
+Preparar gel y cargar muestras con tampón de carga.
+
+Leer razones de pureza.
+
+Una razón A doscientos sesenta entre doscientos ochenta de uno punto siete a dos punto cero es aceptable.
+
+Una razón A doscientos sesenta entre doscientos treinta mayor que uno punto cinco indica buena calidad.
+
+Preguntas.
+
+¿Qué te dice una razón A doscientos sesenta entre doscientos ochenta de uno punto seis?
+
+¿Cuándo usarías Qubit en lugar de NanoDrop?
+
+Sección dos punto siete. Reacción en cadena de la polimerasa.
+
+Conceptos clave.
+
+La reacción en cadena de la polimerasa incluye desnaturalización, alineamiento y extensión.
+
+Sus componentes son templado, cebadores, desoxinucleótidos, polimerasa, cloruro de magnesio, tampón y agua.
+
+La temperatura de alineamiento se deriva de la temperatura de fusión de los cebadores.
+
+También son esenciales el control positivo y el control negativo.
+
+Vocabulario.
+
+Cebador o iniciador, en inglés primer.
+
+Temperatura de fusión, en inglés melting temperature, abreviada T m.
+
+Temperatura de alineamiento, en inglés annealing temperature, abreviada T a.
+
+Control sin templado, en inglés no-template control, abreviado N T C.
+
+Ciclado, en inglés cycling.
+
+Errores comunes.
+
+No incluir control negativo.
+
+Usar una temperatura de alineamiento demasiado baja, lo que puede generar productos inespecíficos.
+
+Usar una temperatura de alineamiento demasiado alta, lo que puede causar poca o nula amplificación.
+
+Olvidar el cloruro de magnesio.
+
+Contaminar la mezcla maestra.
+
+Destrezas a repasar.
+
+Calcular la temperatura de alineamiento como la temperatura de fusión del cebador menos tres a cinco grados Celsius.
+
+Armar una mezcla maestra.
+
+Preguntas.
+
+¿Para qué sirve el control sin templado?
+
+¿Qué pasa si bajas demasiado la temperatura de alineamiento?
+
+Sección dos punto ocho. Secuenciación Sanger.
+
+Conceptos clave.
+
+La secuenciación Sanger usa terminadores fluorescentes, llamados didesoxinucleótidos.
+
+Produce un electroferograma o cromatograma.
+
+También produce valores de calidad Phred.
+
+El análisis incluye recorte de extremos y, si aplica, recorte de secuencia vectorial.
+
+Se leen cadenas forward y reverse.
+
+Un valor de calidad diez implica una probabilidad de error de una en diez para esa base.
+
+Después de recortar, una secuencia confiable debería tener menos de cinco por ciento de bases ambiguas.
+
+Vocabulario.
+
+Cromatograma o electroferograma, en inglés chromatogram.
+
+Llamado de bases, en inglés base calling.
+
+Recorte, en inglés trimming.
+
+Base ambigua N, en inglés ambiguous base.
+
+Secuencia consenso, en inglés consensus sequence.
+
+Errores comunes.
+
+No recortar extremos de baja calidad.
+
+Confiar en una sola cadena.
+
+Los errores se detectan mejor comparando forward y reverse.
+
+Ignorar dye blobs, que son picos multicolor cerca del inicio.
+
+Destrezas a repasar.
+
+Abrir un archivo A B uno en FinchTV, Four Peaks o Chromas.
+
+Identificar la región fiable.
+
+Corregir manualmente una base.
+
+Preguntas.
+
+¿Qué representa la altura y la nitidez de un pico?
+
+¿Por qué dos picos superpuestos pueden indicar dos genotipos o unión inespecífica de cebadores?
+
+Sección dos punto nueve. Introducción a la secuenciación de nueva generación.
+
+Conceptos clave.
+
+La secuenciación de nueva generación es secuenciación masiva en paralelo.
+
+Tiene cuatro pasos principales.
+
+Extracción.
+
+Preparación de biblioteca.
+
+Secuenciación.
+
+Análisis de datos.
+
+La preparación de biblioteca convierte el ADN en fragmentos con adaptadores.
+
+Illumina usa química de secuenciación por síntesis.
+
+También debes manejar los conceptos de longitud de lectura y profundidad o cobertura.
+
+Vocabulario.
+
+Biblioteca, en inglés library.
+
+Adaptador, en inglés adapter.
+
+Índice o código de barras, en inglés index o barcode.
+
+Lectura, en inglés read.
+
+Profundidad o cobertura, en inglés depth o coverage.
+
+Lecturas pareadas, en inglés paired-end.
+
+Errores comunes.
+
+Confundir Sanger, que trabaja con un fragmento, con secuenciación de nueva generación, que trabaja con millones.
+
+Pasar a biblioteca ADN contaminado.
+
+Una sola biblioteca mal preparada puede arruinar toda una corrida.
+
+Preguntas.
+
+¿Qué es un adaptador y por qué los índices permiten multiplexing?
+
+¿En qué se diferencia la profundidad de la longitud de lectura?
+
+Sección dos punto diez. Análisis de datos moleculares.
+
+Conceptos clave.
+
+Tipos de archivo: FASTA, FASTQ, A B uno, C S V y T S V.
+
+Control de calidad.
+
+Edición y recorte.
+
+Alineamiento.
+
+BLAST.
+
+Distancia genética.
+
+Haplotipos.
+
+Árboles filogenéticos.
+
+Vocabulario.
+
+Alineamiento, en inglés alignment.
+
+Distancia genética, en inglés genetic distance.
+
+Haplotipo, en inglés haplotype.
+
+Árbol filogenético, en inglés phylogenetic tree.
+
+Máxima verosimilitud, en inglés maximum likelihood.
+
+Máxima parsimonia, en inglés maximum parsimony.
+
+Errores comunes.
+
+Alinear secuencias sin recortar.
+
+Sobreinterpretar un BLAST de baja identidad.
+
+Confundir similitud con homología.
+
+Preguntas.
+
+¿Qué información añade FASTQ que FASTA no tiene?
+
+¿Cómo expresa un BLAST la calidad de una coincidencia?
+
+Capítulo 3. Preparación para el trabajo de campo.
+
+Sección tres punto uno. Colecta ética y legal en México y en Áreas Naturales Protegidas.
+
+En México, la colecta con fines científicos se rige por la NOM ciento veintiséis SEMARNAT dos mil.
+
+Esta norma establece especificaciones para la colecta científica de material biológico de flora y fauna silvestres.
+
+Aplica en todo el territorio nacional.
+
+Define dos modalidades: por línea de investigación y por proyecto.
+
+La licencia o autorización la otorga SEMARNAT.
+
+Los trámites correspondientes son SEMARNAT cero ocho cero cuarenta y nueve A y B.
+
+Puntos críticos para un Área Natural Protegida como Los Tuxtlas.
+
+Tener licencia vigente no basta para entrar a un Área Natural Protegida.
+
+Cuando la colecta involucra un Área Natural Protegida, hay que presentar un aviso adicional.
+
+Ese aviso es para realizar actividades de investigación con colecta o manipulación de ejemplares.
+
+Debe presentarse en las oficinas del Área Natural Protegida antes de iniciar.
+
+Quien colecta dentro de un Área Natural Protegida debe notificar al director o encargado.
+
+Debe informar las actividades planeadas antes de empezar y adjuntar copia de la autorización.
+
+También debe informar al terminar.
+
+Hay que sujetarse a las restricciones del decreto de creación del área y de su programa de manejo.
+
+El titular debe depositar parte del material en instituciones o colecciones científicas mexicanas registradas.
+
+Investigadores mexicanos registrados en el Sistema Nacional de Investigadores no pagan los derechos correspondientes.
+
+Tampoco pagan quienes operan bajo convenio con una institución mexicana.
+
+En la práctica, como estudiante en un curso, lo más probable es que trabajes bajo la licencia del instructor.
+
+También podrías trabajar bajo los permisos de la institución anfitriona.
+
+Tu responsabilidad es confirmar bajo qué permiso trabajas.
+
+Debes respetar especies y cantidades autorizadas.
+
+No colectes nada fuera de ese amparo.
+
+Esto es especialmente importante para especies en riesgo de la NOM cero cincuenta y nueve SEMARNAT dos mil diez.
+
+Sección tres punto dos. Etiquetado y metadatos.
+
+Cada muestra necesita un identificador único y metadatos mínimos.
+
+En BOLD, cada espécimen recibe un Process ID único.
+
+Replica esa lógica desde el campo.
+
+Registra al menos código de muestra, fecha, colector y localidad.
+
+La localidad debe incluir texto y coordenadas GPS.
+
+También registra hábitat, identificación preliminar y método de preservación.
+
+Etiqueta el tubo por dentro y por fuera.
+
+El papel escrito con lápiz resiste mejor el etanol.
+
+Sección tres punto tres. Métodos de preservación.
+
+Etanol.
+
+Sirve sobre todo para tejido animal, que es el uso más común.
+
+La concentración óptima es de noventa y cinco a noventa y nueve por ciento.
+
+El etanol al setenta por ciento degrada el ADN.
+
+Las trazas de benceno en etanol al cien por ciento también pueden afectarlo.
+
+La proporción entre etanol y tejido debe ser mayor que cinco a uno.
+
+Pueden añadirse EDTA o glicerina.
+
+Sílica gel.
+
+Sirve para hoja vegetal por desecación rápida.
+
+La proporción entre sílica y muestra debe ser mayor que diez a uno.
+
+Conviene cortar el tejido en piezas pequeñas.
+
+También hay que revisar la sequedad con regularidad.
+
+En murciélagos, el tejido de ala en sílica rindió más ADN total y nuclear que en DMSO o etanol.
+
+Congelación.
+
+Sirve para casi cualquier tejido.
+
+Hay que llevar la muestra a frío o congelación lo antes posible.
+
+Todas las muestras, excepto las secadas con sílica, deben ir a frío cuanto antes.
+
+RNAlater.
+
+Sirve para tejido destinado a ADN o ARN sin frío inmediato.
+
+Es una solución comercial universal.
+
+Es relativamente cara.
+
+Puede requerir lavados que reducen el rendimiento de ADN en muestras de baja biomasa.
+
+Submuestreo de tejido.
+
+Sirve para generar un stock de trabajo y un respaldo.
+
+Toma piezas pequeñas.
+
+Prepara un stock de trabajo y un respaldo de emergencia.
+
+Matiz útil sobre etanol frente a sílica en plantas.
+
+Persisten algunos malentendidos.
+
+El etanol no destruye instantáneamente el ADN foliar.
+
+Combinar preservación o pretratamiento con etanol y digestión con proteinasa puede dar ADN de alta calidad.
+
+También puede producir ADN menos fragmentado.
+
+Aun así, el etanol no sustituye sin más a la sílica para plantas.
+
+Sección tres punto cuatro. Libreta de campo.
+
+Anota en tiempo real, no de memoria.
+
+Incluye un encabezado por jornada.
+
+Ese encabezado debe registrar fecha, sitio, coordenadas y condiciones.
+
+Haz una entrada por muestra ligada a su código.
+
+Agrega observaciones de hábitat.
+
+Toma fotos de todo.
+
+Las fotos sirven para metadatos y presentaciones.
+
+Usa lápiz o tinta indeleble.
+
+La libreta se moja en la selva.
+
+Sección tres punto cinco. Bioseguridad y control de contaminación en campo.
+
+El riesgo de contaminación cruzada empieza en el campo.
+
+Esteriliza instrumentos entre muestras.
+
+Puedes usar flameado con alcohol o lejía diluida.
+
+Cambia o limpia la hoja de bisturí y las pinzas.
+
+Corre blancos de extracción en paralelo para detectar arrastre.
+
+Divide el extracto o tejido.
+
+Deja una alícuota intacta como respaldo.
+
+Manipula con guantes.
+
+Evita tocarte la cara.
+
+Sección tres punto seis. Qué llevar y vestir para selva tropical en Los Tuxtlas.
+
+La selva implica calor, humedad alta, lluvia frecuente, lodo, insectos y vegetación con espinas.
+
+La humedad puede estar entre ochenta y cinco y noventa y cinco por ciento.
+
+Es normal mojarse y enlodarse.
+
+Usa telas sintéticas de secado rápido, como nailon o poliéster.
+
+Evita el algodón cien por ciento.
+
+El algodón atrapa el sudor, se queda mojado y tarda días en secar.
+
+Usa manga larga y pantalón largo.
+
+Sirven como barrera física contra insectos y vegetación.
+
+Meter el pantalón dentro de calcetines o botas reduce la entrada de garrapatas y niguas.
+
+Usa colores neutros como caqui, oliva, beige o gris.
+
+Evita azul oscuro y negro, porque pueden atraer insectos picadores.
+
+Usa botas de selva o de hule.
+
+Usa calcetines altos.
+
+La picaridina suele ser mejor opción para selva.
+
+El DEET puede dañar telas sintéticas, equipo de cámara y lentes.
+
+El tratamiento de ropa con permetrina añade protección.
+
+Aplícalo en mangas, piernas y parte alta de los calcetines.
+
+Lleva impermeable o poncho para lluvia.
+
+En selva, con suficiente tiempo, nada es completamente impermeable.
+
+Por eso conviene priorizar poder seguir funcionando mojado.
+
+Otros objetos útiles son sombrero de ala ancha, protector solar y antihistamínico.
+
+El antihistamínico puede ser oral o tópico si reaccionas mal a picaduras.
+
+Lleva botella o bolsa de agua accesible para hidratarte sin parar.
+
+También lleva linterna, bolsas Ziploc y cinta para parchar.
+
+Haz inspección de garrapatas al terminar cada jornada.
+
+Báñate frotando bien la piel.
+
+Capítulo 4. Preparación para el laboratorio.
+
+Sección cuatro punto uno. Seguridad esencial en biología molecular.
+
+Usa bata, guantes y gafas siempre.
+
+No comas, no bebas y no pipetees con la boca.
+
+Conoce dónde están el lavaojos, la regadera y el extintor.
+
+Maneja reactivos peligrosos en campana.
+
+Recuerda que el fenol causa quemaduras químicas serias.
+
+El cloroformo es carcinógeno.
+
+Por eso muchas instituciones evitan protocolos que los usen.
+
+En su lugar, prefieren extracción en fase sólida mediante columnas.
+
+Lee la ficha de datos de seguridad de cada reactivo nuevo.
+
+Separa y rotula residuos peligrosos.
+
+No los tires al drenaje.
+
+Sección cuatro punto dos. Uso correcto de micropipetas.
+
+Selecciona la pipeta correcta para el volumen.
+
+Usar una P mil para dos microlitros es impreciso.
+
+Nunca gires el dial fuera del rango indicado.
+
+Coloca la punta firmemente.
+
+Usa la punta adecuada.
+
+Usa el primer tope para aspirar.
+
+Usa el segundo tope para dispensar y expulsar todo el líquido.
+
+Aspira despacio y en posición vertical.
+
+Dispensa tocando la pared del tubo.
+
+Cambia de punta entre muestras y reactivos para evitar contaminación.
+
+El error de pipeteo es el más común al trabajar con ADN.
+
+Practica antes.
+
+Sección cuatro punto tres. Cómo evitar contaminación.
+
+Separa físicamente las áreas de pre reacción en cadena de la polimerasa y post reacción, si es posible.
+
+Usa puntas con filtro.
+
+Haz alícuotas de reactivos.
+
+Incluye controles sin templado.
+
+Incluye blancos de extracción.
+
+Cambia de guantes con frecuencia.
+
+Limpia superficies.
+
+La eliminación de contaminación es un tema recurrente en los tutoriales de secuenciación de nueva generación.
+
+Su impacto en los datos puede ser importante.
+
+Sección cuatro punto cuatro. Cálculos de concentración, dilución, molaridad y volúmenes de reacción.
+
+El núcleo es la ecuación C uno por V uno es igual a C dos por V dos.
+
+También debes manejar la mezcla maestra.
+
+Usa unidades correctas.
+
+La concentración de ADN suele expresarse en nanogramos por microlitro.
+
+Los cebadores y reactivos suelen expresarse en micromolar o milimolar.
+
+Los volúmenes suelen expresarse en microlitros o mililitros.
+
+Sección cuatro punto cinco. Interpretar calidad y cantidad de la extracción.
+
+Cantidad.
+
+La concentración, en nanogramos por microlitro, multiplicada por el volumen, da la masa total de ADN.
+
+Pureza por espectro.
+
+Una razón A doscientos sesenta entre doscientos ochenta de uno punto siete a dos punto cero es aceptable.
+
+El ADN puro suele estar cerca de uno punto ocho.
+
+Un valor por debajo puede sugerir presencia de proteína o fenol.
+
+Una razón A doscientos sesenta entre doscientos treinta mayor que uno punto cinco indica buena calidad.
+
+Un valor bajo puede sugerir sales, fenol o carbohidratos.
+
+Cuidado con sobreestimar.
+
+La espectrofotometría puede reportar entre dos y cuatro veces más concentración que la fluorometría.
+
+Esto puede ocurrir incluso en ADN puro.
+
+Razones aparentemente normales no garantizan ausencia de inhibidores.
+
+Para decisiones críticas, como secuenciación de nueva generación, conviene combinar ambos métodos.
+
+El espectrofotómetro te dice qué más hay en el tubo.
+
+El fluorómetro te dice cuánto ADN diana hay.
+
+Integridad.
+
+Un gel muestra si el ADN está íntegro o degradado.
+
+El ADN íntegro aparece como una banda alta de alto peso molecular.
+
+El ADN degradado suele verse como un barrido, o smear.
+
+Sección cuatro punto seis. Electroforesis en gel de agarosa.
+
+Prepara agarosa al porcentaje adecuado.
+
+Un mayor porcentaje mejora la resolución de fragmentos pequeños.
+
+Añade tinte de ADN.
+
+Vierte el gel y coloca el peine.
+
+Carga las muestras con tampón de carga junto a un ladder.
+
+Corre el gel a voltaje moderado.
+
+El ADN tiene carga negativa y migra hacia el ánodo positivo.
+
+Estima tamaños comparando las bandas con el ladder.
+
+Para código de barras de ADN, el gel ayuda a entender la carga y el tamaño de los fragmentos.
+
+Sección cuatro punto siete. Cuantificación por espectrofotometría y fluorometría.
+
+Espectrofotometría.
+
+NanoDrop y DeNovix miden absorbancia a doscientos sesenta nanómetros.
+
+Un microlitro basta.
+
+No distinguen ADN bicatenario de ADN monocatenario, ARN o fragmentos.
+
+Dan razones de pureza.
+
+Fluorometría.
+
+Qubit usa un tinte que se une selectivamente al ADN bicatenario.
+
+Es más sensible.
+
+Puede detectar cantidades en el rango de picogramos a nanogramos.
+
+También es más específico.
+
+Pero no da información de pureza.
+
+Además, requiere más volumen, aproximadamente diez microlitros.
+
+La recomendación práctica es usar ambos métodos de forma complementaria.
+
+Sección cuatro punto ocho. Reacción en cadena de la polimerasa, montaje, controles y solución de problemas.
+
+Componentes de la reacción.
+
+Templado.
+
+Par de cebadores.
+
+Desoxinucleótidos.
+
+Polimerasa.
+
+Cloruro de magnesio.
+
+Tampón.
+
+Agua.
+
+Controles.
+
+El control negativo, o control sin templado, detecta contaminación.
+
+El control positivo valida que el sistema funciona.
+
+Programa típico.
+
+Desnaturalización inicial.
+
+Luego varios ciclos de desnaturalización, alineamiento y extensión a setenta y dos grados Celsius.
+
+Finalmente, extensión final a setenta y dos grados Celsius.
+
+Cebadores y temperatura de alineamiento.
+
+Como regla práctica, la temperatura de alineamiento se calcula como la T m del cebador menos tres a cinco grados Celsius.
+
+Usa la temperatura de fusión del cebador menos estable.
+
+Si hay producto débil o inespecífico, optimiza con reacción en cadena de la polimerasa en gradiente.
+
+Distintos calculadores de T m pueden dar números distintos.
+
+Esto ocurre porque usan diferentes modelos termodinámicos, de sal y de magnesio.
+
+Trata la temperatura de alineamiento calculada como punto de partida.
+
+Solución de problemas.
+
+Si no hay producto, baja la temperatura de alineamiento en pasos de aproximadamente dos grados Celsius.
+
+También revisa el cloruro de magnesio.
+
+Verifica el templado y los cebadores.
+
+Si hay producto inespecífico, sube la temperatura de alineamiento o rediseña los cebadores.
+
+Verifica el producto en gel o con curva de fusión.
+
+Sección cuatro punto nueve. Secuenciación Sanger y lectura de cromatograma.
+
+El flujo empieza con un producto de reacción en cadena de la polimerasa limpio.
+
+Después se realiza una reacción de secuenciación con terminadores.
+
+Luego ocurre la electroforesis capilar.
+
+El resultado es un cromatograma.
+
+La mayoría de las secuencias tiene zonas ilegibles junto a los sitios de unión del cebador.
+
+El usuario debe recortar cebadores.
+
+Si aplica, también debe recortar secuencia vectorial.
+
+El objetivo es dejar solo la secuencia diana de alta calidad.
+
+Si la calidad es muy baja, el software marca bases ambiguas como N.
+
+Como regla práctica, después del recorte debe haber menos de cinco por ciento de N.
+
+Usa lecturas forward y reverse para construir una secuencia consenso.
+
+Esto permite resolver dudas.
+
+Vigila dye blobs.
+
+Programas gratuitos para empezar: Four Peaks, FinchTV y Chromas.
+
+Sección cuatro punto diez. Secuenciación de nueva generación y preparación de biblioteca.
+
+Los cuatro pasos son extracción, preparación de biblioteca, secuenciación y análisis.
+
+La biblioteca se arma fragmentando el ADN.
+
+Los fragmentos suelen medir de doscientos a ochocientos pares de bases.
+
+Después se reparan extremos.
+
+Luego se realiza A-tailing.
+
+Después se ligan adaptadores.
+
+Los adaptadores contienen índices o códigos de barras.
+
+También contienen sitios de unión para los cebadores de secuenciación.
+
+Luego se selecciona tamaño, por ejemplo con perlas SPRI.
+
+Opcionalmente, se amplifica.
+
+Después se cuantifica y se controla la biblioteca.
+
+Illumina secuencia por síntesis.
+
+Antes de secuenciar, genera clústeres por amplificación en puente.
+
+Conceptos que debes manejar: longitud de lectura, profundidad, cobertura, lecturas pareadas y multiplexing.
+
+El control de calidad previo a biblioteca usa espectrofotometría para pureza.
+
+También usa fluorometría para cuantificar.
+
+Capítulo 5. Preparación para el análisis de datos.
+
+Sección cinco punto uno. Tipos de archivo.
+
+FASTA.
+
+Los archivos FASTA usan extensiones como punto fasta o punto fa.
+
+Contienen una o varias secuencias con un encabezado que inicia con signo mayor que.
+
+Solo incluyen bases.
+
+No incluyen calidad.
+
+FASTQ.
+
+Los archivos FASTQ usan extensiones como punto fastq o punto fq.
+
+Contienen secuencia y calidad por base en escala Phred.
+
+Son archivos comunes de salida en secuenciación de nueva generación.
+
+La diferencia clave con FASTA es que FASTQ añade calidad.
+
+A B uno.
+
+Los archivos A B uno contienen el cromatograma crudo de Sanger.
+
+Incluyen picos y calidad.
+
+Se abren en FinchTV, Four Peaks o Chromas.
+
+C S V y T S V.
+
+Son tablas de metadatos o matrices de distancia.
+
+C S V separa valores por comas.
+
+T S V separa valores por tabuladores.
+
+Sección cinco punto dos. Control de calidad de secuencias.
+
+Para Sanger se hace inspección visual del cromatograma.
+
+También se revisan valores Phred.
+
+Se recortan extremos.
+
+El objetivo es tener menos de cinco por ciento de N después de recortar.
+
+Para secuenciación de nueva generación se usan herramientas de filtrado.
+
+Estas herramientas eliminan artefactos y recortan por calidad.
+
+Así mejora la calidad y los ensamblajes posteriores.
+
+Sección cinco punto tres. Edición y recorte.
+
+Elimina extremos de baja calidad.
+
+Elimina cebadores.
+
+Elimina secuencia vectorial.
+
+Corrige manualmente bases mal llamadas cuando el cromatograma lo permita.
+
+Construye una secuencia consenso con las lecturas forward y reverse.
+
+Sección cinco punto cuatro. Alineamiento.
+
+Alinear significa poner en correspondencia posiciones homólogas entre secuencias.
+
+Para código de barras de ADN y filogenia, suele alinearse un conjunto de secuencias del mismo marcador.
+
+Después se calculan distancias o árboles.
+
+Recorta antes de alinear.
+
+Sección cinco punto cinco. Búsquedas BLAST.
+
+BLAST compara tu secuencia contra bases de datos, como NCBI o GenBank.
+
+BLASTn compara nucleótidos contra nucleótidos.
+
+Es el uso común para identificar secuencias.
+
+Interpreta porcentaje de identidad, cobertura y valor e.
+
+Una identidad alta con buena cobertura sugiere una coincidencia fiable.
+
+Aun así, debes decidir de antemano cómo expresar resultados ambiguos.
+
+Por ejemplo, puede ser más adecuado decir coincidencia a nivel de género.
+
+Complementa con BOLD para código de barras animal.
+
+Sección cinco punto seis. Distancia genética.
+
+La distancia genética mide qué tan diferentes son dos secuencias.
+
+Puede expresarse como proporción de sitios distintos.
+
+También puede calcularse con corrección de modelo.
+
+Es la base de métodos de código de barras basados en distancia.
+
+También se relaciona con el concepto de barcode gap.
+
+Barcode gap es la brecha entre variación dentro de especies y entre especies.
+
+Sección cinco punto siete. Haplotipos.
+
+Un haplotipo es una variante única de secuencia dentro de un marcador.
+
+En genética de poblaciones se cuentan y comparan haplotipos.
+
+También se usan redes de haplotipos.
+
+Esto permite describir diversidad y estructura.
+
+Sección cinco punto ocho. Árboles filogenéticos.
+
+Los árboles filogenéticos representan relaciones evolutivas inferidas.
+
+Métodos introductorios incluyen distancia, neighbor-joining, máxima parsimonia y máxima verosimilitud.
+
+En cursos se usa con frecuencia máxima parsimonia.
+
+Esto ayuda a reforzar el concepto de historia evolutiva.
+
+BOLD también permite colocar datos en un árbol.
+
+Así puedes ver cómo el árbol apoya la identificación.
+
+Sección cinco punto nueve. Interpretación básica de resultados.
+
+Integra la evidencia.
+
+Pregunta si BLAST o BOLD coinciden con la morfología.
+
+Pregunta si el espécimen se agrupa con su especie esperada en el árbol.
+
+Pregunta si la distancia intraespecífica es menor que la interespecífica.
+
+Recuerda que el software no siempre acierta.
+
+Revisa manualmente.
+
+Sección cinco punto diez. Software recomendado para principiantes.
+
+MEGA sirve para alineamiento, distancias y árboles.
+
+Tiene interfaz gráfica y es ideal para empezar.
+
+AliView es un editor de alineamientos rápido y ligero.
+
+FinchTV, Four Peaks y Chromas son visores gratuitos de cromatogramas A B uno.
+
+BLAST de NCBI sirve para identificación por secuencia.
+
+BOLD Systems sirve para identificación y código de barras animal.
+
+También incluye Process ID y BIN.
+
+Geneious Prime es una suite integral comercial.
+
+Permite alinear, ensamblar y hacer control de calidad.
+
+Tiene prueba gratuita.
+
+QGIS es un sistema de información geográfica libre.
+
+Es útil si necesitas mapear localidades de colecta.
+
+La línea de comandos conviene solo cuando aporte valor.
+
+Por ejemplo, en pipelines de secuenciación de nueva generación.
+
+Para este curso, prioriza herramientas gráficas.
+
+Capítulo 6. Repaso mínimo de matemáticas y química.
+
+Sección seis punto uno. Unidades comunes.
+
+Volumen.
+
+Un mililitro equivale a mil microlitros.
+
+Concentración de ADN.
+
+Se expresa en nanogramos por microlitro.
+
+Un microgramo por microlitro equivale a mil nanogramos por microlitro.
+
+Concentración molar.
+
+Se expresa en moles por litro, o molar.
+
+Un molar equivale a mil milimolar.
+
+Un milimolar equivale a mil micromolar.
+
+Los cebadores suelen manejarse en micromolar.
+
+A menudo se preparan soluciones de trabajo desde stocks de cien micromolar.
+
+Sección seis punto dos. Dilución.
+
+La ecuación central es C uno por V uno es igual a C dos por V dos.
+
+C uno es la concentración inicial.
+
+V uno es el volumen inicial a tomar.
+
+C dos es la concentración final.
+
+V dos es el volumen final.
+
+El despeje es V uno igual a C dos por V dos, dividido entre C uno.
+
+El agua a añadir es V dos menos V uno.
+
+Ejemplo resuelto.
+
+Tienes un stock de cebador de cien micromolar.
+
+Quieres preparar diez micromolar en cincuenta microlitros.
+
+V uno es igual a diez por cincuenta, dividido entre cien.
+
+El resultado es cinco microlitros de cebador.
+
+Añade cuarenta y cinco microlitros de agua.
+
+Ejemplo resuelto con ADN.
+
+Tienes un extracto a ciento veinte nanogramos por microlitro.
+
+Quieres veinte nanogramos por microlitro en veinticinco microlitros.
+
+V uno es igual a veinte por veinticinco, dividido entre ciento veinte.
+
+El resultado es cuatro punto diecisiete microlitros de ADN.
+
+Añade veinte punto ochenta y tres microlitros de agua.
+
+Sección seis punto tres. Mezcla maestra para reacción en cadena de la polimerasa.
+
+Calcula el volumen de cada reactivo por reacción.
+
+Multiplica por el número de muestras, más controles, más una reacción de margen.
+
+Ese margen cubre pérdidas de pipeteo.
+
+Ejemplo resuelto.
+
+Reacción de veinticinco microlitros.
+
+Incluye doce punto cinco microlitros de mezcla maestra dos por.
+
+Incluye un microlitro de cebador F a diez micromolar.
+
+Incluye un microlitro de cebador R a diez micromolar.
+
+Incluye dos microlitros de ADN.
+
+Incluye ocho punto cinco microlitros de agua.
+
+Para ocho muestras, un control sin templado y un margen, se calculan diez reacciones.
+
+El ADN se añade aparte a cada tubo.
+
+Por eso la mezcla común usa veintitrés microlitros por reacción.
+
+Para diez reacciones, usa ciento veinticinco microlitros de mezcla maestra dos por.
+
+Usa diez microlitros de cebador F a diez micromolar.
+
+Usa diez microlitros de cebador R a diez micromolar.
+
+Usa ochenta y cinco microlitros de agua.
+
+El subtotal de mezcla común es doscientos treinta microlitros.
+
+Reparte veintitrés microlitros de mezcla por tubo.
+
+Luego añade dos microlitros de ADN.
+
+En el control sin templado, añade agua en lugar de ADN.
+
+Sección seis punto cuatro. Diluciones seriadas.
+
+Una dilución seriada repite una dilución con un factor fijo.
+
+Para una dilución uno a diez, toma diez microlitros de muestra y noventa microlitros de agua.
+
+Eso produce una dilución diez a la menos uno.
+
+Homogeneiza.
+
+Luego toma diez microlitros de esa dilución y añade noventa microlitros de agua.
+
+Eso produce una dilución diez a la menos dos.
+
+Y así sucesivamente.
+
+Las diluciones seriadas son útiles para curvas.
+
+También sirven para llevar un extracto concentrado a un rango medible.
+
+Sección seis punto cinco. Manejo de tampones y reactivos.
+
+Rotula con concentración y fecha.
+
+Homogeneiza después de diluir.
+
+Descongela y mezcla suavemente.
+
+Mantén en hielo lo que sea termolábil, como polimerasa y desoxinucleótidos.
+
+Evita ciclos de congelación y descongelación.
+
+Haz alícuotas para no contaminar el stock.
+
+Sección seis punto seis. Más ejemplos resueltos.
+
+Masa total de ADN.
+
+Treinta nanogramos por microlitro por cincuenta microlitros es igual a mil quinientos nanogramos.
+
+Mil quinientos nanogramos equivalen a uno punto cinco microgramos.
+
+Llevar a concentración objetivo en volumen fijo.
+
+Tienes un stock de doscientos cincuenta nanogramos por microlitro.
+
+Quieres cincuenta nanogramos por microlitro en veinte microlitros.
+
+V uno es igual a cincuenta por veinte, dividido entre doscientos cincuenta.
+
+El resultado es cuatro microlitros.
+
+Añade dieciséis microlitros de agua.
+
+Micromolar a partir de despeje.
+
+¿Qué volumen de stock de cien micromolar da cero punto cinco micromolar en cien microlitros?
+
+V uno es igual a cero punto cinco por cien, dividido entre cien.
+
+El resultado es cero punto cinco microlitros.
+
+En la práctica, prepara una predilución para pipetear con precisión.
+
+Capítulo 7. Plan de estudio de una semana antes del curso.
+
+Ajusta el plan a tu tiempo.
+
+Cada día combina lectura corta, práctica y memorización.
+
+Día uno. Panorama y ADN.
+
+Lee la sección uno de esta guía y una introducción a secuenciación de nueva generación.
+
+Memoriza los marcadores COI, rbcL más matK, e ITS.
+
+Repasa la estructura del ADN y por qué migra hacia el ánodo.
+
+Practica explicar en voz alta el flujo de campo a dato.
+
+Día dos. Colecta y preservación.
+
+Lee la tabla de preservación de esta guía.
+
+Memoriza proporciones.
+
+Etanol de noventa y cinco a noventa y nueve por ciento, con proporción mayor que cinco a uno.
+
+Sílica en proporción mayor que diez a uno.
+
+Practica diseñar una etiqueta de muestra con metadatos mínimos.
+
+Simula tres entradas de libreta de campo.
+
+Día tres. Química y pipeteo.
+
+Estudia la sección seis.
+
+Practica con diez ejercicios de C uno por V uno es igual a C dos por V dos.
+
+También arma una mezcla maestra para doce reacciones.
+
+Memoriza unidades.
+
+Microlitros y mililitros.
+
+Nanogramos por microlitro.
+
+Micromolar, milimolar y molar.
+
+Si tienes acceso a una pipeta, ensaya el primer y segundo tope.
+
+Día cuatro. Extracción y cuantificación.
+
+Lee un protocolo CTAB.
+
+Repasa las secciones cuatro punto cinco a cuatro punto siete.
+
+Memoriza rangos de pureza.
+
+A doscientos sesenta entre doscientos ochenta de uno punto siete a dos punto cero.
+
+A doscientos sesenta entre doscientos treinta mayor que uno punto cinco.
+
+Entiende por qué NanoDrop puede sobreestimar frente a Qubit.
+
+Practica interpretar cinco conjuntos ficticios de razones de pureza.
+
+Decide si cada muestra sirve o no.
+
+Día cinco. Reacción en cadena de la polimerasa.
+
+Estudia las secciones dos punto siete y cuatro punto ocho.
+
+Practica calcular la temperatura de alineamiento para cebadores con T m de cincuenta y ocho y sesenta grados Celsius.
+
+Arma en papel una reacción con control sin templado y control positivo.
+
+Lista cuatro causas de ausencia de banda.
+
+Usa un calculador de T m con una secuencia de cebador de ejemplo.
+
+Día seis. Sanger y análisis.
+
+Descarga FinchTV o Four Peaks.
+
+Abre un archivo A B uno de ejemplo.
+
+Practica recorte y lectura de calidad.
+
+Haz un BLASTn con una secuencia de prueba.
+
+Interpreta identidad, cobertura y valor e.
+
+Crea una cuenta en BOLD y explora la identificación.
+
+Día siete. Secuenciación de nueva generación, repaso integrador y autoevaluación.
+
+Lee las secciones dos punto nueve y cuatro punto diez.
+
+Repasa el glosario.
+
+Completa la lista de autoevaluación final.
+
+Lista de autoevaluación final.
+
+Explico el flujo completo de campo a dato molecular.
+
+Sé qué marcador usar para animal, planta y hongo.
+
+Conozco proporciones y temperaturas clave de preservación.
+
+Resuelvo C uno por V uno es igual a C dos por V dos.
+
+Armo una mezcla maestra con controles y margen.
+
+Interpreto A doscientos sesenta entre doscientos ochenta.
+
+Interpreto A doscientos sesenta entre doscientos treinta.
+
+Sé cuándo usar Qubit y cuándo usar NanoDrop.
+
+Calculo una temperatura de alineamiento a partir de la T m.
+
+Sé optimizar con gradiente.
+
+Abro y recorto un cromatograma A B uno.
+
+Sé qué es una base N.
+
+Hago un BLASTn.
+
+Leo identidad, cobertura y valor e.
+
+Distingo FASTA, FASTQ, A B uno, C S V y T S V.
+
+Explico en una frase qué es una biblioteca de secuenciación de nueva generación.
+
+Explico en una frase qué es un adaptador.
+
+Capítulo 8. Glosario esencial.
+
+Ejemplar de referencia, o voucher specimen.
+
+Espécimen depositado que respalda una identificación.
+
+Metadatos, o metadata.
+
+Datos asociados a la muestra, como fecha, localidad, colector y coordenadas.
+
+Colecta científica, o scientific collecting.
+
+Extracción de material biológico con fines de investigación.
+
+En México está regulada por la NOM ciento veintiséis.
+
+Lisis, o lysis.
+
+Ruptura de la célula para liberar el ADN.
+
+Tampón, o buffer.
+
+Solución que mantiene condiciones estables, como pH y sales.
+
+Sobrenadante, o supernatant.
+
+Fase líquida sobre la pastilla después de centrifugar.
+
+Pastilla, o pellet.
+
+Material sedimentado después de centrifugar.
+
+Eluir, o elute.
+
+Recuperar el ADN de la columna en solución.
+
+Razón de pureza, o purity ratio.
+
+Relación A doscientos sesenta entre doscientos ochenta.
+
+También incluye A doscientos sesenta entre doscientos treinta.
+
+Espectrofotometría, o spectrophotometry.
+
+Cuantificación por absorbancia, como en NanoDrop.
+
+Fluorometría, o fluorometry.
+
+Cuantificación por fluorescencia específica de ADN bicatenario, como en Qubit.
+
+Cebador o iniciador, o primer.
+
+Oligonucleótido que delimita la región a amplificar.
+
+Temperatura de fusión, o melting temperature, abreviada T m.
+
+Temperatura a la que se disocia la mitad de los dúplex.
+
+Temperatura de alineamiento, o annealing temperature, abreviada T a.
+
+Temperatura del paso de unión entre cebador y templado.
+
+Control sin templado, o no-template control, abreviado N T C.
+
+Reacción sin ADN usada para detectar contaminación.
+
+Cromatograma, o chromatogram.
+
+También llamado electroferograma.
+
+Es un gráfico de picos de secuenciación Sanger.
+
+Recorte, o trimming.
+
+Eliminación de extremos o cebadores de baja calidad.
+
+Base ambigua, o ambiguous base N.
+
+Base que no puede asignarse con confianza.
+
+Secuencia consenso, o consensus sequence.
+
+Combinación de lecturas forward y reverse.
+
+Biblioteca, o library.
+
+Colección de fragmentos con adaptadores lista para secuenciar.
+
+Adaptador, o adapter.
+
+Oligonucleótido ligado a los extremos del fragmento para secuenciar e indexar.
+
+Índice o código de barras, o index o barcode.
+
+Etiqueta que permite mezclar muestras mediante multiplexing.
+
+Lectura, o read.
+
+Secuencia obtenida de un fragmento.
+
+Profundidad o cobertura, o depth o coverage.
+
+Número de lecturas por posición.
+
+Lecturas pareadas, o paired-end.
+
+Secuenciación de ambos extremos del fragmento.
+
+Alineamiento, o alignment.
+
+Correspondencia de posiciones homólogas.
+
+Distancia genética, o genetic distance.
+
+Medida de diferencia entre secuencias.
+
+Haplotipo, o haplotype.
+
+Variante única de secuencia.
+
+Árbol filogenético, o phylogenetic tree.
+
+Hipótesis de relaciones evolutivas.
+
+Máxima parsimonia, o maximum parsimony.
+
+Método de inferencia que favorece la explicación con menos cambios.
+
+Máxima verosimilitud, o maximum likelihood.
+
+Método de inferencia que evalúa la probabilidad de los datos bajo un modelo.
+
+BIN, o Barcode Index Number.
+
+Agrupamiento de secuencias en BOLD como unidad taxonómica operativa.
+
+Process ID.
+
+Identificador único de espécimen en BOLD.
+
+Capítulo 9. Lista final.
+
+Sección nueve punto uno. Qué revisar antes de viajar.
+
+Revisa el flujo completo de campo a dato molecular.
+
+Revisa marcadores por grupo: COI, rbcL más matK, e ITS.
+
+Repasa proporciones y temperaturas de preservación.
+
+Etanol de noventa y cinco a noventa y nueve por ciento, en proporción mayor que cinco a uno.
+
+Sílica en proporción mayor que diez a uno.
+
+Frío para todas las muestras, salvo las secadas con sílica.
+
+Repasa C uno por V uno es igual a C dos por V dos.
+
+Repasa mezcla maestra con controles y margen.
+
+Repasa unidades.
+
+Revisa rangos de pureza.
+
+A doscientos sesenta entre doscientos ochenta de uno punto siete a dos punto cero.
+
+A doscientos sesenta entre doscientos treinta mayor que uno punto cinco.
+
+Repasa la diferencia entre Qubit y NanoDrop.
+
+Revisa cálculo de temperatura de alineamiento.
+
+Repasa causas de fallo de reacción en cadena de la polimerasa.
+
+Practica lectura y recorte de archivos A B uno.
+
+Repasa qué es una base N.
+
+Practica BLASTn.
+
+Interpreta identidad, cobertura y valor e.
+
+Explora BOLD.
+
+Confirma con el instructor bajo qué permiso o licencia trabajarás en el Área Natural Protegida.
+
+Sección nueve punto dos. Qué llevar para campo y uso general.
+
+Lleva ropa sintética de secado rápido.
+
+Usa manga larga y pantalón largo.
+
+Prefiere colores neutros.
+
+Evita algodón.
+
+Evita negro y azul oscuro.
+
+Lleva botas de selva o de hule.
+
+Lleva calcetines altos.
+
+Mete el pantalón en los calcetines.
+
+Lleva repelente con picaridina.
+
+Usa ropa tratada con permetrina.
+
+Lleva antihistamínico si reaccionas mal a picaduras.
+
+Lleva impermeable o poncho.
+
+Lleva sombrero de ala ancha.
+
+Lleva protector solar.
+
+Lleva bolsas Ziploc, cinta, linterna y agua accesible.
+
+Lleva libreta resistente.
+
+Lleva lápiz o tinta indeleble.
+
+Lleva GPS o aplicación de coordenadas.
+
+Lleva cámara o teléfono para fotos de muestras.
+
+Lleva guantes y equipo de protección personal si el curso lo indica.
+
+Lleva tu manual de bioseguridad institucional.
+
+Sección nueve punto tres. Software y cuentas antes de las sesiones por Zoom.
+
+Instala MEGA para alineamiento y árboles.
+
+Instala FinchTV, Four Peaks o Chromas para ver cromatogramas A B uno.
+
+Instala AliView si quieres un editor de alineamientos adicional.
+
+Crea cuenta en NCBI o prepara acceso a BLAST.
+
+Crea cuenta en BOLD Systems.
+
+Geneious es opcional.
+
+QGIS solo es necesario si el curso incluye mapeo de localidades.
+
+Verifica que Zoom esté actualizado.
+
+Prueba micrófono y conexión.
+
+Ten los archivos de ejemplo descargados con antelación.
+
+Sección nueve punto cuatro. Qué preguntar a los instructores durante el curso.
+
+¿Bajo qué licencia o permiso de colecta operamos?
+
+¿Qué especies y cantidades están autorizadas en esta Área Natural Protegida?
+
+¿Qué método de extracción usaremos: CTAB o columnas?
+
+¿Por qué se eligió ese método para estos tejidos?
+
+¿Qué marcador y qué par de cebadores usaremos?
+
+¿Cuál es la temperatura de alineamiento de partida?
+
+¿Cuantificaremos con NanoDrop, Qubit o ambos?
+
+¿Qué umbral de calidad se exige para continuar?
+
+¿Qué controles incluiremos?
+
+¿Usaremos control sin templado, control positivo y blanco de extracción?
+
+¿Qué criterios usaremos para aceptar o recortar una secuencia Sanger?
+
+¿Cuál será el umbral de N?
+
+¿Cuál será la calidad mínima?
+
+¿Qué pipeline y qué bases de datos usaremos?
+
+¿Usaremos BLAST, BOLD o ambos?
+
+¿Cómo expresaremos identificaciones ambiguas?
+
+¿A nivel de género, especie o BIN?
+
+¿Dónde se depositará el material?
+
+¿Dónde se depositarán los datos?
+
+¿Cómo se trazan los metadatos?
+
+Cierre.
+
+Esta guía es un material de preparación.
+
+Los protocolos específicos, reactivos y parámetros los definirá el instructor.
+
+Esto incluye los cebadores y las temperaturas de alineamiento exactas.
+
+La decisión dependerá de las muestras y del equipo disponibles.
+
+Verifica siempre la ficha de datos de seguridad de cada reactivo.
+
+También verifica las reglas vigentes del Área Natural Protegida antes de actuar.
