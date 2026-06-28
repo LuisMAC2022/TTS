@@ -1,0 +1,939 @@
+Una multa es un precio.
+
+Autores: Uri Gneezy y Aldo Rustichini.
+
+Fuente: The Journal of Legal Studies, enero de dos mil, volumen veintinueve, número uno, páginas uno a diecisiete.
+
+Publicado por University of Chicago Press para University of Chicago Law School.
+
+Resumen.
+
+La hipótesis de la disuasión predice que la introducción de una penalización, dejando todo lo demás sin cambios,
+reducirá la conducta sujeta a la multa.
+
+Presentamos los resultados de un estudio de campo en un grupo de guarderías que contradice esta predicción.
+
+Los padres solían llegar tarde a recoger a sus hijos, lo que obligaba a una maestra a quedarse después de la hora
+de cierre.
+
+Introdujimos una multa monetaria para los padres que llegaban tarde. Como resultado, el número de padres que
+llegaban tarde aumentó de manera significativa.
+
+Después de retirar la multa, no hubo reducción. Sostenemos que las penalizaciones suelen introducirse en contratos
+incompletos, sociales o privados.
+
+También pueden cambiar la información disponible para los agentes. Por eso, su efecto sobre la conducta puede ser
+opuesto al esperado.
+
+Si esto es cierto, la hipótesis de la disuasión pierde fuerza predictiva, porque la cláusula 'todo lo demás queda
+sin cambios' puede ser difícil de cumplir.
+
+Capítulo uno. Introducción.
+
+Suponga que usted administra una guardería para niños pequeños. El centro está programado para operar todos los
+días hasta las cuatro de la tarde.
+
+A esa hora, los padres deben llegar a recoger a sus hijos. Sin embargo, con bastante frecuencia los padres llegan
+tarde y obligan al personal a quedarse después del horario laboral.
+
+Usted ha considerado varias alternativas para reducir esta conducta. Una opción natural consiste en introducir una
+multa.
+
+Cada vez que un padre o una madre llegue tarde, tendrá que pagar una multa. ¿Reducirá eso el número de padres que
+llegue tarde?
+
+La predicción de que sí lo hará parece muy plausible. De hecho, se formula comúnmente en dos campos de
+investigación distintos: los estudios legales y penales, por un lado, y los estudios psicológicos, por otro.
+
+La literatura psicológica sobre este tema es muy amplia y forma parte de los manuales básicos. Después de las
+primeras formulaciones de la teoría, siguieron muchos estudios, aunque la conclusión todavía es controvertida.
+
+Sin embargo, esta gran literatura coincide en algunos hallazgos generales. Cuando se imponen consecuencias
+negativas sobre una conducta, tienden a producir una reducción de esa respuesta particular.
+
+Cuando esas consecuencias negativas se eliminan, la conducta que había sido suspendida tiende normalmente a
+reaparecer.
+
+Los cambios inducidos por el castigo pueden ser duraderos o no, dependiendo de varios factores.
+
+Entre ellos están la severidad del castigo y si el castigo se asocia con un estímulo o solamente con la conducta
+efectiva.
+
+Un castigo es más eficaz para reducir una conducta cuando es seguro y ocurre inmediatamente después de esa
+conducta.
+
+Por último, suele desarrollarse adaptación al castigo mismo. Así, si la severidad y otros parámetros del castigo
+permanecen sin cambios, su eficacia tiende a disminuir con el tiempo.
+
+En los estudios legales, la teoría de la disuasión justifica el castigo como un medio para prevenir delitos
+futuros.
+
+Esta teoría parte del supuesto de que un castigo esperado más alto produce niveles más bajos de conducta delictiva.
+
+La teoría de la disuasión puede formularse como una hipótesis empírica: se puede probar si castigos más severos,
+rápidos y seguros reducen el nivel de delito.
+
+Es importante recordar que el análisis económico del efecto de un castigo sobre la conducta no es directo.
+
+Requiere una especificación completa de las fuerzas de mercado. El nivel de equilibrio del delito se determina por
+la intersección de curvas de oferta y demanda.
+
+Los efectos del castigo se determinan dentro del equilibrio general. Un cambio en un parámetro, como el nivel de
+castigo, modifica el problema de decisión del agente individual.
+
+Por sí mismo, ese cambio tendería a reducir el nivel preferido de delito por parte de la persona.
+
+Pero ese cambio también modifica el problema de los demás agentes y sus reacciones. Por tanto, vuelve a afectar el
+problema del decisor individual.
+
+El resultado global podría no ser la reducción que se habría anticipado al considerar al agente de manera aislada.
+
+Por ejemplo, la reducción podría ser menor porque algunos agentes abandonan la actividad delictiva y, al hacerlo,
+aumentan los beneficios para quienes permanecen en ella.
+
+Una vez tomadas en cuenta estas reservas, es razonable decir que la hipótesis de la disuasión se basa en el
+supuesto de que introducir una penalización reducirá la conducta.
+
+En el estudio de campo que presentamos aquí, la predicción fue violada. La relación observada fue significativa y
+positiva.
+
+En concreto, estudiamos el efecto de las multas sobre la frecuencia con que los padres llegan tarde a recoger a sus
+hijos en guarderías.
+
+Nuestros datos incluyen observaciones de diez guarderías durante un periodo de veinte semanas.
+
+En las primeras cuatro semanas simplemente observamos el número de padres que llegaban tarde.
+
+Al comienzo de la quinta semana introdujimos una multa en seis de las diez guarderías.
+
+La multa se impuso a los padres que llegaban más de diez minutos tarde. No se introdujo ninguna multa en las otras
+cuatro guarderías, que funcionaron como grupo de control.
+
+Después de introducir la multa, observamos un aumento sostenido en el número de padres que llegaban tarde.
+
+Al final de un periodo de ajuste que duró dos o tres semanas, el número de padres tardíos permaneció estable, en
+una tasa más alta que durante el periodo sin multa.
+
+La multa fue retirada al comienzo de la semana diecisiete.
+
+En las cuatro semanas siguientes, el número de padres que llegaban tarde permaneció en el mismo nivel alto del
+periodo anterior, y por encima del nivel observado en las primeras cuatro semanas.
+
+No afirmamos que el efecto sea similar cada vez que se introduce una multa. Es fácil imaginar que ningún padre
+llegaría tarde si la multa fuera muy grande.
+
+Lo que este estudio de campo enseña, creemos, es que la introducción de una multa cambia la percepción que las
+personas tienen del entorno en el que actúan.
+
+En particular, sostenemos que el entorno de nuestro estudio, como muchas situaciones de la vida real, está definido
+por un contrato incompleto.
+
+En la situación específica examinada, la consecuencia exacta de llegar tarde no estaba especificada en el contrato
+entre los padres y la guardería.
+
+Por ejemplo, no había cláusulas precisas que establecieran la consecuencia de uno, dos o varios retrasos al recoger
+a un niño.
+
+Los padres podían formar cualquier creencia sobre el asunto, como probablemente lo hicieron, y actuar de acuerdo
+con ella.
+
+La introducción de la multa en este contrato incompleto, sin embargo, reformuló la percepción que los padres tenían
+de ese entorno.
+
+Capítulo dos. El estudio.
+
+Sección A. Antecedentes.
+
+En Israel hay dos tipos de guarderías: privadas y públicas.
+
+Este estudio se realizó en diez guarderías privadas de la ciudad de Haifa, entre enero y junio de mil novecientos
+noventa y ocho.
+
+Todas estas guarderías estaban ubicadas en la misma zona de la ciudad, y no había diferencias importantes entre
+ellas.
+
+En las guarderías, la propietaria también era la directora. Para ser directora certificada se requerían dos años de
+estudios.
+
+En todas las guarderías estudiadas, la directora permanecía en el centro hasta la una de la tarde. Después de esa
+hora, las asistentes quedaban a cargo.
+
+Durante el día, los niños se organizaban en grupos según su edad, de uno a cuatro años.
+
+Cada guardería podía recibir un máximo de treinta y cinco niños. En algunos casos excepcionales se permitían
+algunos niños adicionales.
+
+La cuota por cada niño era de mil cuatrocientos nuevos shéquels israelíes al mes.
+
+En el momento del estudio, un dólar estadounidense valía aproximadamente tres punto sesenta y ocho nuevos shéquels
+israelíes, de modo que la cuota equivalía a unos trescientos ochenta dólares.
+
+El contrato firmado al comienzo del año establecía que la guardería operaba entre las siete treinta de la mañana y
+las cuatro de la tarde.
+
+No mencionaba qué ocurría si los padres llegaban tarde a recoger a sus hijos. En particular, antes del estudio no
+había multa por llegar tarde.
+
+Cuando los padres no llegaban a tiempo, una de las maestras tenía que esperar con los niños afectados.
+
+Las maestras rotaban en esta tarea, que se consideraba parte del trabajo docente. Ese hecho se explicaba claramente
+cuando una maestra era contratada.
+
+Los padres rara vez llegaban después de las cuatro treinta de la tarde.
+
+Sección B. El estudio.
+
+Al comienzo del estudio, asistentes de investigación visitaron las guarderías para pedir a las directoras que
+participaran en un estudio académico sobre la influencia de las multas.
+
+A cada directora se le prometió que al final del estudio recibiría cupones por un valor de quinientos nuevos
+shéquels israelíes para comprar libros.
+
+Las directoras recibieron un número telefónico de la universidad al que podían llamar para verificar los detalles.
+Ninguna de ellas lo hizo.
+
+El periodo total del estudio fue de veinte semanas. En realidad fueron veintiuna semanas, con una semana de
+interrupción por vacaciones después de la semana catorce.
+
+Además, la semana once incluyó solo cuatro días de estudio, de domingo a miércoles. Por eso, el número de padres
+tardíos de esa semana se calculó multiplicando el número observado por cinco cuartos.
+
+En las primeras cuatro semanas registramos simplemente el número de padres que llegaban tarde cada semana.
+
+Al comienzo de la quinta semana introdujimos una multa en seis de las diez guarderías, seleccionadas al azar.
+
+El anuncio de la multa se hizo mediante una nota colocada en el tablón de anuncios de la guardería.
+
+Los padres solían revisar ese tablón todos los días, porque allí se publicaban avisos importantes.
+
+El anuncio especificaba que la multa sería de diez nuevos shéquels israelíes por un retraso de diez minutos o más.
+
+La multa era por niño. Así, si los padres tenían dos hijos en la guardería y llegaban tarde, debían pagar veinte
+nuevos shéquels israelíes.
+
+El pago se hacía a la directora de la guardería al final del mes.
+
+Como los pagos mensuales se hacían a la propietaria durante el año, las multas se agregaban a esas cantidades.
+
+El dinero se pagaba a la propietaria, no a la maestra que se quedaba tarde, y esa maestra no recibía dinero
+adicional.
+
+Las maestras fueron informadas de la multa, pero no del estudio. Registrar los nombres de los padres que llegaban
+tarde era, de cualquier modo, una práctica común.
+
+Al comienzo de la semana diecisiete, la multa se eliminó sin explicación. El aviso de cancelación se colocó en el
+tablón.
+
+Si los padres preguntaban por qué se habían eliminado las multas, las directoras debían responder que la multa
+había sido una prueba por tiempo limitado y que sus resultados se estaban evaluando.
+
+Sección C. Algunas comparaciones.
+
+Una comparación con otras multas en Israel permite hacerse una idea del tamaño de la penalización introducida.
+
+Una multa de diez nuevos shéquels israelíes es relativamente pequeña, pero no insignificante.
+
+Como comparación, la multa por estacionarse ilegalmente era de setenta y cinco nuevos shéquels israelíes.
+
+La multa por pasar un semáforo en rojo era de mil nuevos shéquels israelíes, además de otras sanciones.
+
+La multa por no recoger los excrementos de un perro era de trescientos sesenta nuevos shéquels israelíes.
+
+Sin embargo, para muchas de estas infracciones, la detección y la aplicación eran bajas o, como en el caso de los
+excrementos de perro, inexistentes en la práctica.
+
+Una niñera ganaba entre quince y veinte nuevos shéquels israelíes por hora.
+
+El salario bruto mensual promedio en Israel en el momento del estudio era de cinco mil quinientos noventa y cinco
+nuevos shéquels israelíes.
+
+Capítulo tres. Resultados.
+
+Los datos brutos se presentan en la tabla uno.
+
+La primera columna informa el número de cada guardería del estudio. Las primeras seis integran el grupo de prueba,
+donde se introdujo una multa, y las últimas cuatro integran el grupo de control.
+
+La segunda columna informa el número total de niños en el centro.
+
+Las demás columnas informan el número de veces por semana que los padres llegaron tarde. Cada ocurrencia de retraso
+cuenta como un caso separado.
+
+Por ejemplo, en la semana cuatro, la guardería número tres tuvo nueve casos de padres que llegaron tarde.
+
+Como primer indicador del efecto de la multa, se comparó el promedio semanal de padres tardíos en las seis
+guarderías con multa con el promedio correspondiente en las cuatro guarderías del grupo de control.
+
+La figura uno indica un impacto bastante drástico de la multa.
+
+Para reforzar esta observación, se compararon las medianas de los dos grupos y los valores extremos, es decir, el
+mínimo y el máximo de retrasos.
+
+La figura dos muestra esa comparación. En el grupo de prueba, el número de retrasos aumentó de manera sostenida
+durante las primeras tres o cuatro semanas posteriores a la introducción de la multa.
+
+La tasa finalmente se estabilizó en un nivel más alto, casi el doble del nivel inicial.
+
+Tabla uno. Número de padres que llegaron tarde por semana, según guardería.
+
+En el grupo de prueba, el centro uno tenía treinta y siete niños. Los retrasos semanales, de la semana uno a la
+veinte, fueron: ocho, ocho, siete, seis, ocho, nueve, nueve, doce, trece, trece, quince, trece, catorce, dieciséis,
+catorce, quince, dieciséis, trece, quince y diecisiete.
+
+En el grupo de prueba, el centro dos tenía treinta y cinco niños. Los retrasos semanales fueron: seis, siete, tres,
+cinco, dos, once, catorce, nueve, dieciséis, doce, diez, catorce, catorce, dieciséis, doce, diecisiete, catorce,
+diez, catorce y quince.
+
+En el grupo de prueba, el centro tres tenía treinta y cinco niños. Los retrasos semanales fueron: ocho, nueve,
+ocho, nueve, tres, cinco, quince, dieciocho, dieciséis, catorce, veinte, dieciocho, veinticinco, veintidós,
+veintisiete, diecinueve, veinte, veintitrés, veintitrés y veintidós.
+
+En el grupo de prueba, el centro cuatro tenía treinta y cuatro niños. Los retrasos semanales fueron: diez, tres,
+catorce, nueve, seis, veinticuatro, ocho, veintidós, veintidós, diecinueve, veinticinco, dieciocho, veintitrés,
+veintidós, veinticuatro, diecisiete, quince, veintitrés, veinticinco y dieciocho.
+
+En el grupo de prueba, el centro cinco tenía treinta y tres niños. Los retrasos semanales fueron: trece, doce,
+nueve, trece, quince, diez, veintisiete, veintiocho, treinta y cinco, diez, veinticuatro, treinta y dos,
+veintinueve, veintinueve, veintiséis, treinta y uno, veintiséis, treinta y cinco, veintinueve y veintiocho.
+
+En el grupo de prueba, el centro seis tenía veintiocho niños. Los retrasos semanales fueron: cinco, ocho, siete,
+cinco, cinco, nueve, doce, catorce, diecinueve, diecisiete, catorce, trece, diez, quince, catorce, dieciséis, seis,
+doce, diecisiete y trece.
+
+En el grupo de control, el centro siete tenía treinta y cinco niños. Los retrasos semanales fueron: siete, diez,
+doce, seis, cuatro, trece, siete, ocho, cinco, doce, tres, cinco, seis, trece, siete, cuatro, siete, diez, cuatro y
+seis.
+
+En el grupo de control, el centro ocho tenía treinta y cuatro niños. Los retrasos semanales fueron: doce, nueve,
+catorce, dieciocho, diez, once, seis, quince, catorce, trece, siete, doce, nueve, nueve, diecisiete, ocho, cinco,
+once, ocho y trece.
+
+En el grupo de control, el centro nueve tenía treinta y cuatro niños. Los retrasos semanales fueron: tres, cuatro,
+nueve, tres, tres, cinco, nueve, cinco, dos, siete, seis, seis, nueve, cuatro, nueve, dos, tres, ocho, tres y
+cinco.
+
+En el grupo de control, el centro diez tenía treinta y dos niños. Los retrasos semanales fueron: quince, trece,
+trece, doce, diez, nueve, quince, quince, quince, diez, diecisiete, doce, trece, once, catorce, diecisiete, doce,
+nueve, quince y trece.
+
+La nota de la tabla uno indica que las columnas bajo la palabra semana informan el número de padres que llegaron
+tarde.
+
+La figura uno muestra el número promedio de padres tardíos por semana.
+
+La figura dos muestra el valor mediano del retraso para el grupo de prueba y el grupo de control. También señala
+los valores extremos de ambos grupos.
+
+El número de llegadas tarde pareció permanecer estable después de que la multa fue retirada.
+
+En el grupo de control no se observó ningún cambio notable después de la cuarta semana, ni en ninguna otra semana.
+
+Los resultados promedio son típicos en cada caso. Los datos de cada guardería individual se presentan en la tabla
+dos.
+
+Esta tabla informa el promedio de padres tardíos en las distintas guarderías para cada una de las cuatro etapas del
+estudio.
+
+El periodo con multa se divide en dos etapas. Los mismos datos se muestran en la figura tres.
+
+Los datos fueron sometidos a pruebas estadísticas formales. Los detalles aparecen en el apéndice B.
+
+Las pruebas estadísticas muestran tres hechos principales.
+
+Primer hecho: el efecto de introducir la multa fue un aumento significativo en el número de padres que llegaron
+tarde.
+
+Segundo hecho: retirar la multa no afectó el número de padres que llegaron tarde en comparación con el periodo de
+la multa.
+
+En particular, ese número permaneció más alto en el grupo de tratamiento que en el grupo de control.
+
+Tercer hecho: no hubo diferencia significativa entre el comportamiento del grupo de prueba y el del grupo de
+control durante las primeras cuatro semanas, y no hubo una tendencia significativa en el grupo de prueba.
+
+Tabla dos. Número promedio de padres que llegaron tarde, según cuatro periodos del estudio.
+
+Los cuatro periodos son: antes de la multa, semanas uno a cuatro; primeras cuatro semanas con multa, semanas cinco
+a ocho; periodo completo con multa, semanas cinco a dieciséis; y periodo posterior a la multa, semanas diecisiete a
+veinte.
+
+Centro uno, treinta y siete niños: siete punto veinticinco antes de la multa; nueve punto cinco en las primeras
+semanas con multa; doce punto cinco en todo el periodo con multa; y quince punto veinticinco después de la multa.
+
+Centro dos, treinta y cinco niños: cinco punto veinticinco antes de la multa; nueve en las primeras semanas con
+multa; doce punto dos en todo el periodo con multa; y trece punto veinticinco después de la multa.
+
+Centro tres, treinta y cinco niños: ocho punto cinco antes de la multa; diez punto veinticinco en las primeras
+semanas con multa; dieciséis punto ocho en todo el periodo con multa; y veintidós después de la multa.
+
+Centro cuatro, treinta y cuatro niños: nueve antes de la multa; quince en las primeras semanas con multa;
+diecinueve punto uno en todo el periodo con multa; y veinte punto veinticinco después de la multa.
+
+Centro cinco, treinta y tres niños: once punto setenta y cinco antes de la multa; veinte en las primeras semanas
+con multa; veinticuatro punto seis en todo el periodo con multa; y veintinueve punto cinco después de la multa.
+
+Centro seis, veintiocho niños: seis punto veinticinco antes de la multa; diez en las primeras semanas con multa;
+trece punto uno en todo el periodo con multa; y doce después de la multa.
+
+Centro siete, treinta y cinco niños: ocho punto setenta y cinco antes de la multa; ocho en las primeras semanas con
+multa; siete punto dos en el periodo comparable; y seis punto setenta y cinco al final.
+
+Centro ocho, treinta y cuatro niños: trece punto veinticinco antes de la multa; diez punto cinco en las primeras
+semanas comparables; diez punto nueve en el periodo comparable; y nueve punto veinticinco al final.
+
+Centro nueve, treinta y cuatro niños: cuatro punto setenta y cinco antes de la multa; cinco punto cinco en las
+primeras semanas comparables; cinco punto cinco en el periodo comparable; y cuatro punto setenta y cinco al final.
+
+Centro diez, treinta y dos niños: trece punto veinticinco antes de la multa; doce punto veinticinco en las primeras
+semanas comparables; trece punto uno en el periodo comparable; y doce punto veinticinco al final.
+
+La figura tres muestra el número promedio de padres tardíos en las diez guarderías.
+
+Capítulo cuatro. Interpretación de los resultados.
+
+Cualquier modelo o explicación de estos resultados debe ofrecer dos predicciones específicas.
+
+Primero, debe explicar que la tasa de retrasos aumente después de introducir una multa.
+
+Segundo, debe explicar que esa tasa permanezca estable después de retirar la multa.
+
+La literatura revisada en la introducción no parece ofrecer una explicación satisfactoria para ambos resultados.
+
+El punto controvertido en esa literatura era si el castigo induce una reducción de la conducta relevante.
+
+La posibilidad de que aumentara la conducta castigada ni siquiera se consideraba desde el punto de vista teórico o
+empírico.
+
+También debe considerarse que los modelos investigados en esa literatura tienen al menos dos características
+distintas del entorno de nuestro estudio.
+
+Primero, el 'delito' de nuestro estudio es muy leve, y también lo son los castigos.
+
+Segundo, no existe incertidumbre respecto del castigo, ya que los padres tienen certeza de que serán detectados.
+
+El modelo que sugerimos difiere de todos estos modelos en un supuesto central: asumimos que la multa cambia la
+percepción que tienen los agentes de la situación social en la que participan.
+
+A continuación presentamos varias explicaciones posibles de los datos, basadas principalmente en este supuesto.
+
+Más adelante discutimos sus méritos relativos.
+
+Sección A. Un modelo de información diferencial y contratos incompletos.
+
+En el periodo inicial, los padres que no enfrentan una multa solo pueden recurrir a un contrato parcialmente
+especificado para anticipar las consecuencias de su retraso.
+
+A medida que transcurren las primeras semanas, los padres adquieren información adicional.
+
+Por ejemplo, aprenden que la penalización no es severa para el nivel leve de llegadas tarde que realmente ocurre.
+
+Esto, por supuesto, no basta para saber si lo mismo se mantendría ante un comportamiento peor por parte de ellos.
+
+El contrato implícito que la guardería presenta a los padres podría percibirse así:
+
+'Cuidaremos a sus hijos después de la hora de cierre si ustedes llegan tarde.'
+
+'No estableceremos una tarifa para este servicio adicional, que por tanto se realizará sin cargo.'
+
+'Por supuesto, cualquier retraso de su parte debe ser un caso excepcional, y ustedes deberían llegar tarde solo
+cuando sea estrictamente necesario.'
+
+'Si llegan tarde con demasiada frecuencia, podríamos hacer algo al respecto.'
+
+Para evitar esta consecuencia no especificada e incierta, pero posiblemente más grave, los padres se abstienen de
+incurrir en demasiados retrasos.
+
+La introducción de una multa hace que la consecuencia segura de un retraso sea un poco peor, porque los padres
+ahora deben pagar por cada retraso.
+
+Pero la multa también proporciona información.
+
+Ninguno de los términos explícitos del contrato se modificó. Tampoco se modificaron las leyes relevantes ni las
+normas sociales ampliamente aceptadas.
+
+Sin embargo, los padres tienen ahora razones para creer que una multa es lo peor que puede ocurrir.
+
+Para esta explicación es esencial que el contrato sea incompleto.
+
+La alternativa sería suponer que el contrato era completo antes y después de introducir la multa, y que simplemente
+cambió de una situación a otra por decisión unilateral de las propietarias de la guardería.
+
+Ese argumento, sin embargo, no explica por qué los padres aumentan el número de retrasos cuando sube el precio de
+retrasarse.
+
+La conducta observada en nuestro estudio durante las primeras tres o cuatro semanas posteriores a la introducción
+de la multa es consistente con esta explicación.
+
+Los padres prueban lentamente la reacción de las guarderías ante niveles más altos de retraso.
+
+Al no observar ninguna otra reacción además de la multa, continúan aumentando sus retrasos.
+
+En el periodo final, después de retirar la multa, siguen sin tener razones para anticipar nada peor que una multa.
+
+Por tanto, no reducen la tasa de llegadas tarde. En todo caso, dado que incluso la multa desaparece, la aumentan
+ligeramente.
+
+Sección B. Un modelo formal simple.
+
+Ahora esbozamos de manera informal un juego explícito para captar la importancia de la nueva información.
+
+Los jugadores son la propietaria de una guardería, una mujer, y un grupo finito de padres, tratados en el modelo
+como hombres.
+
+Hay dos tipos de propietarias, que difieren solo en el tipo de acción que pueden tomar.
+
+El primer tipo, denominado S, puede usar una acción severa llamada K.
+
+Un ejemplo de acción severa es la exclusión del niño de la guardería.
+
+El otro tipo, moderado y denominado M, solo puede aumentar una multa f.
+
+Ambos tipos también pueden simplemente no hacer nada.
+
+El tipo de propietaria es desconocido para los padres, y cada tipo ocurre con igual probabilidad.
+
+Para simplificar, suponemos que el juego continúa durante un número infinito de periodos y que los jugadores
+descuentan la utilidad de cada periodo.
+
+En cada periodo, los jugadores actúan de manera secuencial.
+
+Primero, la propietaria elige la acción para ese periodo.
+
+Si elige K o f, debe pagar un costo fijo de implementación durante el primer periodo.
+
+Si no hace nada, no paga nada.
+
+Después, todos los padres eligen simultáneamente una cantidad de retraso dentro de un intervalo.
+
+El pago para la propietaria es la cuota, si existe, menos el costo que el retraso le impone, todo multiplicado por
+el retraso total.
+
+El pago de cada padre es el valor v del retraso, menos la cuota, todo multiplicado por la cantidad de retraso.
+
+Llegar tarde a la guardería tiene un valor porque, por ejemplo, ofrece flexibilidad al padre.
+
+El valor v es mayor que la multa f.
+
+Si la propietaria es del tipo S y elige K, el juego termina.
+
+En ese caso, el pago de la propietaria es cero y el pago de los padres es un número grande y negativo.
+
+El siguiente es un equilibrio secuencial de este juego.
+
+Los padres eligen una cantidad de retraso, llamada d asterisco, apenas suficiente para que ambos tipos de
+propietaria sean indiferentes entre pagar el costo de introducir f o K, según su tipo, y no hacer nada.
+
+Los padres mantienen esa conducta mientras el juego continúe, salvo que algún padre haya elegido un retraso mayor
+que en el pasado o que la propietaria haya cobrado una multa.
+
+En ambos casos, los padres eligen el retraso máximo en todos los periodos futuros, incluso si la multa se retira
+después.
+
+La propietaria no hace nada en cada periodo, siempre que todos los padres hayan elegido un retraso menor o igual
+que d asterisco en los periodos anteriores, y siempre que ella misma haya elegido la inacción.
+
+Si cualquiera de los jugadores, incluida la propietaria, se ha desviado en periodos anteriores, ella elige f si es
+del tipo M y K si es del tipo S.
+
+Observe que esta elección revela completamente su tipo.
+
+Los padres revisan sus creencias sobre el tipo de propietaria usando la información disponible.
+
+Si la propietaria elige la inacción después de un retraso mayor que d asterisco, los padres creen que con seguridad
+es del tipo moderado M.
+
+Para ver que esto es un equilibrio, empecemos de nuevo con los padres.
+
+Ninguno encuentra conveniente elegir un retraso mayor que d asterisco, porque queda disuadido por la pérdida
+esperada en el resultado malo K.
+
+Seguir el equilibrio es mejor que cualquier ganancia de un solo periodo.
+
+Después de la desviación de cualquier jugador, incluida la propia desviación del padre, el retraso máximo es la
+mejor elección, siempre que el juego no haya terminado.
+
+Esto ocurre porque los padres creen que la propietaria es moderada, y que lo peor que puede hacer es imponer la
+multa que ya está cobrando.
+
+Como v es mayor que f, el retraso máximo resulta atractivo.
+
+Para la propietaria de ambos tipos, mientras el retraso sea menor o igual que d asterisco, la inacción es una buena
+elección, porque introducir f o K tiene un costo de implementación.
+
+Ahora supongamos que las propietarias observan un retraso mayor que d asterisco.
+
+La propietaria moderada, de tipo M, sabe que el otro tipo elegiría la línea dura K.
+
+Como ella no puede tomar esa acción, los padres reconocerán que es moderada.
+
+Entonces los padres elegirán después un retraso grande, y a ella le conviene introducir la multa como compensación
+parcial del costo.
+
+La propietaria severa, de tipo S, sabe que si elige la inacción los padres creerán que es moderada y aumentarán su
+retraso.
+
+Por tanto, su mejor opción es cortar las pérdidas y elegir K.
+
+Este equilibrio produce tres predicciones.
+
+Primera predicción: en el periodo inicial hay un nivel bajo de llegadas tarde.
+
+Segunda predicción: si fuera del camino de equilibrio la propietaria cobra una multa, los padres creen que es
+moderada y aumentan el número de retrasos.
+
+Tercera predicción: si después se retira la multa, los padres siguen creyendo que la propietaria es moderada y no
+cambian su conducta.
+
+Estas predicciones coinciden perfectamente con nuestros datos.
+
+En nuestro estudio, sin embargo, la introducción de la multa fuera del camino de equilibrio no fue decidida por la
+propietaria, sino por nosotros.
+
+Sección C. Equilibrios múltiples.
+
+El modelo que presentamos ignora un aspecto que podría ser importante.
+
+El costo que un padre impone a la propietaria al llegar tarde un día específico depende mucho de cuántos padres
+lleguen tarde ese mismo día.
+
+El aumento en el costo es casi cero si ese padre no es el único que llega tarde.
+
+Por tanto, puede haber equilibrios múltiples en el juego.
+
+En uno de los equilibrios, muchos padres llegan tarde, y entonces a cada padre individual también le conviene
+llegar tarde.
+
+En el otro equilibrio, nadie o muy pocos padres llegan tarde.
+
+Como el costo que un padre impone a la propietaria es mayor en ese caso, puede decidir llegar a tiempo.
+
+La introducción de la tarifa puede haber desplazado el juego del segundo equilibrio al primero.
+
+Esta interpretación también explica la conducta observada en el último periodo.
+
+Sección D. Normas sociales.
+
+La explicación anterior se basa en el supuesto de individuos perfectamente racionales y perfectamente egoístas,
+tanto padres como propietarias.
+
+También es posible una interpretación completamente distinta basada en el concepto de norma social.
+
+Por desgracia, la teoría de las normas sociales está menos desarrollada que la teoría de juegos, de modo que
+nuestro razonamiento debe ser más informal.
+
+La introducción de la multa puede haber cambiado la percepción de los dos actos relevantes: que los padres lleguen
+tarde y que las maestras cuiden a los niños después del cierre.
+
+Los padres pueden haber interpretado la conducta de las maestras en el primer periodo como una actividad generosa,
+ajena al mercado.
+
+Quizá pensaron: 'El contrato con la guardería solo cubre el periodo hasta las cuatro de la tarde.'
+
+'Después de esa hora, la maestra es simplemente una persona amable y generosa. No debería aprovecharme de su
+paciencia.'
+
+La introducción de la multa cambia la percepción hacia algo distinto:
+
+'La maestra cuida al niño de un modo parecido a como lo hacía antes durante el día.'
+
+'De hecho, esta actividad tiene un precio, llamado multa. Por tanto, puedo comprar este servicio tanto como lo
+necesite.'
+
+Los padres se sienten justificados por una norma social que dice aproximadamente lo siguiente:
+
+'Cuando se ofrece ayuda sin compensación en un momento de necesidad, acéptela con moderación.'
+
+'Cuando se ofrece un servicio por un precio, compre tanto como le resulte conveniente.'
+
+Esta norma social por sí sola no basta para explicar la conducta observada.
+
+Después de todo, el pago de diez nuevos shéquels israelíes fue etiquetado como multa.
+
+Además, el servicio se ofrecía a un precio muy inusual y no lineal: tarifa cero para menos de diez minutos, y
+tarifa fija de diez nuevos shéquels para más de diez minutos.
+
+Por eso parece necesaria una norma adicional: 'Una multa es un precio.'
+
+Las dos etiquetas del pago, como precio o como multa, se vuelven equivalentes.
+
+Con las dos normas sociales formuladas hasta ahora, se explica la conducta del primer y segundo periodos.
+
+No se puede asociar culpa ni vergüenza al acto de comprar una mercancía según la propia conveniencia.
+
+Sin embargo, la conducta del tercer periodo todavía es difícil de explicar.
+
+Ahora, la primera norma social predeciría un nivel bajo de retrasos.
+
+Podemos pensar que un periodo de cuatro semanas no es suficiente para devolver la conducta al nivel apropiado.
+
+Pero, considerando que dos o tres semanas bastaron para duplicar el nivel de retrasos después de introducir la
+multa, deberíamos estimar que la velocidad de aprendizaje de los padres es demasiado alta para justificar tanta
+inercia.
+
+Tal vez se necesita una tercera norma social: 'Una vez mercancía, siempre mercancía.'
+
+Esta norma y la segunda parte de la primera norma explican la conducta del periodo final.
+
+Una mercancía con precio cero se compra en grandes cantidades.
+
+En conjunto, parecen necesarias tres normas para explicar tres hechos.
+
+Esto puede no parecer óptimo desde un punto de vista metodológico.
+
+Pero la verdadera prueba de esta explicación está en verificar de manera independiente que esas normas estén
+realmente activas.
+
+Los resultados de un experimento relacionado, presentado a continuación, pueden darle cierto respaldo.
+
+Sección E. Sin recompensa y recompensa cero.
+
+En otro experimento, estudiamos el efecto de las recompensas sobre el desempeño.
+
+A los participantes de cuatro grupos distintos se les pagó una tarifa fija de sesenta nuevos shéquels israelíes por
+participar.
+
+Después les pedimos que resolvieran un conjunto de cincuenta preguntas de una prueba de coeficiente intelectual.
+
+A los participantes del primer grupo les prometimos, además, cero coma diez nuevos shéquels israelíes por cada
+pregunta respondida correctamente.
+
+A un segundo grupo le prometimos un nuevo shéquel israelí por respuesta correcta.
+
+A un tercer grupo le prometimos tres nuevos shéquels israelíes por respuesta correcta.
+
+Finalmente, a un cuarto grupo no le mencionamos el dinero.
+
+El primer grupo tuvo el peor desempeño, incluso peor que el último grupo, al que no se le ofreció compensación
+adicional.
+
+La conclusión parece ser que la ausencia de un precio no es simplemente el límite de precios muy bajos.
+
+Mencionar un pago basta para cambiar la percepción del contrato.
+
+Pasa de ser un servicio que los sujetos deben prestar como participantes del experimento, a convertirse en un
+intercambio de mercado.
+
+De manera similar, en el estudio de las guarderías, una multa basta para cambiar la percepción de la obligación de
+llegar a tiempo.
+
+Capítulo cinco. Conclusiones: contratos incompletos e incentivos.
+
+La evidencia presentada indica que, en nuestro grupo de guarderías, la introducción de una multa aumentó la
+conducta multada.
+
+Además, el nuevo nivel más alto no se redujo cuando se retiró la multa.
+
+Estos son los hechos, y debemos explicarlos.
+
+Hemos presentado dos interpretaciones posibles.
+
+Por el momento, debemos concluir que, con base en los datos y la teoría disponibles, no podemos refutar ninguna de
+las dos.
+
+Una respuesta satisfactoria sería interesante, porque estos hechos probablemente son más que una curiosidad.
+
+Es cierto que una tarifa suficientemente grande terminaría reduciendo la conducta.
+
+Por ejemplo, muchas guarderías en Estados Unidos anuncian claramente desde el comienzo del año una tarifa por
+llegar tarde.
+
+Esta tarifa suele ser grande y proporcional a la duración del retraso.
+
+La penalización resultante es más severa para el retraso promedio que la multa no lineal introducida en nuestro
+estudio, incluso después de ajustar por diferencias de precios e ingresos entre los dos países.
+
+La observación casual muestra que hay pocos retrasos, pero no hemos examinado si el retraso promedio difiere del
+de nuestra muestra.
+
+Comparar los dos sistemas sería un proyecto de investigación interesante.
+
+El estudio que presentamos muestra, creemos, algo distinto.
+
+Podemos resumirlo así: las multas, al igual que las recompensas, se deciden dentro de un contexto más amplio, que
+por conveniencia podemos definir como un juego.
+
+Muchos de los juegos que enfrentamos en la vida real no están completa ni precisamente definidos.
+
+Esto ocurre incluso cuando su descripción es razonablemente exacta, como sucede con un contrato de cuidado infantil
+en una guardería privada.
+
+Las personas que enfrentan este juego no llegan a él simplemente con sus preferencias y creencias.
+
+También traen consigo una percepción de la situación estratégica que enfrentan.
+
+El contrato que se les presenta, y cualquier modificación posterior, puede cambiar esa percepción.
+
+La evidencia presentada aquí sugiere que introducir una multa puede cambiar efectivamente la percepción del juego y
+del equilibrio.
+
+Este cambio puede ser una simple adquisición de información, como en el modelo simple propuesto antes.
+
+También puede derivarse de un cambio más drástico de percepción, como en la norma postulada: 'Una vez mercancía,
+siempre mercancía.'
+
+En ambos casos, el efecto de cambiar una cláusula del contrato puede producir efectos distintos de los esperados
+bajo el supuesto de que todo lo demás permanece sin cambios.
+
+Creemos que esto es importante, porque no hay razón para pensar que el efecto se limite a faltas menores, como
+retrasarse al recoger a un hijo.
+
+Por ejemplo, el anuncio de un gobierno de que la evasión fiscal será perseguida con mayor severidad puede
+interpretarse de varias maneras.
+
+Por eso, su efecto puede diferir del aumento de cumplimiento que se habría anticipado.
+
+Apéndice A. Texto del anuncio que introdujo la multa.
+
+Anuncio: multa por llegar tarde.
+
+Como todos saben, la hora oficial de cierre de la guardería es a las cuatro de la tarde todos los días.
+
+Dado que algunos padres han estado llegando tarde, hemos decidido, con la aprobación de la Autoridad de Guarderías
+Privadas de Israel, imponer una multa a los padres que lleguen tarde a recoger a sus hijos.
+
+A partir del próximo domingo se cobrará una multa de diez nuevos shéquels israelíes cada vez que un niño sea
+recogido después de las cuatro diez de la tarde.
+
+Esta multa se calculará mensualmente y deberá pagarse junto con el pago mensual regular.
+
+Atentamente, la directora de la guardería.
+
+Apéndice B. Análisis estadístico de los datos.
+
+La primera prueba estadística fue una comparación de línea base entre los dos grupos: el grupo con multa, llamado
+tratamiento, y el grupo sin multa, llamado control, durante las primeras cuatro semanas.
+
+Se utilizó un modelo de análisis de varianza, con transformación arcoseno de la raíz cuadrada del porcentaje diario
+de padres que llegaron tarde a cada guardería.
+
+La guardería anidada dentro de un grupo se consideró un efecto aleatorio.
+
+También se probó la interacción entre el número de semana y el grupo.
+
+Los resultados de esta prueba fueron los siguientes.
+
+No hubo diferencia significativa de línea base entre el grupo de tratamiento y el grupo de control.
+
+El estadístico F, con uno y ocho grados de libertad, fue cero punto sesenta y cinco, y p fue cero punto cuarenta y
+cuatro.
+
+Es decir, el número de padres que llegaron tarde en cada grupo antes de introducir la multa, durante las semanas
+uno a cuatro, no fue estadísticamente diferente.
+
+Hubo un efecto significativo para la guardería dentro del grupo.
+
+El estadístico F, con ocho y veinticuatro grados de libertad, fue cinco punto noventa y cinco, y p fue cero punto
+cero cero cero tres.
+
+Es decir, las guarderías individuales dentro de un grupo fueron estadísticamente distintas entre sí.
+
+No hubo efecto significativo para la semana.
+
+El estadístico F, con tres y veinticuatro grados de libertad, fue cero punto sesenta y ocho, y p fue cero punto
+cincuenta y siete.
+
+Tampoco hubo efecto significativo para la interacción entre semana y grupo.
+
+El estadístico F, con tres y veinticuatro grados de libertad, fue cero punto setenta y ocho, y p fue cero punto
+cincuenta y dos.
+
+Es decir, no se encontró tendencia ni diferencia sistemática entre semanas.
+
+Luego se consideró el efecto del tiempo dentro del grupo de control solamente.
+
+La hipótesis probada fue que el aumento en el número de padres que llegaban tarde podría ser simplemente una
+tendencia temporal, independiente de la introducción de una multa.
+
+Una tendencia temporal podría existir en el grupo de control si, por ejemplo, los padres adquirieran con el tiempo
+más familiaridad con las maestras de la guardería y se sintieran más justificados al flexibilizar un poco las
+reglas.
+
+Los resultados de esta prueba fueron los siguientes.
+
+Hubo un efecto significativo para la guardería.
+
+El estadístico F, con tres y cincuenta y siete grados de libertad, fue treinta y tres punto ochenta y dos, y p fue
+cero punto cero cero cero uno.
+
+Es decir, nuevamente se encontró que las guarderías individuales se comportaban de manera distinta.
+
+No hubo efecto significativo para la semana.
+
+El estadístico F, con diecinueve y cincuenta y siete grados de libertad, fue uno punto cero cuatro, y p fue cero
+punto cuarenta y cuatro.
+
+En otras palabras, no hubo diferencia estadísticamente significativa entre semanas y, por tanto, no hubo tendencia
+en los datos.
+
+El efecto de la multa sobre el número de padres tardíos se probó usando un modelo de análisis de varianza.
+
+Se aplicó la transformación arcoseno de la raíz cuadrada del porcentaje diario de padres que llegaron tarde a cada
+guardería.
+
+La guardería se consideró un efecto aleatorio, y la semana se anidó dentro de cinco bloques de cuatro semanas cada
+uno.
+
+El bloque uno correspondió a las semanas uno a cuatro; el bloque dos, a las semanas cinco a ocho; y así
+sucesivamente, hasta el bloque cinco, que correspondió a las semanas diecisiete a veinte.
+
+El efecto de la penalización se probó mediante diez contrastes entre bloques.
+
+También se probó la interacción entre guardería y bloques.
+
+Los resultados mostraron lo siguiente.
+
+Hubo un efecto significativo para los bloques.
+
+El estadístico F, con cuatro y setenta y cinco grados de libertad, fue cuarenta y uno punto ochenta y tres, y p fue
+cero punto cero cero cero uno.
+
+De las diez comparaciones por pares entre bloques, siete fueron altamente significativas.
+
+Bloque uno contra bloque dos: F con uno y setenta y cinco grados de libertad fue quince punto cincuenta y dos, y p
+fue cero punto cero cero cero dos.
+
+Bloque uno contra bloque tres: F fue ochenta y tres punto cuarenta y cuatro, y p fue cero punto cero cero cero uno.
+
+Bloque uno contra bloque cuatro: F fue ciento doce punto treinta, y p fue cero punto cero cero cero uno.
+
+Bloque uno contra bloque cinco: F fue noventa y siete punto treinta y cinco, y p fue cero punto cero cero cero uno.
+
+Bloque dos contra bloque tres: F fue veintiséis punto noventa y nueve, y p fue cero punto cero cero cero uno.
+
+Bloque dos contra bloque cuatro: F fue cuarenta y cuatro punto treinta y tres, y p fue cero punto cero cero cero
+uno.
+
+Bloque dos contra bloque cinco: F fue treinta y cinco punto catorce, y p fue cero punto cero cero cero uno.
+
+Bloque tres contra bloque cuatro: F fue dos punto catorce, y p fue cero punto ciento cuarenta y siete ocho.
+
+Bloque tres contra bloque cinco: F fue cero punto cincuenta y cuatro, y p fue cero punto cuatro mil seiscientos
+sesenta y cinco.
+
+Bloque cuatro contra bloque cinco: F fue cero punto cincuenta y tres, y p fue cero punto cuatro mil seiscientos
+setenta y tres.
+
+Como antes, hubo un efecto significativo para la guardería.
+
+El estadístico F, con cinco y setenta y cinco grados de libertad, fue veinticinco punto veintitrés, y p fue cero
+punto cero cero cero uno.
+
+Hubo un efecto significativo para la semana dentro de los bloques.
+
+El estadístico F, con quince y setenta y cinco grados de libertad, fue dos punto noventa, y p fue cero punto cero
+cero doce.
+
+No hubo interacción significativa entre guardería y bloques.
+
+El estadístico F, con veinte y setenta y cinco grados de libertad, fue cero punto ochenta y ocho, y p fue cero
+punto seis mil ciento diecisiete.
+
+Por último, además de los contrastes, realizamos una prueba simultánea para comparar los cinco bloques y controlar
+el nivel de significancia, manteniendo alfa en cinco por ciento.
+
+Para ello se empleó la prueba de rangos múltiples de Duncan.
+
+Los resultados de esta prueba mostraron una diferencia significativa entre las semanas uno a cuatro, cinco a ocho,
+y nueve a veinte.
+
+No hubo diferencia significativa entre las semanas nueve a doce, trece a dieciséis, y diecisiete a veinte.
