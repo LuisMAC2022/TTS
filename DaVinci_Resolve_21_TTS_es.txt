@@ -1,0 +1,1919 @@
+DaVinci Resolve veintiuno. Guía de nuevas funciones. Abril de dos mil veintiséis.
+
+Liderando la revolución creativa del video.
+
+Capítulo 1. Bienvenida.
+
+Bienvenido a DaVinci Resolve para Mac, Linux y Windows.
+
+DaVinci es uno de los nombres más confiables del mundo en corrección de color. Se ha usado para etalonar películas de Hollywood, programas de televisión y comerciales.
+
+Con DaVinci Resolve tienes edición, corrección avanzada de color, audio profesional Fairlight, efectos visuales Fusion y edición de fotos en una sola aplicación.
+
+Ahora puedes importar fotos y video, editar, componer, graduar color, mezclar audio y masterizar entregables de principio a fin en una sola herramienta.
+
+DaVinci Resolve incluye funciones para editores, coloristas, ingenieros de audio, artistas de efectos visuales y editores de fotografía.
+
+Está construido sobre tecnología moderna, con procesamiento avanzado de audio, color e imagen, más allá de lo que ofrecen muchos otros sistemas.
+
+Con esta versión, el objetivo es inspirar creatividad y permitirte trabajar de una forma cómoda y familiar.
+
+Al mismo tiempo, ofrece un conjunto nuevo de herramientas creativas para cortar y finalizar proyectos con mayor calidad.
+
+El equipo de ingeniería de DaVinci Resolve espera que disfrutes esta guía de nuevas funciones.
+
+DaVinci Resolve es fácil de aprender, especialmente si vienes de otro editor, y tiene las herramientas necesarias para crear trabajos de alto nivel.
+
+Equipo de ingeniería de DaVinci Resolve.
+
+Grant Petty, director ejecutivo de Blackmagic Design.
+
+Capítulo 2. Introducción.
+
+DaVinci Resolve veintiuno presenta una nueva página llamada Photo.
+
+Esta página permite que coloristas y fotógrafos usen, en fotografías fijas, las herramientas de color avanzadas asociadas al flujo de trabajo de Hollywood.
+
+La página Photo permite importar y administrar fotografías, e integrarlas con la página Color para realizar gradación basada en nodos.
+
+Puedes usar corrección primaria de color, curvas, qualifiers, power windows y el editor de nodos.
+
+Con estas herramientas es posible ajustar el color de forma artística en todo un proyecto fotográfico.
+
+También puedes usar un panel de control DaVinci para ajustar varios parámetros al mismo tiempo.
+
+Otras actualizaciones incluyen nuevas herramientas de inteligencia artificial.
+
+IntelliSearch permite buscar contenido con rapidez.
+
+CineFocus permite ajustar el punto focal.
+
+También se incluyen herramientas de refinamiento facial.
+
+El conjunto Krokodove agrega más de setenta herramientas gráficas a Fusion.
+
+Las carpetas de Fairlight simplifican la gestión de pistas de audio.
+
+También hay mejoras en keyframes, pases de recorte MultiMaster y visualización de gráficos de nodos como listas de capas.
+
+Esta guía presenta las nuevas funciones y se incorporará al manual de referencia de DaVinci Resolve después de la beta pública.
+
+Capítulo 3. Photo.
+
+Edición de imágenes fotográficas integrada completamente dentro de DaVinci Resolve.
+
+Sección 3.1. Página Photo.
+
+DaVinci Resolve veintiuno introduce una nueva y potente página Photo.
+
+Esta página está diseñada para administrar, organizar y graduar proyectos fotográficos con las herramientas de color y gestión de color nativas de Resolve.
+
+Es un editor de imágenes integrado con una canalización de edición de video.
+
+La página Photo funciona principalmente como una aplicación de edición fotográfica.
+
+Su integración con el resto de DaVinci Resolve abre posibilidades creativas que normalmente no existen en un editor de imágenes fijas.
+
+Mediante Photo Albums puedes pasar imágenes fijas de resolución completa a las páginas Cut, Edit, Color y Fusion para aplicar procesamiento adicional.
+
+La página Photo incluye gestión completa de imágenes: etiquetas, favoritos, calificaciones y colecciones en álbumes.
+
+También puedes conectar una cámara directamente a la página Photo para capturar imágenes y controlar ajustes de cámara en vivo.
+
+Con IntelliSearch, la inteligencia artificial analiza tus imágenes y permite buscarlas por contenido, objetos, personas, colores y otros criterios.
+
+La página Photo incluye una biblioteca amplia de efectos, con varios efectos Resolve FX y Fusion FX listos para usar.
+
+La incorporación de Photo permite moverse con fluidez entre fotografía, edición de video, gradación de color, efectos visuales y posproducción de audio.
+
+Nota importante. Las gradaciones y efectos aplicados a imágenes fijas dentro de álbumes se aplican a nivel de fuente.
+
+Esto significa que las gradaciones de una imagen se comparten entre todos los álbumes de un proyecto, de forma similar a las gradaciones remotas.
+
+Sección 3.2. Uso de la página Photo.
+
+En la parte superior de la página Photo hay una barra de herramientas.
+
+Sus botones permiten mostrar u ocultar distintas partes de la interfaz.
+
+Media Pool. Abre u oculta una versión reducida del Media Pool completo, con acceso a las imágenes usadas en el proyecto.
+
+Effects Library. Abre u oculta el repositorio de transiciones, generadores y efectos disponibles para la página Photo.
+
+Photo Album. Abre el álbum fotográfico situado en la parte inferior de la interfaz.
+
+Quick Export. Abre el cuadro de exportación rápida para entregar fotos de forma sencilla.
+
+Metadata. Muestra u oculta el editor de metadatos.
+
+Capture. Muestra u oculta la interfaz para capturar fotografías conectando la cámara al equipo.
+
+Inspector. Muestra u oculta el inspector, donde puedes editar parámetros RAW, parámetros de foto y propiedades de efectos.
+
+Sección 3.3. Media Pool en Photo.
+
+En la página Photo, el Media Pool contiene solamente los medios de imagen fija que has importado para editar en el proyecto.
+
+También contiene los álbumes que usarás para organizar tus fotografías.
+
+A diferencia de los Media Pools de otras páginas, aquí no se muestran video, audio, líneas de tiempo ni clips de efectos.
+
+Esos elementos siguen existiendo, pero se ocultan porque la página Photo está dedicada a imágenes fijas.
+
+Al pulsar la lista de bins en la esquina superior izquierda aparece una jerarquía de carpetas para organizar fotos y álbumes.
+
+De forma predeterminada, el Media Pool contiene un solo bin llamado Master.
+
+Puedes agregar más bins para organizar clips y líneas de tiempo desde la lista de bins, eligiendo Add Bin.
+
+Puedes renombrar un bin personalizado haciendo doble clic sobre su nombre o usando la opción Rename Bin del menú contextual.
+
+El navegador muestra el contenido de la carpeta seleccionada.
+
+Cada foto fija, bin y álbum aparece en esta zona.
+
+Puedes crear tantos álbumes como necesites dentro de un mismo proyecto.
+
+El Media Pool puede mostrarse en vista de miniaturas o en vista de lista.
+
+En vista de lista, puedes ordenar el contenido por una parte de los metadatos disponibles en el editor de metadatos de la página Media.
+
+Sección 3.4. Importación de fotos en la página Photo.
+
+Agregar fotos desde la página Media ofrece más flexibilidad organizativa.
+
+Aun así, si estás en la página Photo y necesitas importar fotos rápidamente, hay varios métodos disponibles.
+
+Para usar el icono Import Media, abre la página Photo y pulsa el icono de lista Import Media en la parte superior del Media Pool.
+
+Import Media abre un selector de archivos para importar fotos seleccionadas.
+
+Import Media Folder abre un selector de archivos para importar todas las fotos dentro de una carpeta.
+
+Import from Photos, disponible solo en Mac OS, abre la aplicación Fotos de Mac OS para seleccionar imágenes.
+
+Import from Lightroom importa un catálogo de Adobe Lightroom.
+
+Import Blackmagic Cloud Folder permite vincular una carpeta de Blackmagic Cloud e importar las fotos almacenadas allí.
+
+También puedes hacer clic derecho en el Media Pool y elegir Import Media.
+
+Después, usa el diálogo de importación para seleccionar una o más fotos y pulsa Open.
+
+Las fotos se agregan al Media Pool del proyecto.
+
+Sección 3.5. Bins y Smart Bins.
+
+Hay dos clases de bins en el Media Pool, y cada una aparece en su propia sección.
+
+Los bins simples se llenan manualmente.
+
+Puedes arrastrar elementos a un bin, y allí permanecerán hasta que los muevas a otro bin.
+
+Los bins pueden organizarse jerárquicamente, de modo que puedes crear una estructura de carpetas anidadas.
+
+Para crear un bin, haz clic derecho en la lista de bins y elige Add Bin.
+
+Los Smart Bins se llenan mediante reglas.
+
+Estas reglas usan metadatos para filtrar dinámicamente el contenido del Media Pool cuando seleccionas el Smart Bin.
+
+Esto permite organizar proyectos rápidamente si tú o un asistente agregaron metadatos a las fotos.
+
+Los metadatos pueden incluir datos EXIF, palabras clave, comentarios, descripciones y otra información útil.
+
+Para crear un Smart Bin, abre la lista de bins y elige Add Smart Bin.
+
+Aparece un cuadro de diálogo donde puedes editar el nombre del bin y las reglas de filtrado.
+
+Sección 3.6. Búsqueda en el Media Pool.
+
+El icono de lupa abre un campo de búsqueda para localizar nombres de imágenes específicos.
+
+Además, IntelliSearch permite usar inteligencia artificial para búsquedas casi instantáneas de personas y objetos escritos en ese campo.
+
+Sección 3.7. Biblioteca de efectos.
+
+Todos los efectos que puedes agregar a tus fotos están en el panel Effects.
+
+El panel muestra una lista jerárquica de efectos y filtros, ordenados por categoría.
+
+Para previsualizar un efecto antes de aplicarlo, activa Hover Scrub Preview en el menú de opciones de Effects.
+
+Después coloca el puntero sobre una miniatura del panel Effects y muévelo a través de ella.
+
+El efecto se previsualiza en el Viewer con sus parámetros predeterminados.
+
+Para activar un efecto sobre una foto, arrastra la miniatura del efecto seleccionado hasta una foto en el álbum.
+
+Para ajustar los parámetros del efecto, abre la pestaña Effects en el Inspector.
+
+Puedes buscar un efecto escribiendo en la barra de búsqueda de Effects Library.
+
+La combinación Shift y espacio abre el cuadro Effects Search en la página Photo.
+
+Si una foto está seleccionada, al pulsar el efecto en la lista de búsqueda se aplica a esa foto.
+
+Puedes buscar efectos y transiciones usando nombres de categorías.
+
+Por ejemplo, al buscar Stylize aparecen los Resolve FX incluidos en la sección Stylize.
+
+También puedes buscar efectos en el idioma configurado en las preferencias de interfaz de DaVinci Resolve, además del inglés.
+
+Sección 3.8. Photo Albums.
+
+La pestaña Photo Album abre el álbum fotográfico en la parte inferior de la interfaz.
+
+Como en un álbum físico, los Photo Albums sirven para guardar y organizar colecciones de imágenes fijas.
+
+En DaVinci Resolve pueden entenderse como un tipo especial de línea de tiempo, construida con fotos seleccionadas por el usuario.
+
+Organizar imágenes del Media Pool en álbumes es esencial para aprovechar las capacidades fotográficas de DaVinci Resolve veintiuno.
+
+Las fotos son independientes de resolución y velocidad de fotogramas, mientras que las líneas de tiempo no lo son.
+
+La página Photo usa el Photo Album como contenedor organizativo central.
+
+Esto permite que las fotos interactúen con el resto de páginas de DaVinci Resolve.
+
+Para crear un Photo Album, haz clic derecho en el Media Pool y elige New Photo Album.
+
+También puedes ir al menú File y elegir New Photo Album.
+
+Para agregar imágenes a un álbum, selecciona una foto o un grupo de fotos en el Media Pool.
+
+Después haz clic derecho en una imagen y elige Add Photo o Add Photos to Album.
+
+Las fotos seleccionadas se agregan al álbum actual.
+
+Para eliminar imágenes de un álbum, selecciona una o varias fotos y elige Delete Selected.
+
+Las fotos se eliminan del álbum actual, sin necesidad de borrar el archivo original del proyecto.
+
+Después de crear y llenar un álbum, puedes usar sus herramientas para organizar, ordenar y etiquetar imágenes fijas.
+
+Puedes agregar etiquetas, colores y flags a imágenes en el Viewer.
+
+Luego puedes usar los filtros del Photo Album para organizarlas y clasificarlas.
+
+Las miniaturas del álbum muestran iconos que indican operaciones aplicadas a la foto.
+
+Un rectángulo arcoíris alrededor del número indica que se aplicó una operación RAW o una operación de Photo.
+
+La calificación por estrellas muestra la puntuación asignada por el usuario, y puede modificarse con un clic.
+
+El flag en la esquina superior derecha indica qué bandera de color se asignó a la foto.
+
+La cápsula pequeña en la esquina inferior derecha indica el color asignado.
+
+Un corazón o una equis muestra si la foto fue marcada como favorita o rechazada.
+
+El formato de imagen aparece bajo la miniatura, en la esquina inferior izquierda.
+
+El indicador FX muestra que se aplicó un efecto.
+
+El icono Transform indica que se aplicó una transformación.
+
+El icono Crop indica que se aplicó un recorte.
+
+Sección 3.9. Filtros del Photo Album.
+
+Tags filtra las fotos según etiquetas.
+
+Con clic derecho puedes elegir criterios como Good Take, Untagged, Rejected o una combinación de ellos.
+
+Rating filtra por calificación.
+
+Con clic derecho puedes elegir igual a, menor o igual, mayor o igual, y la cantidad exacta de estrellas.
+
+Flags filtra según banderas de color.
+
+Con clic derecho puedes elegir uno o varios colores como criterio.
+
+Color filtra por color de clip.
+
+Keywords filtra por palabras clave.
+
+Sort Photos cambia el orden ascendente o descendente.
+
+Con clic derecho puedes elegir el valor de metadatos que se usará para ordenar.
+
+Para filtros más avanzados, usa el menú desplegable junto a la etiqueta del Photo Album.
+
+Puedes filtrar por atributos como fotos graduadas o no graduadas, personas, o fotos modificadas en las últimas horas.
+
+Los Photo Albums pueden trasladar fotos a resolución nativa entre páginas de DaVinci Resolve.
+
+Esto permite usar herramientas de Cut, Edit, Color y Fusion sobre imágenes fijas, además de la página Photo.
+
+Sección 3.10. Viewer de Photo.
+
+El Viewer de Photo permite observar con detalle una foto específica durante la edición.
+
+También contiene herramientas propias para trabajar con las imágenes.
+
+En la barra superior, Photo Album muestra la imagen seleccionada.
+
+Capture Live View abre la vista en vivo cuando se trabaja con cámara conectada.
+
+Zoom Percent permite elegir el nivel de zoom del Viewer.
+
+Album List muestra el álbum actual y permite abrir álbumes recientes desde un menú desplegable.
+
+Single View abre un visor grande de una sola imagen.
+
+Lightbox muestra miniaturas redimensionables de todas las imágenes del álbum.
+
+Viewer Guides abre guías para relaciones de aspecto, áreas seguras, reglas personalizadas y líneas de guía.
+
+Bypass Color and Fusion omite efectos de Color o Fusion que se hayan aplicado.
+
+Puedes elegir omitir solo Color o solo Fusion desde el menú desplegable.
+
+Sección 3.11. Lightbox y modo mano.
+
+Al pulsar Lightbox, la vista de una sola foto se reemplaza por miniaturas redimensionables de cada foto del álbum.
+
+Esto permite ver varias fotos con mayor tamaño y obtener una visión general del contenido del álbum.
+
+También puedes seleccionar una imagen y graduarla en vivo mientras ves el resultado actualizado en toda la colección.
+
+Mantener presionada la tecla H en el Viewer activa el modo mano.
+
+Cuando el modo mano está activo, la imagen se escala al cien por ciento.
+
+Arrastrar la mano dentro del Viewer desplaza la imagen.
+
+Un doble clic sobre un área permite examinar píxeles individuales.
+
+Otro doble clic ajusta la imagen al Viewer.
+
+En la barra inferior, Tools abre las interfaces de Transform, Crop y Effects Overlay.
+
+Exif Data muestra ISO, velocidad de obturación, apertura y metadatos de lente.
+
+Favorite marca la imagen como favorita con un pequeño corazón.
+
+Untag elimina la marca de favorita o rechazada.
+
+Reject marca la imagen como rechazada con una pequeña equis.
+
+Version Selector permite elegir otra versión guardada de la imagen.
+
+Rating asigna una calificación de una a cinco estrellas.
+
+Color asigna una etiqueta de color útil para operaciones organizativas en otras páginas.
+
+Flag asigna una bandera de color útil para operaciones organizativas en otras páginas.
+
+Sección 3.12. Transform.
+
+Al seleccionar Transform aparecen controles en pantalla para manipular directamente la imagen en el Viewer.
+
+Puedes arrastrar dentro del cuadro delimitador del clip para ajustar paneo e inclinación.
+
+Puedes arrastrar una esquina diagonal para redimensionar proporcionalmente.
+
+También puedes arrastrar lados superiores, inferiores, izquierdos o derechos para comprimir o estirar la anchura o la altura.
+
+El tirador central permite rotar la imagen.
+
+Mientras se usan controles en pantalla, la herramienta muestra siempre el tamaño original de la foto bajo la cuadrícula de transformación.
+
+Esto permite ver zonas fuera del encuadre mientras haces ajustes.
+
+Al cerrar la barra, la operación de transformación se activa y se aplica a la imagen.
+
+El botón Toggle activa o desactiva un efecto sin perder los ajustes personalizados.
+
+Zoom Width y Height permiten agrandar o reducir la imagen.
+
+Los parámetros X y Y pueden vincularse para bloquear la relación de aspecto.
+
+También pueden separarse para estirar o comprimir la imagen en una sola dirección.
+
+Zoom Link activa el bloqueo para unir ancho y alto durante una operación de zoom.
+
+Position X y Y mueve la imagen dentro del encuadre.
+
+X mueve la imagen a izquierda o derecha.
+
+Y mueve la imagen hacia arriba o hacia abajo.
+
+Rotation Angle gira la imagen alrededor del punto de anclaje.
+
+Pitch gira la imagen hacia la cámara o lejos de ella sobre un eje horizontal que atraviesa el centro.
+
+Valores positivos empujan la parte superior hacia atrás y acercan la parte inferior.
+
+Valores negativos acercan la parte superior y empujan la parte inferior hacia atrás.
+
+Yaw gira la imagen sobre un eje vertical que atraviesa el centro.
+
+Valores positivos acercan el lado izquierdo y alejan el derecho.
+
+Valores negativos alejan el lado izquierdo y acercan el derecho.
+
+Flip Horizontal invierte la imagen sobre el eje X, de izquierda a derecha.
+
+Flip Vertical invierte el clip sobre el eje Y, dejándolo de cabeza.
+
+Reset devuelve los parámetros de una categoría a sus valores predeterminados.
+
+Sección 3.13. Crop.
+
+La página Photo incluye controles en pantalla para recortar directamente la imagen en el Viewer.
+
+Cada lado de la imagen tiene un tirador individual para recortar ese lado.
+
+Estos parámetros también se editan desde el Video Inspector.
+
+Mientras se usan controles en pantalla, la herramienta muestra el tamaño original de la foto bajo la cuadrícula de recorte.
+
+Esto permite ver zonas fuera del encuadre al hacer ajustes.
+
+Al cerrar la barra, el recorte se activa y se aplica a la imagen.
+
+Aspect Ratio permite elegir relaciones de aspecto comunes para formatos de foto y video, o crear una relación personalizada.
+
+El valor predeterminado es As Shot, que corresponde a la relación nativa de la cámara.
+
+Lock Aspect Ratio bloquea la relación de aspecto seleccionada durante los recortes.
+
+Si está desbloqueado, puedes recortar en forma libre.
+
+Crop Left, Right, Top y Bottom cortan los cuatro lados de la imagen en píxeles.
+
+Reset devuelve los controles de recorte a sus valores predeterminados.
+
+Sección 3.14. Overlays de Open FX y Fusion.
+
+Si aplicaste un efecto Open FX o Fusion que tiene controles en pantalla, puedes acceder a ellos desde los iconos correspondientes.
+
+Sección 3.15. Versiones en Photo Album.
+
+Una de las funciones más útiles de Photo Album es el versionado.
+
+Puedes ajustar una foto, guardar esos cambios como versión y luego probar un aspecto radicalmente distinto sobre la misma imagen.
+
+La versión original permanece guardada.
+
+Puedes guardar tantas versiones como necesites.
+
+Para crear una versión, realiza tus ediciones, haz clic derecho en una foto del Photo Album y elige New Version.
+
+El cuadro New Version permite escribir un nombre descriptivo y confirmar con OK.
+
+Cambiar de versión también es sencillo.
+
+Las versiones guardadas aparecen en el mismo menú contextual donde fueron creadas.
+
+También hay un selector desplegable en la parte inferior del Photo Viewer.
+
+Importante. Solo la versión seleccionada se exporta en Quick Export y en la página Deliver.
+
+Las demás versiones se ignoran al exportar.
+
+Sección 3.16. Quick Export.
+
+Quick Export abre una ventana de entrega diseñada para imágenes fijas.
+
+Seleccionas el formato de imagen a la izquierda, introduces los parámetros a la derecha y pulsas Export.
+
+Los parámetros exactos dependen del formato elegido.
+
+Export permite exportar todo el álbum o solo las fotos seleccionadas.
+
+File Name permite agregar texto como prefijo de nombre de archivo.
+
+Scale permite elegir resolución original o una reducción porcentual para archivos más pequeños.
+
+Include Metadata permite incluir los metadatos de la foto en la imagen final.
+
+Consejo. Si necesitas más control sobre la exportación de fotos, usa las herramientas de la página Deliver.
+
+Sección 3.17. Metadata.
+
+En la página Photo, el editor de metadatos se abre en el mismo lugar que el Inspector.
+
+Cuando seleccionas una foto en el Media Pool o en el álbum, sus metadatos aparecen en el editor.
+
+Si seleccionas varios clips, solo se muestra la información del primero.
+
+El encabezado del editor contiene información no editable: nombre de archivo, directorio, duración, velocidad de fotogramas, resolución y códec.
+
+Hay muchos campos de metadatos disponibles.
+
+Por eso, dos menús desplegables superiores cambian el conjunto de metadatos mostrado.
+
+Metadata Presets permite elegir conjuntos personalizados creados en preferencias de usuario.
+
+Metadata Groups permite cambiar entre grupos de metadatos organizados para tareas o flujos de trabajo específicos.
+
+La parte central del editor contiene campos editables para revisar y modificar distintos criterios de metadatos.
+
+Sección 3.18. Capture.
+
+Capture abre la interfaz Capture Live View para disparo conectado desde la cámara directamente hacia DaVinci Resolve.
+
+Permite transferir fotos de inmediato al Media Pool o a un Photo Album.
+
+También sirve para edición, revisión con clientes o evaluación de la imagen en una pantalla más grande.
+
+Primero configura Camera Tethering en la cámara.
+
+Cada marca y modelo tiene métodos distintos, así que conviene consultar el manual de la cámara.
+
+Después conecta la cámara a la estación de trabajo con un cable USB.
+
+Como nota de beta, solo las cámaras Canon y Sony son compatibles con captura conectada en vivo.
+
+En Mac OS, Canon y Sony son compatibles de forma nativa.
+
+En Windows, Canon es compatible de forma nativa.
+
+Sony es compatible, pero requiere instalar software adicional de Sony Creators Cloud.
+
+En Linux no se admite tethering.
+
+En iPad tampoco se admite tethering.
+
+Si hay problemas de conexión, asegúrate de que no haya otros programas abiertos que se conecten automáticamente a la cámara.
+
+A veces es necesario reiniciar DaVinci Resolve para conectar la cámara.
+
+Cuando la cámara y el equipo están configurados, al pulsar Capture se conecta automáticamente con la cámara.
+
+Al pulsar Capture Live View en la parte superior del Viewer se abre la interfaz de vista en vivo.
+
+En la columna derecha aparecen controles de captura.
+
+Según el modelo de cámara, podrás cambiar ajustes directamente desde la interfaz.
+
+Se pueden controlar parámetros como apertura, velocidad de obturación, ISO y compensación de exposición.
+
+Debajo puedes ajustar el foco girando la rueda o pulsando botones de dirección.
+
+Más abajo, en Settings, puedes ajustar opciones avanzadas.
+
+Los ajustes no admitidos por la cámara aparecen desactivados.
+
+A la izquierda aparece Capture Live View, que se actualiza en tiempo real con lo que ve la cámara.
+
+Puede incluir visualizaciones de pantalla como cajas de enfoque y focus peaking.
+
+En el extremo izquierdo aparece la última foto capturada.
+
+Así puedes compararla con la configuración actual de la toma.
+
+Puedes pausar Live View en cualquier momento usando el interruptor de Capture Live View.
+
+Cuando la cámara muestra la imagen deseada, captura la foto pulsando el disparador en la esquina superior derecha de los controles.
+
+Camera Name muestra el modelo de cámara conectado.
+
+Half Press envía a la cámara una señal de media pulsación, usada a menudo para bloquear el autofoco.
+
+Shutter Release activa el disparador de la cámara y toma una foto.
+
+Aperture muestra la apertura seleccionada del lente.
+
+Shutter Speed muestra la velocidad de obturación actual.
+
+ISO muestra el ISO seleccionado.
+
+Exposure Compensation muestra la compensación de exposición actual.
+
+AutoFocus activa el autofoco.
+
+Control Wheel ajusta el parámetro activo y controlable.
+
+Enable Capture Live Preview activa la previsualización de cámara en vivo dentro del Viewer.
+
+Los scopes de Capture son idénticos a los del Inspector y se actualizan en tiempo real desde la cámara.
+
+Settings permite controlar la cámara conectada desde la interfaz.
+
+Shooting Mode define el modo de disparo, como prioridad de apertura, prioridad de obturación, programa o manual.
+
+Aperture ajusta la apertura del lente.
+
+Shutter ajusta la velocidad de obturación.
+
+ISO ajusta el ISO de la cámara.
+
+Exposure Comp define los pasos de compensación de exposición.
+
+White Balance define el preset de balance de blancos.
+
+Temperature define una temperatura exacta de balance de blancos en grados Kelvin.
+
+Drive define el modo de disparo de la cámara, como temporizador o alta velocidad.
+
+Focus Mode define el modo de enfoque, por ejemplo AF-S, AF-C o Manual.
+
+Focus Area define el área de enfoque automático, por ejemplo Wide, Center o Zone.
+
+File Settings define el formato de captura, por ejemplo RAW, JPEG, o RAW más JPEG.
+
+File Size define el tamaño de archivo de la foto.
+
+El grupo Production ayuda con operaciones de archivo y gestión fotográfica.
+
+File Name permite crear convenciones automáticas de nombre usando texto y variables de metadatos.
+
+Custom Name permite escribir un nombre legible para la foto que aparece en el Media Pool sin cambiar el nombre original.
+
+Production Name agrega un nombre de producción o sesión para organización.
+
+Location abre un selector para decidir dónde guardar las fotos capturadas.
+
+Add To Bin elige un bin del Media Pool para agregar automáticamente las capturas.
+
+Add to Album elige un álbum para agregar automáticamente las capturas.
+
+Keywords permite agregar palabras clave descriptivas.
+
+Auto Select Latest Captured Image selecciona siempre la imagen capturada más reciente para modificación inmediata.
+
+Overlay permite colocar una imagen existente sobre Capture Live View.
+
+Esto ayuda a la composición, la posición de modelos, la relación de aspecto o la coincidencia con una toma anterior.
+
+Overlay Image elige la imagen de superposición.
+
+Zoom X y Y amplía o reduce la superposición.
+
+Center Position X y Y mueve la superposición hacia arriba, abajo o los lados.
+
+Opacity ajusta la transparencia.
+
+Flip invierte la superposición horizontal o verticalmente.
+
+Sección 3.19. Inspector de Photo.
+
+El Inspector permite editar parámetros RAW y parámetros Photo, modificar efectos aplicados y agregar metadatos de archivo.
+
+Si el Inspector ya está abierto, basta con seleccionar un clip o efecto para mostrar sus controles.
+
+Si está cerrado, pulsa la pestaña Inspector.
+
+El Inspector activa distintas pestañas según lo seleccionado.
+
+Por ejemplo, al seleccionar una foto RAW se activa la pestaña RAW.
+
+Si seleccionas una foto ya procesada, como un JPEG, la sección RAW se desactiva.
+
+Por defecto, la pestaña Effects también está desactivada hasta que aplicas un efecto a una foto.
+
+Sección 3.20. Scopes e Histograma.
+
+La página Photo usa el Histogram Scope de forma predeterminada.
+
+También puedes usar otros scopes de DaVinci Resolve.
+
+RGB o YRGB permite ver solo histogramas RGB, o histogramas RGB con canal de luminancia Y.
+
+Gain amplifica o reduce la señal del histograma.
+
+Esto solo afecta al histograma, no a la imagen.
+
+Graticule aclara u oscurece la escala del histograma.
+
+Show Reference Levels agrega líneas de nivel personalizables.
+
+Low define el brillo de la línea baja.
+
+High define el brillo de la línea alta.
+
+Reset View devuelve el histograma a sus valores predeterminados.
+
+Sección 3.21. RAW.
+
+Las herramientas RAW editan la imagen con datos RAW anteriores al debayer.
+
+La edición RAW es no destructiva y suele estar ajustada a la cámara específica.
+
+Por eso es el método preferido para modificar exposición y color.
+
+Si el archivo no es RAW, esta pestaña aparece desactivada.
+
+Decode Quality permite debayerizar archivos RAW a resolución completa, media o de un cuarto.
+
+Esto mejora el rendimiento en sistemas más lentos.
+
+La menor resolución se procesa más rápido, aunque con menor calidad de previsualización.
+
+Puedes trabajar con baja resolución y cambiar a mayor calidad al renderizar la salida final.
+
+Project Settings permite usar la calidad de decodificación definida para todo el proyecto.
+
+White Balance usa el balance de blancos capturado en cámara o presets como Daylight, Cloudy, Shade, Tungsten, Fluorescent y Flash.
+
+Color Space define el espacio de color para editar y entregar la foto.
+
+En RAW suele convenir usar un espacio de color del fabricante de la cámara o un estándar de video común.
+
+Gamma define la curva gamma aplicada a la imagen.
+
+Puedes elegir una curva del fabricante de la cámara o gammas de estándares de video.
+
+Temperature ajusta la temperatura de color del balance de blancos.
+
+Valores bajos corrigen iluminación cálida.
+
+Valores altos corrigen iluminación fría.
+
+Tint modifica el equilibrio entre verde y magenta, útil para tintes fluorescentes.
+
+Exposure sube o baja la luminosidad en unidades relativas a pasos de exposición.
+
+Aunque el ajuste eleve datos por encima del blanco máximo, la información se conserva para ajustes posteriores.
+
+Sharpness aplica un filtro de nitidez específico del debayer para aumentar la apariencia de detalle.
+
+Highlights recupera detalle en altas luces quemadas en material de alto rango dinámico.
+
+Shadows aclara u oscurece selectivamente el detalle de sombras.
+
+Color Boost aumenta de forma natural la saturación en regiones de baja saturación, como una operación de vibrance.
+
+Saturation ajusta la intensidad global del color.
+
+Midtone Detail aumenta el contraste de zonas con detalle de borde para mejorar la percepción de nitidez.
+
+Con valores negativos suaviza zonas de bajo detalle sin afectar tanto las zonas detalladas.
+
+Lift ajusta el punto negro del material, subiéndolo o bajándolo y escalando los medios tonos.
+
+Gain ajusta el punto blanco, subiéndolo o bajándolo y escalando los medios tonos entre negro y blanco.
+
+Contrast aumenta o reduce sombras y altas luces, dejando los medios tonos alrededor del cincuenta por ciento relativamente estables.
+
+Sección 3.22. Ajustes Photo.
+
+Las herramientas Photo ajustan transformación, recorte, color y exposición de la imagen.
+
+Source Transform incluye Zoom X y Y, Position X y Y, Rotation Angle, Pitch, Yaw y Flip Image.
+
+Source Cropping incluye Ratio, Lock Aspect Ratio y recortes por izquierda, derecha, arriba y abajo.
+
+Looks permite aplicar filtros de aspecto predefinidos.
+
+Type elige el filtro.
+
+Intensity ajusta cuánto se aplica el filtro a la imagen.
+
+Auto Balance es una solución de un botón que ajusta parámetros mediante aprendizaje automático.
+
+Temp desplaza la imagen entre cálido anaranjado y frío azulado.
+
+Tint desplaza la imagen entre magenta y verde, útil para iluminación artificial.
+
+Lift ajusta la densidad percibida de sombras al modificar el punto negro.
+
+Gamma ajusta la luminosidad percibida general modificando la distribución de medios tonos.
+
+Gain ajusta la luminosidad de las altas luces modificando el punto blanco.
+
+Contrast estrecha o amplía el contraste de la imagen alrededor de un pivote definible.
+
+Pivot cambia el centro tonal usado por el ajuste de contraste.
+
+Midtone Details aumenta la percepción de nitidez en regiones con detalle de borde, o suaviza zonas de bajo detalle si se usa en negativo.
+
+Shadows aclara u oscurece detalle de sombras sin afectar tanto los medios tonos.
+
+Highlights recupera detalle de altas luces sobreexpuestas con una mezcla suave hacia los medios tonos.
+
+Saturation sube o baja la intensidad de todos los colores.
+
+Hue rota todos los tonos alrededor de la rueda de color.
+
+Sección 3.23. File y metadatos.
+
+La pestaña File muestra datos del formato de archivo y permite editar metadatos usados con frecuencia.
+
+File Name muestra el nombre de archivo.
+
+Star Rating asigna una calificación de una a cinco estrellas.
+
+ISO muestra el ISO de captura.
+
+Shutter Speed muestra la velocidad de obturación.
+
+Aperture muestra la apertura del lente.
+
+White Balance muestra el balance de blancos actual desde los controles RAW.
+
+Image Format muestra el formato de la imagen.
+
+Resolution muestra la resolución de origen.
+
+Color Space muestra el espacio de color actual desde RAW.
+
+Date Created modifica la fecha de toma.
+
+Camera agrega nombre, letra o número de cámara para organización.
+
+Tag marca la foto como Good, Untagged o Rejected.
+
+Keywords asigna palabras clave.
+
+Color asigna un código de color.
+
+Name cambia el nombre usado en el Media Pool sin cambiar el archivo original.
+
+Comments agrega comentarios a la foto.
+
+Flags asigna una bandera de color.
+
+Auto Select Next Photo selecciona automáticamente la siguiente foto al pulsar Return después de editar un campo.
+
+Next Photo selecciona la siguiente foto sin depender de la casilla anterior.
+
+El menú de opciones del Inspector incluye Reset Photo, Remove All Photo Effects, Reset Camera Raw y Remove and Reset All.
+
+Reset Photo devuelve los ajustes de la pestaña Photo a su estado inicial.
+
+Remove All Photo Effects elimina los efectos aplicados.
+
+Reset Camera Raw devuelve los ajustes RAW a sus valores predeterminados.
+
+Remove and Reset All elimina efectos y restablece la imagen a su estado original.
+
+Sección 3.24. LUTs y exportación desde Deliver.
+
+Si instalaste una LUT personalizada o prefabricada en DaVinci Resolve, puedes aplicarla a cualquier foto del Media Pool o Photo Album.
+
+Haz clic derecho en la miniatura de la foto y elige la LUT desde el menú contextual LUT.
+
+Las fotos fijas pueden exportarse con más control desde la página Deliver.
+
+Al entrar en Deliver con un álbum activo, aparece una vista especial de exportación para imágenes fijas.
+
+Para exportar, selecciona nombre de archivo, ubicación y formato de imagen en Render Settings.
+
+Después elige exportar el álbum completo o solo las fotos seleccionadas.
+
+Pulsa Add to Render Queue.
+
+Puedes cambiar ajustes de exportación y volver a agregar trabajos a la cola para generar varios formatos.
+
+En Render Queue, pulsa Render All para procesar las imágenes.
+
+File Name define el nombre base de las fotos renderizadas.
+
+El icono más permite agregar tipos de metadatos al nombre.
+
+Location define dónde se guardarán las fotos.
+
+Export elige Entire Album o Selected Photos.
+
+Format elige HEIF, JPEG, PNG o TIFF.
+
+Bit Depth define la profundidad de bits.
+
+Include Alpha Channel agrega transparencia si el formato la admite.
+
+Size define el método de tamaño.
+
+Original exporta la foto con sus dimensiones originales.
+
+Width and Height define ancho y alto exactos en píxeles.
+
+Short Side define el tamaño del lado corto y calcula el lado largo según la relación de aspecto.
+
+Long Side define el tamaño del lado largo y calcula el lado corto según la relación de aspecto.
+
+Percentage reduce el tamaño de la imagen con valores de veinticinco por ciento a cien por ciento.
+
+Megapixels ajusta el tamaño según megapíxeles.
+
+Enlarge permite exportar a una resolución mayor que la original.
+
+Resolution define la resolución en píxeles por pulgada o píxeles por centímetro.
+
+Compression define valores de compresión si el formato lo permite.
+
+Include Metadata incluye datos como ubicación y valores de lente.
+
+File Name Uses elige Custom Name o Timeline name.
+
+Custom Name permite incluir variables de metadatos escribiendo primero el signo por ciento.
+
+File Suffix agrega un sufijo al nombre personalizado.
+
+Use X Digits define cuántos dígitos usa la numeración del archivo.
+
+Por ejemplo, tres dígitos permiten numerar de uno a novecientos noventa y nueve.
+
+Ocho dígitos permiten numerar de uno a noventa y nueve millones novecientos noventa y nueve mil novecientos noventa y nueve.
+
+Sección 3.25. Ejemplo de edición fotográfica.
+
+Combinar un editor de imagen fija con las herramientas de cine y video de DaVinci Resolve habilita efectos fotográficos creativos y prácticos.
+
+Por ejemplo, puedes tomar una foto común de teléfono y hacer que parezca capturada en película cinematográfica de treinta y cinco milímetros.
+
+Primero usa el Photo Inspector para hacer ajustes estándar de exposición y balance de color.
+
+En el ejemplo, el sujeto de unas estatuas se confunde con el fondo.
+
+La foto fue tomada con un lente pequeño de teléfono, de modo que todo, incluido el fondo, aparece en foco.
+
+Esto hace que el fondo y las estatuas se mezclen visualmente.
+
+Para solucionarlo, se arrastra el nuevo efecto CineFocus sobre la imagen del álbum.
+
+CineFocus crea un lente virtual nuevo para observar la imagen.
+
+El lente puede tener mayor apertura, menor profundidad de campo y un bokeh más agradable.
+
+CineFocus analiza primero la foto para crear un mapa de profundidad de distancias percibidas dentro de una imagen bidimensional.
+
+Luego, con Focus mode, puedes definir la apertura exacta y la profundidad de campo que aíslan las estatuas en primer plano.
+
+El fondo queda fuera de foco.
+
+Después puedes ajustar parámetros del lente, desde una simulación básica hasta un lente anamórfico de once hojas.
+
+También puedes agregar aberración cromática o curvatura de lente ligeramente descentrada.
+
+En el ejemplo se mantienen los parámetros predeterminados.
+
+La imagen resultante muestra el fondo desenfocado detrás de las estatuas.
+
+El desenfoque aumenta gradualmente con la distancia, lo cual es más realista que enmascarar un área y desenfocarla sin profundidad.
+
+Para completar el efecto, se aplica Film Look Creator sobre la imagen en el Photo Album.
+
+Así trabajan dos efectos sobre la misma imagen.
+
+Film Look Creator permite ajustar halation, grano, bloom, viñeteado y otros parámetros de película.
+
+En el ejemplo se aplica el preset Default treinta y cinco milímetros.
+
+Esto agrega un perfil de color de película y un patrón de grano con tamaño adecuado.
+
+El resultado final separa claramente las estatuas del fondo y agrega un aspecto fílmico al encuadre.
+
+Sección 3.26. Atajos de teclado en Photo.
+
+La página Photo tiene atajos propios para trabajar con más eficiencia.
+
+Para Image Capture, el panel Capture o Capture Live View debe estar activo, y se usa la tecla C.
+
+Para Star Rating, en Photo Album y Media Pool, las teclas del uno al cinco asignan estrellas.
+
+La tecla cero elimina todas las estrellas.
+
+Para Tag Clip, la tecla S marca Good Take.
+
+La tecla X marca Rejected Take.
+
+Pulsar S o X de nuevo elimina la etiqueta.
+
+Rotate Left usa Command y corchete izquierdo.
+
+Rotate Right usa Command y corchete derecho.
+
+Flip Horizontal usa Shift y corchete izquierdo.
+
+Flip Vertical usa Shift y corchete derecho.
+
+Para Reset and Clear, el Inspector debe estar enfocado.
+
+Reset Photo usa Command R.
+
+Remove All Photo Effects usa Shift R.
+
+Remove and Reset All usa Command, Shift y R.
+
+Sección 3.27. RAW nativo, colaboración y rendimiento.
+
+En esta beta, DaVinci Resolve admite los formatos RAW Canon CR tres, Fujifilm RAF, Apple Pro RAW, Nikon NEF y Sony ARW.
+
+La página Photo también puede usar colaboración multiusuario y herramientas de Blackmagic Cloud.
+
+Por ejemplo, Capture Live View en un proyecto colaborativo permite que otro usuario vea la señal de video en línea desde otra ubicación.
+
+También puedes sincronizar y almacenar fotos en una carpeta de Blackmagic Cloud.
+
+Esto permite acceso global a ediciones fotográficas y cambios colaborativos.
+
+Photo admite paneles de control de color de DaVinci Resolve para control táctil dedicado.
+
+Los Photo Albums también pueden usarse directamente en la página Color, con acceso a herramientas de gradación de clase mundial.
+
+Varias herramientas de inteligencia artificial nativas, como IntelliSearch y Motion Deblur, pueden usarse en imágenes de la página Photo.
+
+Las exportaciones de fotos desde Quick Export y Deliver están aceleradas por GPU.
+
+Photo usa la resolución nativa de las fotos, y algunos formatos de cámara pueden ser muy grandes en megapíxeles.
+
+El procesamiento nativo puede ralentizar equipos con menos rendimiento.
+
+Por eso, la página Photo usa una resolución de previsualización reducida en el Viewer.
+
+El ajuste está en Playback, Photo Album Preview Resolution.
+
+Auto reduce a cuatro K cualquier foto que supere cuatro K para previsualización.
+
+Full fuerza el uso de resolución completa en la previsualización.
+
+Half reduce la resolución de vista previa a la mitad.
+
+Quarter reduce la resolución a un cuarto.
+
+Esta configuración solo afecta la imagen de trabajo.
+
+Al exportar, DaVinci Resolve usa siempre la imagen original de tamaño completo.
+
+Capítulo 4. Herramientas de inteligencia artificial.
+
+Sección 4.1. AI IntelliSearch.
+
+DaVinci Resolve veintiuno incorpora IntelliSearch, una herramienta avanzada de organización de medios.
+
+IntelliSearch usa inteligencia artificial para ofrecer búsquedas completas y casi instantáneas de personas y objetos.
+
+La mejora de eficiencia al encontrar medios específicos es inmediata.
+
+Cuando recuerdes que había un clip de algo pero no sepas dónde está, puedes pedirlo a DaVinci Resolve y el programa lo encontrará.
+
+Como operación basada en inteligencia artificial, IntelliSearch requiere descargar un modelo desde Extras Download Manager.
+
+Una vez instalado, debes analizar los medios del Media Pool antes de usar IntelliSearch desde la barra de búsqueda.
+
+Hay dos modelos: Faster Mode y Better Mode.
+
+Puedes descargar uno o ambos.
+
+Tus modos disponibles dependen de los paquetes instalados.
+
+Al inicio debes elegir si IntelliSearch funciona en Faster o Better.
+
+La diferencia está en el tiempo de análisis y el tamaño de la descarga del modelo.
+
+Ambos modelos son igual de rápidos después del análisis.
+
+Better tarda más en analizar clips, pero ofrece resultados más precisos.
+
+Puedes comenzar con Faster y ejecutar Better después cuando la estación de trabajo tenga más tiempo libre.
+
+La selección se hace desde el menú de tres puntos del Media Pool, en IntelliSearch Mode.
+
+Para analizar medios, usa AI Clip Analysis.
+
+Esta herramienta aplica distintos modelos de análisis de inteligencia artificial a clips del Media Pool.
+
+Por defecto analiza todos los clips del Media Pool.
+
+Con el menú desplegable puedes analizar solo clips seleccionados.
+
+Para iniciar el análisis, activa Analyze for IntelliSearch.
+
+La casilla Identify Faces permite reconocer humanos individuales.
+
+Así puedes agregar nombres como criterios de búsqueda en Manage Faces.
+
+Al pulsar Analyze aparece una ventana de progreso con una estimación de finalización.
+
+Cuando termina, los clips analizados muestran el icono AI Analysis en la miniatura.
+
+IntelliSearch se abre con el icono de lupa en el Media Pool.
+
+Search Parameters define qué tipo de análisis se aplica a los términos.
+
+Search All devuelve resultados de todos los análisis de inteligencia artificial y de los metadatos introducidos.
+
+Search Visual Only devuelve resultados basados solo en análisis de imagen.
+
+La búsqueda visual permite localizar objetos y contenido dentro de la escena.
+
+Search Transcript Only devuelve resultados del audio transcrito.
+
+Es útil para buscar frases exactas.
+
+Metadata Search devuelve resultados de campos de metadatos.
+
+También permite filtrar por palabras clave, propiedades de clips y metadatos personalizados.
+
+Search Field es el campo donde escribes lo que quieres encontrar.
+
+Puede ser un objeto, una persona, un color, un número de cámara o una línea de diálogo.
+
+Add as SmartBin crea un Smart Bin persistente con los criterios de búsqueda seleccionados.
+
+Show Face Gallery muestra miniaturas de cada rostro humano detectado.
+
+Puedes pulsar un rostro para ver tomas donde aparece esa persona o limitar la búsqueda a ese rostro.
+
+Manage Faces permite nombrar y curar los rostros detectados.
+
+Search In elige dónde buscar: All Bins o Selected Bins.
+
+Display define cómo se muestran los resultados.
+
+Full Clips devuelve el clip completo como coincidencia y marca con una línea amarilla la duración relevante.
+
+Segments devuelve solo la duración donde el término es relevante, funcionando como un subclip.
+
+Face Gallery muestra cada rostro detectado.
+
+Si seleccionas un rostro llamado Chloe y luego buscas vestido rojo, los resultados muestran a Chloe con vestido rojo.
+
+No se muestran otras actrices que no coincidan.
+
+En Manage Faces puedes escribir nombres debajo de las miniaturas.
+
+Ese nombre queda como metadato asociado al campo People.
+
+Si Face Detection comete un error, Manage Faces permite corregirlo.
+
+Improve Faces Grouping Result inicia un proceso de confirmación automatizado.
+
+También puedes hacer clic derecho en una miniatura, marcar Not seguida del nombre incorrecto, y reasignarla a otro rostro.
+
+Sección 4.2. AI Speech Generator.
+
+Speech Generator genera voz hablada de alta calidad a partir de texto escrito.
+
+Permite crear locuciones o narraciones con voces y ejecuciones que puedes adaptar a tu edición.
+
+Se abre desde Timeline, AI Tools, Speech Generator.
+
+Antes de usarlo debes descargar el modelo Speech Generator desde Extras Download Manager.
+
+Para usarlo, abre Speech Generator, escribe el texto en Text Input y elige un Voice Model.
+
+Speech Generator funciona mejor con frases y párrafos cortos.
+
+Si el texto es demasiado largo, la voz generada puede desviarse con el tiempo.
+
+Conviene mantenerlo breve o dividir textos largos en piezas pequeñas.
+
+Hay cuatro voces integradas con licencia de uso.
+
+También puedes crear una voz personalizada cargando un archivo de audio.
+
+Los parámetros de Settings modulan la interpretación.
+
+Después define el nombre del clip de audio generado y la pista de audio donde se insertará.
+
+Al pulsar Generate, el sistema crea un nuevo clip de audio y lo coloca en el Media Pool.
+
+Speech Input contiene el texto y el modelo de voz.
+
+Text Input es donde escribes el texto que debe leerse.
+
+La puntuación afecta el ritmo.
+
+Los puntos generan pausas más largas.
+
+Las comas producen pausas más cortas.
+
+Los saltos de línea pueden alargar la pausa cuando siguen a un punto.
+
+Voice Model elige una voz desde el menú desplegable.
+
+Custom abre un selector para cargar un archivo con la voz que quieres usar.
+
+Speed ajusta la velocidad de lectura.
+
+Variation controla la prosodia, el ritmo, la entonación y la emoción.
+
+Un valor de cero se mantiene más cerca de la prosodia de la voz de referencia.
+
+Pitch controla si la voz es más aguda o más grave.
+
+Valores positivos suben el tono.
+
+Valores negativos lo bajan.
+
+Generation ID funciona como una toma de interpretación.
+
+Cada número representa una lectura con prosodia distinta.
+
+El mismo número produce la misma interpretación.
+
+Esto permite conservar énfasis emocional mientras pruebas otras variaciones.
+
+Randomize usa un número aleatorio para Generation ID.
+
+File Name define el nombre del archivo de audio.
+
+El sistema agrega un sufijo numérico automáticamente.
+
+Los archivos se guardan en la ubicación de medios definida para el proyecto.
+
+Insert into Timeline inserta automáticamente la lectura en la posición del cabezal de reproducción.
+
+Audio Track elige la pista de audio de la línea de tiempo.
+
+Para crear una voz personalizada necesitas un archivo de audio de una persona hablando unos veinte segundos.
+
+La grabación debe estar limpia y con buena fidelidad.
+
+Speech Generator usa solo los primeros veinte segundos si el archivo es más largo.
+
+La voz debe estar bien nivelada y con poco ruido.
+
+Conviene evitar silencios largos, cambios extremos de volumen o emoción si se busca un resultado uniforme.
+
+Speech Generator crea audio hablado desde texto.
+
+Voice Convert, en cambio, transforma una interpretación ya grabada para que suene con otra voz.
+
+Sección 4.3. AI CineFocus.
+
+AI CineFocus permite modificar la profundidad de campo después de la captura.
+
+Analiza una imagen para estimar profundidad y permite crear un enfoque virtual.
+
+Con esto puedes aislar sujetos, simular lentes y producir desenfoques más realistas que un desenfoque plano.
+
+Depth Mode muestra y permite ajustar el mapa de profundidad usado por el efecto.
+
+Las áreas cercanas y lejanas se diferencian por valores de profundidad.
+
+Focus Mode permite definir la distancia de enfoque y el rango de profundidad que permanecerá nítido.
+
+Aperture Mode simula características de apertura y bokeh.
+
+Result muestra la imagen final después del cálculo del desenfoque.
+
+Focus incluye controles de punto focal, profundidad de campo, transición y selección del área enfocada.
+
+Depth Map permite revisar el mapa calculado, invertirlo, suavizarlo o ajustar su rango.
+
+Lens Properties controla propiedades ópticas generales del lente virtual.
+
+Aperture ajusta forma, número de hojas, rotación, redondez y otros rasgos del diafragma simulado.
+
+Lens Distortion permite agregar rasgos de distorsión o curvatura del lente.
+
+Foreground Edge Overlap ayuda a tratar bordes de primer plano para evitar halos o mezclas artificiales.
+
+Remove and Replace Grain permite retirar grano antes del desenfoque y reintroducirlo para un resultado coherente.
+
+Additional Grain añade grano adicional cuando se necesita igualar textura o conseguir un aspecto fílmico.
+
+Sección 4.4. AI Face Age Transformer.
+
+AI Face Age Transformer permite modificar la edad aparente de un rostro.
+
+El efecto localiza y rastrea el rostro antes de aplicar el cambio.
+
+Face Location and Tracking contiene controles para localizar el rostro y seguirlo a través del clip.
+
+Age Shift controla si el rostro se ve más joven o mayor.
+
+El objetivo es preservar identidad, iluminación y coherencia con la toma mientras cambia la edad aparente.
+
+Sección 4.5. AI Face Reshaper.
+
+AI Face Reshaper ajusta rasgos faciales mediante análisis y seguimiento.
+
+Tracking analiza el movimiento para que el ajuste permanezca adherido al rostro.
+
+Face Location define la posición del rostro que se va a modificar.
+
+Face Shape ajusta la forma general del rostro.
+
+Eyes modifica rasgos relacionados con los ojos.
+
+Nose modifica la nariz.
+
+Mouth modifica la boca.
+
+Eyebrows modifica las cejas.
+
+Los controles permiten cambios sutiles de refinamiento sin reconstruir manualmente la máscara facial.
+
+Sección 4.6. AI Blemish Removal.
+
+AI Blemish Removal ayuda a eliminar imperfecciones visibles en piel o superficie.
+
+El efecto usa análisis de imagen para reducir marcas de forma más rápida que un retoque manual cuadro por cuadro.
+
+Sección 4.7. AI Slate Finder y AI Slate ID.
+
+AI Slate Finder localiza pizarras o claquetas dentro del material.
+
+AI Slate ID interpreta información de la claqueta para ayudar a organizar tomas.
+
+Estas herramientas reducen trabajo manual al identificar tomas, escenas y datos asociados a material de producción.
+
+Sección 4.8. AI UltraSharpen.
+
+AI UltraSharpen mejora la nitidez usando análisis inteligente.
+
+Está diseñado para recuperar apariencia de detalle sin depender únicamente de una máscara de enfoque tradicional.
+
+Sección 4.9. AI Motion DeBlur.
+
+AI Motion DeBlur reduce desenfoque de movimiento en imágenes o clips.
+
+Analiza la dirección y magnitud del desenfoque para mejorar la claridad percibida.
+
+Puede ser útil cuando la toma tiene movimiento de cámara, movimiento del sujeto o exposición demasiado larga.
+
+Capítulo 5. Cut y Edit.
+
+Sección 5.1. Compatibilidad con archivos Canva Affinity punto a efe.
+
+DaVinci Resolve veintiuno admite archivos Canva Affinity con extensión punto a efe.
+
+Esto facilita incorporar diseños de Affinity en flujos de edición y acabado.
+
+El soporte permite importar elementos gráficos y conservar información relevante para el montaje.
+
+Sección 5.2. Controles mejorados de keyframes de retiming.
+
+Los controles de keyframes para retiming fueron mejorados.
+
+El objetivo es ajustar cambios de velocidad de forma más precisa y visual.
+
+La edición de curvas y keyframes permite transiciones de velocidad más suaves y controladas.
+
+Sección 5.3. Keyframe y Add Curves para clips seleccionados.
+
+Ahora se pueden crear keyframes y agregar curvas para clips seleccionados.
+
+Esto agiliza el trabajo cuando varios clips requieren animaciones o ajustes temporales similares.
+
+Sección 5.4. Nuevas opciones de Ease para keyframes.
+
+Las nuevas opciones de facilidad de entrada y salida permiten controlar cómo un valor entra o sale de un keyframe.
+
+Step In y Step Out producen cambios escalonados.
+
+Loop repite una animación.
+
+Ping Pong reproduce la animación hacia adelante y hacia atrás.
+
+Reverse invierte el sentido de la animación.
+
+Shape Box ofrece una forma de curva diferente para el comportamiento del keyframe.
+
+Sección 5.5. Keyframes para efectos Fusion, generadores y texto.
+
+Los efectos Fusion, generadores y herramientas de texto pueden editarse en el Keyframe Editor.
+
+Esto ofrece un lugar más consistente para ajustar animación de elementos visuales y títulos.
+
+Sección 5.6. Soporte de subframes para keyframes de audio y marcadores.
+
+Los keyframes de audio y los marcadores admiten precisión de subframe.
+
+Esto mejora la colocación temporal fina, especialmente en edición de audio y sincronización.
+
+Sección 5.7. Soporte para gráficos O Graf HTML y animaciones Lottie.
+
+DaVinci Resolve veintiuno agrega soporte para gráficos O Graf basados en HTML y animaciones Lottie.
+
+Esto permite usar gráficos modernos y animaciones vectoriales en flujos de edición.
+
+Sección 5.8. Navegador de fuentes para texto y subtítulos.
+
+El navegador de fuentes facilita elegir tipografías para elementos de texto y subtítulos.
+
+Permite explorar fuentes disponibles y ver previsualizaciones antes de aplicarlas.
+
+La preferencia Show Font Previews controla si se muestran vistas previas de fuentes.
+
+Sección 5.9. Revisión ortográfica, emojis y fuentes de color.
+
+La revisión ortográfica se admite en todos los elementos de texto.
+
+Esto incluye títulos, subtítulos y herramientas de texto relacionadas.
+
+Text Plus y MultiText admiten emojis y fuentes de color.
+
+Esto amplía las posibilidades tipográficas y gráficas dentro del proyecto.
+
+Sección 5.10. Mejoras de multicámara.
+
+Los clips multicámara pueden incluir todas las pistas de audio de cada ángulo.
+
+También pueden usar la extensión completa del clip durante la creación y la sincronización.
+
+Hay mejoras en Match Frame para clips multicámara y clips anidados.
+
+Estas mejoras hacen más directo localizar la fuente correspondiente desde la línea de tiempo.
+
+Sección 5.11. Mejoras de Replay.
+
+Replay Control puede limitar la vista a los últimos cinco minutos.
+
+Replay Editor permite seleccionar líneas de tiempo desde Search Dial.
+
+Replay admite stingers independientes de inicio y final.
+
+Replay Title Palette permite guardar hasta seis títulos favoritos.
+
+Estas funciones aceleran flujos de repetición en producciones en vivo o de ritmo rápido.
+
+Sección 5.12. Audio y visualización de pistas.
+
+El audio mono aparece en canales izquierdo y derecho cuando se agrega a pistas estéreo.
+
+Las formas de onda, marcadores y fades se muestran mejor en pistas de línea de tiempo más bajas o estrechas.
+
+Esto mejora la lectura visual durante edición en espacios reducidos.
+
+Sección 5.13. Source Timelines y DRT.
+
+Source Timelines admite selectores de pista de destino.
+
+La importación de líneas de tiempo DRT admite opciones de Link y Conform.
+
+Estas opciones ofrecen más control al traer líneas de tiempo desde otros proyectos o intercambios.
+
+Sección 5.14. Comparación de líneas de tiempo.
+
+Puedes comparar líneas de tiempo con snapshots de respaldo.
+
+Esto facilita revisar diferencias entre versiones y restaurar información cuando sea necesario.
+
+Sección 5.15. Subtítulos.
+
+El Inspector de subtítulos admite Find and Replace.
+
+Esto permite buscar y reemplazar texto dentro de subtítulos de forma eficiente.
+
+También se agregan controles de fade para subtítulos.
+
+La transcripción de audio ofrece timing de palabras para subtítulos externos.
+
+Esto mejora la creación y ajuste de subtítulos a partir de transcripciones.
+
+Sección 5.16. Tracks Index, Edit Index y EDL.
+
+Tracks Index permite mostrar u ocultar pistas.
+
+Edit Index permite editar el nombre de clip EDL.
+
+Estas mejoras facilitan la navegación, revisión y conformado de proyectos complejos.
+
+Sección 5.17. IntelliScript y Final Draft.
+
+IntelliScript admite importaciones de Final Draft.
+
+Esto permite integrar guiones en flujos de edición que dependen de estructura dramática o texto de producción.
+
+Sección 5.18. Visualización de código de tiempo.
+
+La página Edit puede mostrar código de tiempo como fotogramas, subframes o muestras de audio.
+
+Esto ofrece precisión adecuada para video, edición fina y audio.
+
+Sección 5.19. Rendimiento y comandos de edición.
+
+En Mac OS, la opción Speed Warp Metal puede ser hasta dos veces más rápida.
+
+Se pueden seleccionar todas las transiciones en las páginas Cut y Edit.
+
+Paste and Remove Attributes incluye mejoras para color de clip, marcadores, flags y retención de posición de imagen.
+
+Se pueden cambiar canales de audio para varios clips seleccionados desde el menú contextual.
+
+Source Tape de la página Edit admite clips estereoscópicos tres D y multicámara.
+
+Capítulo 6. Media.
+
+Sección 6.1. Layouts con pestañas en Media Pool.
+
+El Media Pool admite diseños con pestañas.
+
+Esto permite organizar y navegar entre vistas o grupos de medios de forma más cómoda.
+
+Sección 6.2. Vistas por bin.
+
+Las vistas Thumbnail, List y Metadata pueden configurarse por bin.
+
+Esto significa que cada carpeta puede conservar una vista adecuada a su contenido.
+
+Sección 6.3. Calificaciones por estrellas.
+
+Los clips pueden recibir calificaciones por estrellas.
+
+Esta función ayuda a clasificar, revisar y filtrar material de forma rápida.
+
+Sección 6.4. Smart Bins en la página Cut.
+
+La página Cut admite vistas de Smart Bin.
+
+Esto acerca filtros inteligentes al flujo de edición rápida.
+
+Sección 6.5. Exportación de miniaturas de Media Bin.
+
+Las miniaturas de un Media Bin pueden exportarse como PDF.
+
+Esto resulta útil para revisión, documentación o comunicación con otros miembros de producción.
+
+Sección 6.6. Clips offline.
+
+Hay un Smart Bin automático y un filtro de clips para medios offline.
+
+Esto permite localizar rápidamente archivos desconectados y resolver problemas de enlace.
+
+Sección 6.7. Metadatos personalizados.
+
+Los metadatos personalizados pueden usarse en Smart Bins, filtros de clips, Data Burn-In y etiquetas de nombre.
+
+Esto amplía la capacidad de organizar proyectos según necesidades específicas.
+
+Sección 6.8. Poster frames.
+
+Puedes personalizar poster frames de proyecto.
+
+Esto permite elegir imágenes representativas para identificar proyectos o contenidos.
+
+Sección 6.9. Transcripción y atajos.
+
+La vista de lista incluye una columna de transcripción.
+
+También hay atajos para establecer vistas Thumbnail, List o Metadata.
+
+Sección 6.10. Atributos de audio.
+
+Se pueden restablecer atributos de clips de audio.
+
+Esto facilita volver a un estado limpio cuando se han aplicado cambios de configuración.
+
+Capítulo 7. Color.
+
+Sección 7.1. MultiMaster Trim Manager.
+
+MultiMaster Trim Manager mejora la administración de pases de trim.
+
+Permite controlar y revisar ajustes maestros múltiples en flujos de color complejos.
+
+Sección 7.2. Magic Mask dos como matte externo.
+
+AI Magic Mask dos puede renderizarse como un matte externo.
+
+Esto permite reutilizar la máscara en flujos de composición, acabado o intercambio.
+
+Sección 7.3. Versionado en grupos de clips.
+
+Los grupos de clips admiten versionado de gradación.
+
+Esto permite mantener varias opciones de color asociadas a un grupo.
+
+Sección 7.4. Gráficos de nodos como lista de capas.
+
+Los gráficos de nodos pueden verse como una lista de capas.
+
+Esta representación ayuda a comprender estructuras de nodos complejas en una forma más lineal.
+
+Sección 7.5. Node Stacks.
+
+Node Stacks admite hasta ocho capas.
+
+Esto amplía la organización de estructuras de corrección y look.
+
+Sección 7.6. Film Look Creator.
+
+Film Look Creator agrega el preset Aurora y controles Fade Rolloff.
+
+Esto ofrece más opciones para construir apariencias de película.
+
+Sección 7.7. Estereoscopía y scopes.
+
+Los Shared Nodes admiten clips estereoscópicos tres D.
+
+Los rangos de scopes HDR y nits son personalizables.
+
+Esto ayuda a controlar proyectos de alto rango dinámico con precisión.
+
+Sección 7.8. HDR Vivid y ACES AMF.
+
+Hay mejoras para HDR Vivid.
+
+También hay mejoras para ACES AMF.
+
+Estas funciones apuntan a flujos modernos de entrega y gestión de color.
+
+Sección 7.9. Dolby Vision y HDR Analysis.
+
+Dolby Vision y HDR Analysis pueden restablecerse desde el menú de opciones.
+
+Esto facilita rehacer análisis cuando cambian las condiciones del proyecto.
+
+Sección 7.10. Adobe RGB y Open FX.
+
+DaVinci Resolve agrega soporte para espacio de color y gamma Adobe RGB.
+
+Open FX uno punto cinco incluye APIs de gestión de color para efectos conscientes del espacio de color.
+
+Sección 7.11. Panel avanzado y proyectos multiusuario.
+
+El panel avanzado de color incluye controles para área segura dos punto treinta y nueve y dos punto cuatro.
+
+Los proyectos con múltiples usuarios admiten bypass de gestión de color.
+
+Al pegar tracking data entre Power Windows, se conserva la forma original.
+
+Capítulo 8. Resolve FX.
+
+Sección 8.1. Resolve FX Video Collage.
+
+Resolve FX Video Collage fue actualizado.
+
+La actualización mejora el trabajo con composiciones de varias imágenes dentro de un diseño visual.
+
+Sección 8.2. Picture in Picture.
+
+Picture in Picture permite crear una imagen dentro de otra con controles directos.
+
+Content define el contenido que se coloca en la ventana secundaria.
+
+Position controla ubicación, escala y alineación.
+
+Style controla borde, sombra, redondeo y apariencia general.
+
+Estas opciones simplifican diseños de pantalla dividida, inserciones de video y composiciones explicativas.
+
+Capítulo 9. Immersive.
+
+Sección 9.1. Flujos VR ciento ochenta y VR trescientos sesenta.
+
+DaVinci Resolve veintiuno admite flujos inmersivos estándar VR ciento ochenta y VR trescientos sesenta.
+
+Estos flujos cubren proyectos de realidad virtual y contenido inmersivo de formato esférico o semiesférico.
+
+Immersive Project Settings define parámetros del proyecto para contenido inmersivo.
+
+Clip Attributes permite indicar propiedades inmersivas de un clip.
+
+Immersive Viewer ofrece visualización adecuada para revisar contenido inmersivo.
+
+Immersive Transform permite transformar y reorientar contenido en el espacio inmersivo.
+
+Immersive Delivery permite entregar proyectos en formatos compatibles con flujos inmersivos.
+
+Sección 9.2. Apple Immersive.
+
+Los flujos Apple Immersive ahora admiten foveated rendering.
+
+Esto permite optimizar la renderización concentrando mayor calidad donde el espectador dirige la mirada.
+
+Sección 9.3. Fusion para inmersivo estándar.
+
+Fusion LatLong Patcher y PanoMap admiten flujos inmersivos estándar.
+
+Estas herramientas ayudan a parchar, mapear y transformar contenido panorámico dentro de Fusion.
+
+Capítulo 10. Fairlight.
+
+Sección 10.1. Folder Tracks.
+
+Fairlight incorpora Folder Tracks.
+
+Las carpetas de pistas permiten agrupar pistas de audio relacionadas.
+
+Esto simplifica la organización de sesiones con muchos diálogos, efectos, ambientes, música o entregas.
+
+Puedes plegar y desplegar grupos para reducir desorden visual.
+
+También puedes administrar partes completas de la mezcla como unidades lógicas.
+
+Sección 10.2. Ir al puntero del mouse con la tecla C.
+
+Fairlight permite ir al puntero del mouse usando la tecla C.
+
+Esta función acelera la navegación cuando necesitas mover el cabezal de reproducción al lugar señalado.
+
+Capítulo 11. Fusion.
+
+Sección 11.1. Krokodove integrado.
+
+El conjunto Krokodove se integra en Fusion y en los efectos de Edit.
+
+Agrega más de setenta herramientas gráficas nuevas.
+
+Estas herramientas amplían las posibilidades de generación, composición, manipulación y diseño visual.
+
+La integración evita instalar el conjunto por separado y lo vuelve parte del flujo nativo.
+
+Sección 11.2. Macro Editor mejorado.
+
+El Macro Editor fue mejorado para facilitar la creación y edición de macros.
+
+Las macros permiten encapsular grupos de nodos y exponer solo controles relevantes.
+
+Esto simplifica herramientas reutilizables para artistas y editores.
+
+Para usar Macro Editor, selecciona nodos, crea una macro, define qué controles estarán visibles y guarda la herramienta.
+
+La interfaz mejorada facilita ordenar, nombrar y presentar controles de forma más clara.
+
+Sección 11.3. Animación de Fusion controlada por audio de Fairlight.
+
+La animación de Fusion puede ser impulsada creativamente por audio de Fairlight.
+
+Esto permite que niveles, ritmos o características sonoras influyan en parámetros visuales.
+
+El resultado puede usarse para gráficos reactivos, visualizadores, títulos o efectos sincronizados con sonido.
+
+Sección 11.4. O Graf, Lottie, texto y fuentes.
+
+Fusion admite gráficos O Graf HTML y animaciones Lottie.
+
+Text Plus y MultiText admiten revisión ortográfica.
+
+También se agregan mejoras de fuentes, incluidas fuentes de color y emojis.
+
+MultiText mejora posición, pivote, alineación e importación CSV.
+
+Estas funciones hacen más flexible la creación de gráficos de texto complejos.
+
+Sección 11.5. USD y Hydra.
+
+DaVinci Resolve veintiuno admite USD SDK veinticinco punto once con Hydra dos punto cero API para Storm Renderer.
+
+USD admite objetos y texturas matte tres D.
+
+También se agregan herramientas USD Projector y USD Catcher.
+
+Estas mejoras amplían los flujos de composición y renderización basados en Universal Scene Description.
+
+Sección 11.6. uProjector.
+
+uProjector, abreviado u P j, es un nodo para proyección dentro de flujos USD.
+
+Permite proyectar información visual desde una cámara o configuración hacia geometría en la escena.
+
+Su introducción explica diferencias entre uCamera Projection y el nodo uProjection.
+
+Inputs define las entradas que recibe el nodo.
+
+Basic Node Setup describe una configuración mínima para usarlo.
+
+Inspector contiene los controles disponibles.
+
+Controls Tab reúne los parámetros principales.
+
+Common Controls agrupa controles compartidos con otras herramientas.
+
+Sección 11.7. uCatcher.
+
+uCatcher, abreviado u C a, es un nodo complementario para capturar o recibir proyecciones dentro de un flujo USD.
+
+Node Overview explica su función general.
+
+Inputs define las entradas necesarias.
+
+Basic Node Setup describe cómo conectarlo en una composición.
+
+Inspector y Controls Tab contienen los controles de operación.
+
+Common Controls agrupa parámetros compartidos.
+
+Sección 11.8. USD Loader y Cryptomatte.
+
+Fusion agrega controles globales de in y out para USD Loader.
+
+El renderizador tres D puede crear y usar Cryptomatte.
+
+Cryptomatte facilita la selección precisa de objetos o materiales renderizados para composición posterior.
+
+Sección 11.9. Relief Map Tools.
+
+Las herramientas Relief Map permiten generar y usar mapas de relieve.
+
+CreateReliefMap, abreviado C R M, crea un mapa de relieve a partir de información de entrada.
+
+ReliefMap, abreviado tres R M, aplica o utiliza ese mapa en el flujo de composición.
+
+Cada herramienta incluye introducción de nodo, entradas, configuración básica, Inspector, Controls Tab y Common Controls.
+
+Estas herramientas ayudan a crear sensación de profundidad o relieve sin modelado completo.
+
+Sección 11.10. Multi-Inspector.
+
+Multi-Inspector permite cambiar propiedades comunes de Inspector para varios elementos.
+
+Esto acelera ajustes repetitivos y reduce la necesidad de editar nodo por nodo.
+
+Sección 11.11. Estereoscopía, imágenes profundas y dColorCorrector.
+
+Fusion agrega soporte multicapa para clips estereoscópicos tres D e imágenes profundas.
+
+También admite corrección de color para imágenes profundas.
+
+dColorCorrector, abreviado d C C, es una herramienta de corrección de color para estos flujos.
+
+Incluye introducción de nodo, entradas, configuración básica e Inspector.
+
+Correction Tab Colors Menu controla ajustes de color.
+
+Correction Tab Levels Menu controla niveles.
+
+Correction Tab Histogram Menu controla el histograma.
+
+Correction Tab Suppress Menu permite suprimir rangos o componentes.
+
+Ranges Tab define rangos de operación.
+
+Options Tab contiene opciones adicionales.
+
+Settings Tab incluye ajustes generales de la herramienta.
+
+Sección 11.12. Variables de metadatos definidas por usuario.
+
+Las variables de metadatos definidas por usuario pueden usarse en rutas, expresiones y scripts.
+
+Esto permite construir flujos más automatizados y personalizados.
+
+Para comenzar, define metadatos relevantes y referencia esas variables dentro de rutas o expresiones.
+
+Sección 11.13. Lens Distort, vectores de movimiento y guías.
+
+Lens Distort fue mejorado.
+
+Las capas de vectores de movimiento pueden generarse desde Optical Flow.
+
+Las guías y reglas fueron mejoradas.
+
+Los nodos MediaIn muestran el nombre del clip.
+
+El editor de keyframes y el Spline Editor pueden abrirse como una ventana nueva.
+
+También puedes desplazar keyframes del Spline con nudge.
+
+Sección 11.14. Rendimiento de Fusion.
+
+Relight puede ser hasta dos veces más rápido.
+
+Depth Map puede ser hasta seis veces más rápido.
+
+Fusion admite monitorización remota de previsualizaciones.
+
+Estas mejoras aumentan la capacidad de trabajar en composiciones complejas y revisarlas en otros sistemas.
+
+Sección 11.15. SpeedWarp.
+
+SpeedWarp, abreviado S P D w, es un nodo para interpolación o cambio de velocidad avanzado.
+
+La introducción del nodo explica su propósito.
+
+Inputs define sus entradas.
+
+Basic Node Setup describe una conexión mínima.
+
+Inspector, Controls Tab y Common Controls ofrecen los parámetros principales.
+
+Capítulo 12. Mejoras generales.
+
+Sección 12.1. Background Rendering.
+
+DaVinci Resolve veintiuno agrega Background Rendering.
+
+La renderización en segundo plano permite procesar material mientras continúas trabajando.
+
+Esto reduce esperas y mejora la fluidez en proyectos pesados.
+
+Sección 12.2. Data Burn-In expandido.
+
+La ventana Data Burn-In fue ampliada.
+
+Ahora permite más opciones para incrustar información visual sobre la imagen.
+
+Esto puede incluir datos de clip, metadatos, código de tiempo, nombres y otros identificadores de revisión.
+
+Sección 12.3. Preferencias y ajustes de proyecto buscables.
+
+Preferences y Project Settings son buscables.
+
+Esto facilita encontrar opciones específicas sin navegar manualmente por múltiples secciones.
+
+Sección 12.4. Cambio dinámico de proyecto en multiusuario.
+
+Los proyectos multiusuario admiten cambio dinámico de proyecto.
+
+Esto mejora la colaboración cuando varios usuarios trabajan en entornos compartidos.
+
+Sección 12.5. Sincronización con Blackmagic Cloud.
+
+La sincronización de archivos con Blackmagic Cloud puede ser hasta tres veces más rápida.
+
+Esto reduce tiempos de espera en proyectos colaborativos o distribuidos.
+
+Sección 12.6. Soporte de códecs.
+
+DaVinci Resolve veintiuno incorpora mejoras de soporte de códecs.
+
+Estas mejoras amplían la compatibilidad de importación, reproducción, edición o entrega según el formato usado.
+
+Cierre.
+
+Esta versión de DaVinci Resolve amplía el flujo de trabajo hacia fotografía, inteligencia artificial, edición, audio, color, Fusion e inmersivo.
+
+La guía está preparada aquí como texto plano para lectura en voz alta.
+
+Los nombres de menús, pestañas, efectos y parámetros se conservan cuando son importantes para identificar la función dentro del programa.
